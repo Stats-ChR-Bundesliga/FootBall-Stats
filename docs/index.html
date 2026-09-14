@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Stats Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>⚽ Football Stats Dashboard</h1>
+    <p id="last-updated">Φόρτωση...</p>
+  </header>
+
+  <nav>
+    <button class="tab-button active" data-league="bundesliga">Bundesliga</button>
+    <button class="tab-button" data-league="champions_league">Champions League</button>
+    <button class="tab-button" data-view="elo">Κατάταξη Elo</button>
+  </nav>
+
+  <main>
+    <div id="team-view">
+      <table id="team-table">
+        <thead>
+          <tr>
+            <th>Ομάδα</th>
+            <th>Αγώνες</th>
+            <th>Σουτ</th>
+            <th>Σουτ στο στόχο</th>
+            <th>Φάουλ</th>
+            <th>Κόρνερ</th>
+            <th>Οφσάιντ</th>
+            <th>Κίτρινες</th>
+          </tr>
+        </thead>
+        <tbody id="team-table-body"></tbody>
+      </table>
+    </div>
+
+    <div id="elo-view" style="display:none;">
+      <table id="elo-table">
+        <thead>
+          <tr><th>#</th><th>Ομάδα</th><th>Elo</th></tr>
+        </thead>
+        <tbody id="elo-table-body"></tbody>
+      </table>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
