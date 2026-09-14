@@ -1,0 +1,262 @@
+[
+  {
+    "team": "1. FC Heidenheim",
+    "corners": 4.1,
+    "fouls": 8.2,
+    "offside": 1.9,
+    "shots": 10.9,
+    "shots_on_target": 4.0,
+    "yellow_cards": 0.9,
+    "matches": 10
+  },
+  {
+    "team": "1. FC Köln",
+    "corners": 5.6,
+    "fouls": 8.6,
+    "offside": 1.1,
+    "shots": 15.8,
+    "shots_on_target": 5.6,
+    "yellow_cards": 1.9,
+    "matches": 10
+  },
+  {
+    "team": "1899 Hoffenheim",
+    "corners": 6.6,
+    "fouls": 14.8,
+    "offside": 1.4,
+    "shots": 15.6,
+    "shots_on_target": 5.1,
+    "yellow_cards": 2.9,
+    "matches": 10
+  },
+  {
+    "team": "Bayer Leverkusen",
+    "corners": 8.1,
+    "fouls": 8.1,
+    "offside": 1.4,
+    "shots": 20.6,
+    "shots_on_target": 6.9,
+    "yellow_cards": 1.4,
+    "matches": 10
+  },
+  {
+    "team": "Bayern München",
+    "corners": 7.6,
+    "fouls": 8.1,
+    "offside": 2.6,
+    "shots": 20.4,
+    "shots_on_target": 7.6,
+    "yellow_cards": 1.5,
+    "matches": 10
+  },
+  {
+    "team": "Borussia Dortmund",
+    "corners": 4.0,
+    "fouls": 11.4,
+    "offside": 1.0,
+    "shots": 12.4,
+    "shots_on_target": 4.8,
+    "yellow_cards": 2.1,
+    "matches": 10
+  },
+  {
+    "team": "Borussia Mönchengladbach",
+    "corners": 3.0,
+    "fouls": 11.6,
+    "offside": 2.2,
+    "shots": 12.6,
+    "shots_on_target": 4.1,
+    "yellow_cards": 2.8,
+    "matches": 10
+  },
+  {
+    "team": "Eintracht Frankfurt",
+    "corners": 6.0,
+    "fouls": 10.1,
+    "offside": 2.0,
+    "shots": 14.1,
+    "shots_on_target": 5.5,
+    "yellow_cards": 1.6,
+    "matches": 10
+  },
+  {
+    "team": "FC Augsburg",
+    "corners": 4.6,
+    "fouls": 8.2,
+    "offside": 1.5,
+    "shots": 15.0,
+    "shots_on_target": 6.0,
+    "yellow_cards": 1.4,
+    "matches": 10
+  },
+  {
+    "team": "FC Schalke 04",
+    "corners": 5.2,
+    "fouls": 9.8,
+    "offside": 1.6,
+    "shots": 12.9,
+    "shots_on_target": 5.5,
+    "yellow_cards": 2.0,
+    "matches": 10
+  },
+  {
+    "team": "FC St. Pauli",
+    "corners": 5.0,
+    "fouls": 8.0,
+    "offside": 1.6,
+    "shots": 10.0,
+    "shots_on_target": 2.8,
+    "yellow_cards": 1.8,
+    "matches": 10
+  },
+  {
+    "team": "FSV Mainz 05",
+    "corners": 5.2,
+    "fouls": 10.2,
+    "offside": 1.9,
+    "shots": 16.1,
+    "shots_on_target": 5.8,
+    "yellow_cards": 1.2,
+    "matches": 10
+  },
+  {
+    "team": "Fortuna Dusseldorf",
+    "corners": 8.0,
+    "fouls": 14.0,
+    "offside": 3.0,
+    "shots": 21.0,
+    "shots_on_target": 7.0,
+    "yellow_cards": 0.0,
+    "matches": 1
+  },
+  {
+    "team": "Hamburger SV",
+    "corners": 3.6,
+    "fouls": 13.0,
+    "offside": 1.1,
+    "shots": 11.4,
+    "shots_on_target": 4.0,
+    "yellow_cards": 1.6,
+    "matches": 10
+  },
+  {
+    "team": "Hertha Berlin",
+    "corners": 5.0,
+    "fouls": 11.6,
+    "offside": 1.4,
+    "shots": 10.2,
+    "shots_on_target": 3.5,
+    "yellow_cards": 2.9,
+    "matches": 10
+  },
+  {
+    "team": "Holstein Kiel",
+    "corners": 3.5,
+    "fouls": 11.0,
+    "offside": 0.8,
+    "shots": 12.0,
+    "shots_on_target": 3.6,
+    "yellow_cards": 2.2,
+    "matches": 10
+  },
+  {
+    "team": "RB Leipzig",
+    "corners": 5.8,
+    "fouls": 8.8,
+    "offside": 1.1,
+    "shots": 17.8,
+    "shots_on_target": 7.0,
+    "yellow_cards": 1.4,
+    "matches": 10
+  },
+  {
+    "team": "SC Freiburg",
+    "corners": 3.8,
+    "fouls": 10.0,
+    "offside": 1.4,
+    "shots": 12.8,
+    "shots_on_target": 4.1,
+    "yellow_cards": 1.5,
+    "matches": 10
+  },
+  {
+    "team": "SC Paderborn 07",
+    "corners": 2.5,
+    "fouls": 13.0,
+    "offside": 1.0,
+    "shots": 10.0,
+    "shots_on_target": 0.5,
+    "yellow_cards": 2.5,
+    "matches": 4
+  },
+  {
+    "team": "SV Darmstadt 98",
+    "corners": 2.6,
+    "fouls": 11.6,
+    "offside": 1.6,
+    "shots": 10.1,
+    "shots_on_target": 2.6,
+    "yellow_cards": 2.2,
+    "matches": 10
+  },
+  {
+    "team": "SV Elversberg",
+    "corners": 3.7,
+    "fouls": 10.7,
+    "offside": 1.0,
+    "shots": 10.7,
+    "shots_on_target": 4.0,
+    "yellow_cards": 1.3,
+    "matches": 5
+  },
+  {
+    "team": "Union Berlin",
+    "corners": 4.9,
+    "fouls": 10.5,
+    "offside": 1.8,
+    "shots": 14.5,
+    "shots_on_target": 6.0,
+    "yellow_cards": 1.8,
+    "matches": 10
+  },
+  {
+    "team": "VfB Stuttgart",
+    "corners": 6.4,
+    "fouls": 9.4,
+    "offside": 1.8,
+    "shots": 16.1,
+    "shots_on_target": 6.1,
+    "yellow_cards": 1.8,
+    "matches": 10
+  },
+  {
+    "team": "VfL Bochum",
+    "corners": 5.1,
+    "fouls": 12.9,
+    "offside": 2.6,
+    "shots": 11.5,
+    "shots_on_target": 4.5,
+    "yellow_cards": 2.4,
+    "matches": 10
+  },
+  {
+    "team": "VfL Wolfsburg",
+    "corners": 6.0,
+    "fouls": 11.0,
+    "offside": 1.0,
+    "shots": 13.1,
+    "shots_on_target": 4.9,
+    "yellow_cards": 1.9,
+    "matches": 10
+  },
+  {
+    "team": "Werder Bremen",
+    "corners": 4.1,
+    "fouls": 11.0,
+    "offside": 2.8,
+    "shots": 11.5,
+    "shots_on_target": 4.0,
+    "yellow_cards": 1.4,
+    "matches": 10
+  }
+]
