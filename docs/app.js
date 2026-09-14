@@ -55,7 +55,7 @@ function renderRefereeTable(referees) {
 }
 
 function renderUpcoming(matches) {
-  const container = document.getElementById("upcoming-view");
+  const container = document.getElementById("upcoming-matches");
   container.innerHTML = "";
   if (!matches || matches.length === 0) {
     container.innerHTML = `<p>Δεν υπάρχουν επόμενοι αγώνες αυτή τη στιγμή.</p>`;
@@ -90,12 +90,142 @@ function renderUpcoming(matches) {
 
 async function showUpcoming() {
   const matches = await loadJson(`data/${currentLeague}_upcoming.json`);
-  renderUpcoming(matches);
+  lastLoadedMatches = matches;
+  if (!modelConfig) {
+    modelConfig = await loadJson("data/model_config.json");
+    initSliders();
+  }
+  if (matches && matches.length > 0) {
+    refreshUpcomingWithWeights();
+  } else {
+    renderUpcoming(matches);
+  }
   document.getElementById("team-view").style.display = "none";
   document.getElementById("elo-view").style.display = "none";
   document.getElementById("form-view").style.display = "none";
   document.getElementById("referees-view").style.display = "none";
   document.getElementById("upcoming-view").style.display = "block";
+}
+
+// ================== ΔΙΑΔΡΑΣΤΙΚΟ ΜΟΝΤΕΛΟ (sliders) ==================
+
+let modelConfig = null;
+let userWeights = null; // αντικαθίσταται με τις τρέχουσες τιμές sliders
+
+function combineEstimateJS(formAvg, ownAvg, oppAvg, refAvg, weights, refWeight) {
+  const parts = [];
+  const w = [];
+  if (formAvg !== null && formAvg !== undefined) { parts.push(formAvg); w.push(weights.form); }
+  if (ownAvg !== null && ownAvg !== undefined) { parts.push(ownAvg); w.push(weights.own_venue); }
+  if (oppAvg !== null && oppAvg !== undefined) { parts.push(oppAvg); w.push(weights.opponent_other_venue); }
+  if (refAvg !== null && refAvg !== undefined) {
+    parts.push(refAvg);
+    w.push(refWeight !== undefined && refWeight !== null ? refWeight : weights.referee);
+  }
+  if (parts.length === 0) return null;
+  const totalW = w.reduce((a, b) => a + b, 0);
+  let sum = 0;
+  for (let i = 0; i < parts.length; i++) sum += parts[i] * w[i];
+  return sum / totalW;
+}
+
+function applyEloAdjustmentJS(category, homeEst, awayEst, expectedScore, eloTrust, eloSplitWeight, foulBumpMax, cardBumpMax) {
+  if (homeEst === null || awayEst === null) return [homeEst, awayEst];
+  const SPLIT_CATS = ["shots", "shots_on_target", "corners"];
+  const BUMP_CATS = ["fouls", "yellow_cards"];
+
+  if (SPLIT_CATS.includes(category)) {
+    const total = homeEst + awayEst;
+    const originalShare = total ? homeEst / total : 0.5;
+    const effectiveWeight = eloSplitWeight * eloTrust;
+    const blendedShare = (1 - effectiveWeight) * originalShare + effectiveWeight * expectedScore;
+    const newHome = total * blendedShare;
+    return [Math.round(newHome * 10) / 10, Math.round((total - newHome) * 10) / 10];
+  }
+  if (BUMP_CATS.includes(category)) {
+    const gap = Math.abs(expectedScore - 0.5) * 2;
+    const maxBump = category === "yellow_cards" ? cardBumpMax : foulBumpMax;
+    const bump = gap * maxBump * eloTrust;
+    if (expectedScore > 0.5) {
+      return [Math.round(homeEst * 10) / 10, Math.round((awayEst + bump) * 10) / 10];
+    }
+    return [Math.round((homeEst + bump) * 10) / 10, Math.round(awayEst * 10) / 10];
+  }
+  return [Math.round(homeEst * 10) / 10, Math.round(awayEst * 10) / 10];
+}
+
+function recomputeMatch(m, weights) {
+  const catLabels = ["shots", "shots_on_target", "fouls", "corners", "offside", "yellow_cards"];
+  const recomputed = {};
+  for (const category of catLabels) {
+    const c = m.components && m.components[category];
+    if (!c) continue;
+    const refWeight = c.is_referee_boosted ? weights.referee_boosted : weights.referee;
+    let homeEst = combineEstimateJS(c.home_form, c.home_own, c.home_opp, c.referee, weights, refWeight);
+    let awayEst = combineEstimateJS(c.away_form, c.away_own, c.away_opp, c.referee, weights, refWeight);
+    [homeEst, awayEst] = applyEloAdjustmentJS(
+      category, homeEst, awayEst, m.expected_score, m.elo_trust,
+      weights.elo_split, weights.elo_foul_bump_max, weights.elo_card_bump_max
+    );
+    recomputed[`home_${category}`] = homeEst;
+    recomputed[`away_${category}`] = awayEst;
+    if (homeEst !== null && awayEst !== null) {
+      recomputed[`total_${category}`] = Math.round((homeEst + awayEst) * 10) / 10;
+    }
+  }
+  return recomputed;
+}
+
+function getCurrentWeights() {
+  return {
+    form: parseFloat(document.getElementById("w-form").value),
+    own_venue: parseFloat(document.getElementById("w-venue").value),
+    opponent_other_venue: parseFloat(document.getElementById("w-defense").value),
+    referee: parseFloat(document.getElementById("w-referee").value),
+    referee_boosted: parseFloat(document.getElementById("w-referee-boosted").value),
+    elo_split: parseFloat(document.getElementById("w-elo").value),
+    elo_foul_bump_max: modelConfig ? modelConfig.elo_foul_bump_max : 3.0,
+    elo_card_bump_max: modelConfig ? modelConfig.elo_card_bump_max : 1.0,
+  };
+}
+
+let lastLoadedMatches = null;
+
+function refreshUpcomingWithWeights() {
+  if (!lastLoadedMatches) return;
+  const weights = getCurrentWeights();
+  const recomputedMatches = lastLoadedMatches.map((m) => ({ ...m, ...recomputeMatch(m, weights) }));
+  renderUpcoming(recomputedMatches);
+  updateSliderLabels(weights);
+}
+
+function updateSliderLabels(weights) {
+  document.getElementById("w-form-label").textContent = Math.round(weights.form * 100) + "%";
+  document.getElementById("w-venue-label").textContent = Math.round(weights.own_venue * 100) + "%";
+  document.getElementById("w-defense-label").textContent = Math.round(weights.opponent_other_venue * 100) + "%";
+  document.getElementById("w-referee-label").textContent = Math.round(weights.referee * 100) + "%";
+  document.getElementById("w-referee-boosted-label").textContent = Math.round(weights.referee_boosted * 100) + "%";
+  document.getElementById("w-elo-label").textContent = Math.round(weights.elo_split * 100) + "%";
+}
+
+function initSliders() {
+  if (!modelConfig) return;
+  document.getElementById("w-form").value = modelConfig.weights.form;
+  document.getElementById("w-venue").value = modelConfig.weights.own_venue;
+  document.getElementById("w-defense").value = modelConfig.weights.opponent_other_venue;
+  document.getElementById("w-referee").value = modelConfig.weights.referee;
+  document.getElementById("w-referee-boosted").value = modelConfig.referee_weight_overrides.fouls || 0.35;
+  document.getElementById("w-elo").value = modelConfig.elo_split_weight;
+
+  document.querySelectorAll(".weight-slider").forEach((slider) => {
+    slider.addEventListener("input", refreshUpcomingWithWeights);
+  });
+  updateSliderLabels(getCurrentWeights());
+}
+
+function resetSliders() {
+  initSliders();
+  refreshUpcomingWithWeights();
 }
 
 let currentLeague = "bundesliga";

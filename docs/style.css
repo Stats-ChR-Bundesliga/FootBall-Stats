@@ -111,3 +111,51 @@ tr:hover {
   padding: 6px 8px;
   font-size: 0.9em;
 }
+
+.sliders-panel {
+  background: #16202b;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.sliders-panel h3 {
+  margin: 0 0 12px 0;
+  font-size: 1em;
+  color: #cfe0ea;
+}
+
+.slider-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.slider-row label {
+  flex: 0 0 190px;
+  font-size: 0.85em;
+  color: #a9bacb;
+}
+
+.slider-row input[type="range"] {
+  flex: 1;
+}
+
+.slider-row span {
+  flex: 0 0 42px;
+  text-align: right;
+  font-size: 0.85em;
+  color: #e6edf3;
+}
+
+#reset-sliders-btn {
+  margin-top: 8px;
+  background: #1f4e78;
+  color: #e6edf3;
+  border: 1px solid #3f7cae;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 0.85em;
+}
