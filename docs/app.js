@@ -39,6 +39,21 @@ function renderEloTable(eloRatings) {
   });
 }
 
+function renderRefereeTable(referees) {
+  const body = document.getElementById("referees-table-body");
+  body.innerHTML = "";
+  if (!referees || referees.length === 0) {
+    body.innerHTML = `<tr><td colspan="4">Δεν υπάρχουν δεδομένα ακόμα.</td></tr>`;
+    return;
+  }
+  referees.sort((a, b) => (b.matches || 0) - (a.matches || 0));
+  for (const row of referees) {
+    const tr = document.createElement("tr");
+    tr.innerHTML = `<td>${row.referee_name}</td><td>${row.matches ?? "-"}</td><td>${row.fouls ?? "-"}</td><td>${row.yellow_cards ?? "-"}</td>`;
+    body.appendChild(tr);
+  }
+}
+
 let currentLeague = "bundesliga";
 
 async function showLeague(league) {
@@ -48,6 +63,7 @@ async function showLeague(league) {
   document.getElementById("team-view").style.display = "block";
   document.getElementById("elo-view").style.display = "none";
   document.getElementById("form-view").style.display = "none";
+  document.getElementById("referees-view").style.display = "none";
 }
 
 async function showForm() {
@@ -56,6 +72,16 @@ async function showForm() {
   document.getElementById("team-view").style.display = "none";
   document.getElementById("elo-view").style.display = "none";
   document.getElementById("form-view").style.display = "block";
+  document.getElementById("referees-view").style.display = "none";
+}
+
+async function showReferees() {
+  const referees = await loadJson(`data/${currentLeague}_referees.json`);
+  renderRefereeTable(referees);
+  document.getElementById("team-view").style.display = "none";
+  document.getElementById("elo-view").style.display = "none";
+  document.getElementById("form-view").style.display = "none";
+  document.getElementById("referees-view").style.display = "block";
 }
 
 async function showElo() {
@@ -63,6 +89,7 @@ async function showElo() {
   renderEloTable(elo);
   document.getElementById("team-view").style.display = "none";
   document.getElementById("form-view").style.display = "none";
+  document.getElementById("referees-view").style.display = "none";
   document.getElementById("elo-view").style.display = "block";
 }
 
@@ -86,6 +113,8 @@ document.querySelectorAll(".tab-button").forEach((btn) => {
       showElo();
     } else if (btn.dataset.view === "form") {
       showForm();
+    } else if (btn.dataset.view === "referees") {
+      showReferees();
     } else if (btn.dataset.league) {
       showLeague(btn.dataset.league);
     }
