@@ -30,8 +30,8 @@ import requests
 import pandas as pd
 
 BASE_URL = "https://v3.football.api-sports.io"
-LEAGUES = {"champions_league": 2, "bundesliga": 78}
-CURRENT_SEASON = 2026  # ενημέρωσε το καλοκαίρι κάθε χρόνο στη νέα σεζόν
+LEAGUES = {"bundesliga": 78}  # Champions League (id 2) θα προστεθεί ξανά αφού τελειοποιήσουμε τη δομή
+SEASONS = [2022, 2023, 2024, 2025, 2026]  # όλες οι σεζόν που θέλουμε ιστορικό
 
 CATEGORY_MAP = {
     "shots": "Total Shots",
@@ -167,7 +167,13 @@ def main():
     for league_name, league_id in LEAGUES.items():
         print(f"\n=== {league_name} ===")
         csv_path = DATA_DIR / f"{league_name}_stats.csv"
-        df = fetch_league_stats(api_key, league_id, CURRENT_SEASON, csv_path)
+
+        df = None
+        for season in SEASONS:
+            print(f" Σεζόν {season}:")
+            df = fetch_league_stats(api_key, league_id, season, csv_path)
+            time.sleep(1)  # μικρή ανάσα ανάμεσα σε σεζόν
+
         team_summary = build_team_summary(df)
         summary[league_name] = team_summary
 
