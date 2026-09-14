@@ -265,6 +265,7 @@ SPLIT_ADJUST_CATEGORIES = {"shots", "shots_on_target", "corners"}
 UNDERDOG_BUMP_CATEGORIES = {"fouls", "yellow_cards"}
 CATEGORIES_WITH_DEFENSE = {"shots", "shots_on_target", "fouls", "corners", "yellow_cards"}
 WEIGHTS = {"form": 0.4, "own_venue": 0.25, "opponent_other_venue": 0.15, "referee": 0.2}
+REFEREE_WEIGHT_OVERRIDES = {"fouls": 0.35, "yellow_cards": 0.35}  # μόνο για αυτά τα δύο
 
 
 def normalize_name(name: str) -> str:
@@ -383,7 +384,7 @@ def get_team_recent_form(api_key, team_id, last_n=10):
     return {cat: trimmed_mean(vals) for cat, vals in values_by_category.items() if vals}
 
 
-def combine_estimate(form_avg, own_venue_avg, opp_venue_avg, referee_val=None):
+def combine_estimate(form_avg, own_venue_avg, opp_venue_avg, referee_val=None, referee_weight=None):
     parts, weights = [], []
     if form_avg is not None:
         parts.append(form_avg); weights.append(WEIGHTS["form"])
@@ -392,7 +393,8 @@ def combine_estimate(form_avg, own_venue_avg, opp_venue_avg, referee_val=None):
     if opp_venue_avg is not None:
         parts.append(opp_venue_avg); weights.append(WEIGHTS["opponent_other_venue"])
     if referee_val is not None:
-        parts.append(referee_val); weights.append(WEIGHTS["referee"])
+        parts.append(referee_val)
+        weights.append(referee_weight if referee_weight is not None else WEIGHTS["referee"])
     if not parts:
         return None
     total_w = sum(weights)
@@ -487,9 +489,10 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
                 home_opp = historical_venue_avg(historical_rows, away_name, category, "away")
                 away_opp = historical_venue_avg(historical_rows, home_name, category, "home")
             ref_val = referee_avg(historical_rows, referee, category)
+            ref_weight = REFEREE_WEIGHT_OVERRIDES.get(category)
 
-            home_est = combine_estimate(home_form, home_own, home_opp, referee_val=ref_val)
-            away_est = combine_estimate(away_form, away_own, away_opp, referee_val=ref_val)
+            home_est = combine_estimate(home_form, home_own, home_opp, referee_val=ref_val, referee_weight=ref_weight)
+            away_est = combine_estimate(away_form, away_own, away_opp, referee_val=ref_val, referee_weight=ref_weight)
             home_est, away_est = apply_elo_adjustment(category, home_est, away_est, expected_score, elo_trust=elo_trust)
 
             row[f"home_{category}"] = home_est
