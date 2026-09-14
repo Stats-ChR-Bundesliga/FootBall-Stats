@@ -15,6 +15,7 @@
   <nav>
     <button class="tab-button active" data-league="bundesliga">Bundesliga</button>
     <button class="tab-button" data-view="form">Φόρμα (τελ. 10)</button>
+    <button class="tab-button" data-view="referees">Διαιτητές</button>
     <button class="tab-button" data-view="elo">Κατάταξη Elo</button>
   </nav>
 
@@ -61,6 +62,20 @@
           </tr>
         </thead>
         <tbody id="form-table-body"></tbody>
+      </table>
+    </div>
+
+    <div id="referees-view" style="display:none;">
+      <table id="referees-table">
+        <thead>
+          <tr>
+            <th>Διαιτητής</th>
+            <th>Αγώνες</th>
+            <th>Φάουλ Αγώνα (μ.ο.)</th>
+            <th>Κίτρινες Αγώνα (μ.ο.)</th>
+          </tr>
+        </thead>
+        <tbody id="referees-table-body"></tbody>
       </table>
     </div>
   </main>
