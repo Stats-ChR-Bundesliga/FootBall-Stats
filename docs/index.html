@@ -14,6 +14,7 @@
 
   <nav>
     <button class="tab-button active" data-league="bundesliga">Bundesliga</button>
+    <button class="tab-button" data-view="form">Φόρμα (τελ. 10)</button>
     <button class="tab-button" data-view="elo">Κατάταξη Elo</button>
   </nav>
 
@@ -42,6 +43,24 @@
           <tr><th>#</th><th>Ομάδα</th><th>Elo</th></tr>
         </thead>
         <tbody id="elo-table-body"></tbody>
+      </table>
+    </div>
+
+    <div id="form-view" style="display:none;">
+      <table id="form-table">
+        <thead>
+          <tr>
+            <th>Ομάδα</th>
+            <th>Αγώνες</th>
+            <th>Σουτ</th>
+            <th>Σουτ στο στόχο</th>
+            <th>Φάουλ</th>
+            <th>Κόρνερ</th>
+            <th>Οφσάιντ</th>
+            <th>Κίτρινες</th>
+          </tr>
+        </thead>
+        <tbody id="form-table-body"></tbody>
       </table>
     </div>
   </main>
