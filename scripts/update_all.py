@@ -476,6 +476,8 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
             "home_team": home_name, "away_team": away_name, "date": date, "referee": referee,
             "home_elo": round(home_elo, 1), "away_elo": round(away_elo, 1),
             "p_home_win": round(p_home, 3), "p_draw": round(p_draw, 3), "p_away_win": round(p_away, 3),
+            "expected_score": round(expected_score, 4), "elo_trust": round(elo_trust, 3),
+            "components": {},
         }
         for category in CATEGORY_MAP:
             home_form = form_cache[home_id].get(category)
@@ -489,8 +491,16 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
                 home_opp = historical_venue_avg(historical_rows, away_name, category, "away")
                 away_opp = historical_venue_avg(historical_rows, home_name, category, "home")
             ref_val = referee_avg(historical_rows, referee, category)
-            ref_weight = REFEREE_WEIGHT_OVERRIDES.get(category)
 
+            row["components"][category] = {
+                "home_form": home_form, "away_form": away_form,
+                "home_own": home_own, "away_own": away_own,
+                "home_opp": home_opp, "away_opp": away_opp,
+                "referee": ref_val,
+                "is_referee_boosted": category in REFEREE_WEIGHT_OVERRIDES,
+            }
+
+            ref_weight = REFEREE_WEIGHT_OVERRIDES.get(category)
             home_est = combine_estimate(home_form, home_own, home_opp, referee_val=ref_val, referee_weight=ref_weight)
             away_est = combine_estimate(away_form, away_own, away_opp, referee_val=ref_val, referee_weight=ref_weight)
             home_est, away_est = apply_elo_adjustment(category, home_est, away_est, expected_score, elo_trust=elo_trust)
@@ -510,6 +520,18 @@ def main():
     if not api_key:
         print("ΛΕΙΠΕΙ το API_FOOTBALL_KEY (environment variable). Σταματώ.")
         sys.exit(1)
+
+    # Εξάγουμε τα προεπιλεγμένα βάρη, ώστε η ιστοσελίδα να ξέρει πού να
+    # βάλει αρχικά τα sliders (ο χρήστης μπορεί μετά να τα αλλάξει ζωντανά).
+    model_config = {
+        "weights": WEIGHTS,
+        "referee_weight_overrides": REFEREE_WEIGHT_OVERRIDES,
+        "elo_split_weight": ELO_SPLIT_WEIGHT,
+        "elo_foul_bump_max": ELO_FOUL_BUMP_MAX,
+        "elo_card_bump_max": ELO_CARD_BUMP_MAX,
+    }
+    with open(SITE_DATA_DIR / "model_config.json", "w", encoding="utf-8") as f:
+        json.dump(model_config, f, ensure_ascii=False, indent=2)
 
     print("\n=== Elo ===")
     elo_ratings = fetch_elo_ratings()
