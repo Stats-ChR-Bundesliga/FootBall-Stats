@@ -42,6 +42,23 @@ CATEGORY_MAP = {
     "yellow_cards": "Yellow Cards",
 }
 
+# Το API-Football μερικές φορές επιστρέφει διαφορετική γραφή του ίδιου
+# ονόματος ανάλογα με τη σεζόν (π.χ. "Bayern Munich" αντί "Bayern München").
+TEAM_NAME_ALIASES = {
+    "Bayern Munich": "Bayern München",
+    "Borussia Monchengladbach": "Borussia Mönchengladbach",
+    "FC Heidenheim": "1. FC Heidenheim",
+    "Vfl Bochum": "VfL Bochum",
+}
+
+
+def canonical_team_name(name: str) -> str:
+    import unicodedata
+    if not name:
+        return name
+    name = unicodedata.normalize("NFC", name)
+    return TEAM_NAME_ALIASES.get(name, name)
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = REPO_ROOT / "data"
 SITE_DATA_DIR = REPO_ROOT / "docs" / "data"
@@ -63,6 +80,10 @@ def fetch_league_stats(api_key: str, league_id: int, season: int, csv_path: Path
     """Ίδια resume-able λογική με τα desktop scripts: προσπερνάει αγώνες
     που έχουμε ήδη, μαζεύει μόνο τους νέους."""
     existing_df = pd.read_csv(csv_path, encoding="utf-8-sig") if csv_path.exists() else None
+    if existing_df is not None:
+        # Καθαρίζουμε τυχόν παλιά "ακατέργαστα" ονόματα σε κάθε τρέξιμο
+        existing_df["home_team"] = existing_df["home_team"].apply(canonical_team_name)
+        existing_df["away_team"] = existing_df["away_team"].apply(canonical_team_name)
     done_ids = set(existing_df["fixture_id"].unique()) if existing_df is not None else set()
 
     data = api_get(api_key, "fixtures", {"league": league_id, "season": season})
@@ -75,8 +96,8 @@ def fetch_league_stats(api_key: str, league_id: int, season: int, csv_path: Path
     new_rows = []
     for item in todo:
         fixture_id = item["fixture"]["id"]
-        home_name = item["teams"]["home"]["name"]
-        away_name = item["teams"]["away"]["name"]
+        home_name = canonical_team_name(item["teams"]["home"]["name"])
+        away_name = canonical_team_name(item["teams"]["away"]["name"])
         date = item["fixture"]["date"][:10]
         referee = item["fixture"].get("referee")
 
@@ -104,10 +125,13 @@ def fetch_league_stats(api_key: str, league_id: int, season: int, csv_path: Path
     if new_rows:
         new_df = pd.DataFrame(new_rows)
         combined = pd.concat([existing_df, new_df], ignore_index=True) if existing_df is not None else new_df
-        combined.to_csv(csv_path, index=False, encoding="utf-8-sig")
         print(f"  Αποθηκεύτηκαν {len(new_rows) // len(CATEGORY_MAP)} νέοι αγώνες.")
-        return combined
-    return existing_df if existing_df is not None else pd.DataFrame()
+    else:
+        combined = existing_df if existing_df is not None else pd.DataFrame()
+
+    if not combined.empty:
+        combined.to_csv(csv_path, index=False, encoding="utf-8-sig")  # πάντα αποθηκεύουμε (και τον καθαρισμό ονομάτων)
+    return combined
 
 
 def build_team_summary(df: pd.DataFrame) -> list:
