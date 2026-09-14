@@ -201,6 +201,30 @@ def build_team_form(df: pd.DataFrame, n_matches: int = 10) -> list:
     return wide.to_dict(orient="records")
 
 
+def build_referee_profiles(df: pd.DataFrame) -> list:
+    """Μέσος όρος ΣΥΝΟΛΟΥ ΑΓΩΝΑ (όχι ανά ομάδα) φάουλ/καρτών ανά διαιτητή -
+    το νούμερο που συγκρίνεται με τις γραμμές Over/Under bookmaker."""
+    if df is None or df.empty or "referee" not in df.columns:
+        return []
+
+    relevant = df[df["category"].isin(["fouls", "yellow_cards"])].copy()
+    relevant["home_value"] = pd.to_numeric(relevant["home_value"], errors="coerce")
+    relevant["away_value"] = pd.to_numeric(relevant["away_value"], errors="coerce")
+    relevant["match_total"] = relevant["home_value"] + relevant["away_value"]
+    relevant = relevant.dropna(subset=["referee", "match_total"])
+    relevant = relevant[relevant["referee"].astype(str).str.strip() != ""]
+
+    if relevant.empty:
+        return []
+
+    summary = relevant.groupby(["referee", "category"])["match_total"].agg(average="mean", matches="count").reset_index()
+    wide = summary.pivot_table(index="referee", columns="category", values="average", aggfunc="first").reset_index()
+    matches_col = summary.groupby("referee")["matches"].max().reset_index()
+    wide = wide.merge(matches_col, on="referee", how="left")
+    wide = wide.round(1)
+    return wide.rename(columns={"referee": "referee_name"}).to_dict(orient="records")
+
+
 def fetch_elo_ratings() -> dict:
     """Δοκιμάζει clubelo.com· αν αποτύχει, κρατάει το ήδη υπάρχον αρχείο."""
     fallback_path = SITE_DATA_DIR / "elo_ratings.json"
@@ -254,6 +278,11 @@ def main():
         with open(SITE_DATA_DIR / f"{league_name}_form.json", "w", encoding="utf-8") as f:
             json.dump(team_form, f, ensure_ascii=False, indent=2)
         print(f"  Γράφτηκε: docs/data/{league_name}_form.json ({len(team_form)} ομάδες)")
+
+        referee_profiles = build_referee_profiles(df)
+        with open(SITE_DATA_DIR / f"{league_name}_referees.json", "w", encoding="utf-8") as f:
+            json.dump(referee_profiles, f, ensure_ascii=False, indent=2)
+        print(f"  Γράφτηκε: docs/data/{league_name}_referees.json ({len(referee_profiles)} διαιτητές)")
 
     print("\n=== Elo ===")
     elo_ratings = fetch_elo_ratings()
