@@ -1,0 +1,326 @@
+[
+  {
+    "referee_name": "B. Brand",
+    "fouls": 23.9,
+    "yellow_cards": 4.6,
+    "matches": 36
+  },
+  {
+    "referee_name": "B. Cortus",
+    "fouls": 25.3,
+    "yellow_cards": 4.9,
+    "matches": 10
+  },
+  {
+    "referee_name": "B. Dankert",
+    "fouls": 23.8,
+    "yellow_cards": 4.2,
+    "matches": 42
+  },
+  {
+    "referee_name": "Bastian Dankert, Germany",
+    "fouls": 18.7,
+    "yellow_cards": 3.5,
+    "matches": 15
+  },
+  {
+    "referee_name": "Benjamin Brand, Germany",
+    "fouls": 19.9,
+    "yellow_cards": 3.5,
+    "matches": 17
+  },
+  {
+    "referee_name": "C. Dingert",
+    "fouls": 23.3,
+    "yellow_cards": 4.7,
+    "matches": 43
+  },
+  {
+    "referee_name": "Christian Dingert, Germany",
+    "fouls": 22.1,
+    "yellow_cards": 3.7,
+    "matches": 12
+  },
+  {
+    "referee_name": "D. Aytekin",
+    "fouls": 22.2,
+    "yellow_cards": 3.7,
+    "matches": 42
+  },
+  {
+    "referee_name": "D. Schlager",
+    "fouls": 22.0,
+    "yellow_cards": 4.5,
+    "matches": 44
+  },
+  {
+    "referee_name": "D. Siebert",
+    "fouls": 23.4,
+    "yellow_cards": 4.5,
+    "matches": 48
+  },
+  {
+    "referee_name": "Daniel Schlager, Germany",
+    "fouls": 20.9,
+    "yellow_cards": 4.4,
+    "matches": 15
+  },
+  {
+    "referee_name": "Daniel Siebert, Germany",
+    "fouls": 21.4,
+    "yellow_cards": 3.2,
+    "matches": 17
+  },
+  {
+    "referee_name": "Deniz Aytekin, Germany",
+    "fouls": 19.6,
+    "yellow_cards": 3.8,
+    "matches": 13
+  },
+  {
+    "referee_name": "F. Badstübner",
+    "fouls": 21.8,
+    "yellow_cards": 3.9,
+    "matches": 40
+  },
+  {
+    "referee_name": "F. Brych",
+    "fouls": 21.1,
+    "yellow_cards": 3.2,
+    "matches": 41
+  },
+  {
+    "referee_name": "F. Exner",
+    "fouls": 22.2,
+    "yellow_cards": 4.9,
+    "matches": 12
+  },
+  {
+    "referee_name": "F. Willenborg",
+    "fouls": 22.4,
+    "yellow_cards": 4.9,
+    "matches": 35
+  },
+  {
+    "referee_name": "F. Zwayer",
+    "fouls": 21.4,
+    "yellow_cards": 4.4,
+    "matches": 49
+  },
+  {
+    "referee_name": "Felix Zwayer, Germany",
+    "fouls": 21.7,
+    "yellow_cards": 4.5,
+    "matches": 18
+  },
+  {
+    "referee_name": "Florian Badstubner, Germany",
+    "fouls": 22.4,
+    "yellow_cards": 2.7,
+    "matches": 14
+  },
+  {
+    "referee_name": "Florian Exner, Germany",
+    "fouls": 21.1,
+    "yellow_cards": 4.5,
+    "matches": 13
+  },
+  {
+    "referee_name": "Frank Willenborg, Germany",
+    "fouls": 20.4,
+    "yellow_cards": 4.5,
+    "matches": 10
+  },
+  {
+    "referee_name": "H. Osmers",
+    "fouls": 22.4,
+    "yellow_cards": 4.3,
+    "matches": 46
+  },
+  {
+    "referee_name": "Harm Osmers, Germany",
+    "fouls": 19.9,
+    "yellow_cards": 4.6,
+    "matches": 13
+  },
+  {
+    "referee_name": "M. Burda",
+    "fouls": 22.5,
+    "yellow_cards": 3.0,
+    "matches": 2
+  },
+  {
+    "referee_name": "M. Fritz",
+    "fouls": 23.5,
+    "yellow_cards": 4.2,
+    "matches": 28
+  },
+  {
+    "referee_name": "M. Jöllenbeck",
+    "fouls": 21.9,
+    "yellow_cards": 4.0,
+    "matches": 38
+  },
+  {
+    "referee_name": "M. Petersen",
+    "fouls": 24.2,
+    "yellow_cards": 4.5,
+    "matches": 33
+  },
+  {
+    "referee_name": "Martin Petersen, Germany",
+    "fouls": 22.4,
+    "yellow_cards": 4.5,
+    "matches": 11
+  },
+  {
+    "referee_name": "Matthias Jollenbeck, Germany",
+    "fouls": 19.7,
+    "yellow_cards": 3.9,
+    "matches": 15
+  },
+  {
+    "referee_name": "Max Burda, Germany",
+    "fouls": 26.0,
+    "yellow_cards": 6.0,
+    "matches": 1
+  },
+  {
+    "referee_name": "Mitja Stegemann, Germany",
+    "fouls": 14.0,
+    "yellow_cards": 3.0,
+    "matches": 1
+  },
+  {
+    "referee_name": "P. Ittrich",
+    "fouls": 26.2,
+    "yellow_cards": 3.6,
+    "matches": 21
+  },
+  {
+    "referee_name": "Patrick Ittrich, Germany",
+    "fouls": 17.6,
+    "yellow_cards": 3.1,
+    "matches": 11
+  },
+  {
+    "referee_name": "R. Braun",
+    "fouls": 19.3,
+    "yellow_cards": 3.7,
+    "matches": 3
+  },
+  {
+    "referee_name": "R. Hartmann",
+    "fouls": 21.2,
+    "yellow_cards": 3.8,
+    "matches": 36
+  },
+  {
+    "referee_name": "R. Schröder",
+    "fouls": 23.1,
+    "yellow_cards": 4.0,
+    "matches": 35
+  },
+  {
+    "referee_name": "Robert Hartmann, Germany",
+    "fouls": 23.9,
+    "yellow_cards": 3.7,
+    "matches": 14
+  },
+  {
+    "referee_name": "Robert Schröder, Germany",
+    "fouls": 22.0,
+    "yellow_cards": 3.9,
+    "matches": 10
+  },
+  {
+    "referee_name": "Robin Braun, Germany",
+    "fouls": 22.5,
+    "yellow_cards": 4.3,
+    "matches": 10
+  },
+  {
+    "referee_name": "S. Jablonski",
+    "fouls": 20.2,
+    "yellow_cards": 4.0,
+    "matches": 47
+  },
+  {
+    "referee_name": "S. Stegemann",
+    "fouls": 22.0,
+    "yellow_cards": 4.2,
+    "matches": 45
+  },
+  {
+    "referee_name": "S. Storks",
+    "fouls": 20.6,
+    "yellow_cards": 4.4,
+    "matches": 18
+  },
+  {
+    "referee_name": "Sascha Stegemann, Germany",
+    "fouls": 21.1,
+    "yellow_cards": 3.3,
+    "matches": 14
+  },
+  {
+    "referee_name": "Sven Jablonski, Germany",
+    "fouls": 21.4,
+    "yellow_cards": 2.8,
+    "matches": 18
+  },
+  {
+    "referee_name": "Sören Storks, Germany",
+    "fouls": 20.8,
+    "yellow_cards": 5.5,
+    "matches": 13
+  },
+  {
+    "referee_name": "T. Gerach",
+    "fouls": 20.8,
+    "yellow_cards": 3.9,
+    "matches": 20
+  },
+  {
+    "referee_name": "T. Reichel",
+    "fouls": 26.0,
+    "yellow_cards": 4.3,
+    "matches": 32
+  },
+  {
+    "referee_name": "T. Stieler",
+    "fouls": 21.4,
+    "yellow_cards": 3.5,
+    "matches": 46
+  },
+  {
+    "referee_name": "T. Welz",
+    "fouls": 23.2,
+    "yellow_cards": 4.7,
+    "matches": 31
+  },
+  {
+    "referee_name": "Timo Gerach, Germany",
+    "fouls": 21.0,
+    "yellow_cards": 4.4,
+    "matches": 9
+  },
+  {
+    "referee_name": "Tobias Reichel, Germany",
+    "fouls": 21.7,
+    "yellow_cards": 3.5,
+    "matches": 12
+  },
+  {
+    "referee_name": "Tobias Stieler, Germany",
+    "fouls": 19.7,
+    "yellow_cards": 3.2,
+    "matches": 15
+  },
+  {
+    "referee_name": "Tobias Welz, Germany",
+    "fouls": 23.0,
+    "yellow_cards": 4.9,
+    "matches": 14
+  }
+]
