@@ -76,6 +76,58 @@ def api_get(api_key: str, endpoint: str, params: dict) -> dict:
     return data
 
 
+def fetch_match_card_events(api_key: str, fixture_id: int, home_team_id: int, away_team_id: int, window_minutes: int = 2):
+    """
+    Τραβάει τα events (κάρτες) του αγώνα και υπολογίζει "προσαρμοσμένο"
+    σύνολο καρτών ανά ομάδα: κάρτες που δόθηκαν εντός `window_minutes`
+    λεπτών η μία από την άλλη (και των δύο ομάδων μαζί - συνήθως
+    τσακωμός) μετράνε 0.5 η καθεμία αντί για 1.
+    Επιστρέφει (home_adjusted, away_adjusted) ή (None, None) αν αποτύχει.
+    """
+    try:
+        data = api_get(api_key, "fixtures/events", {"fixture": fixture_id})
+    except Exception:
+        return None, None
+
+    events = data.get("response", [])
+    yellow_events = [
+        e for e in events
+        if e.get("type") == "Card" and e.get("detail") in ("Yellow Card", "Second Yellow card")
+    ]
+    if not yellow_events:
+        return 0.0, 0.0
+
+    # Ταξινόμηση κατά λεπτό, μετά ομαδοποίηση σε "συστάδες" (clusters) όπου
+    # κάθε επόμενη κάρτα απέχει το πολύ `window_minutes` από την προηγούμενη
+    # της ίδιας συστάδας (αλυσιδωτά - like a sliding cluster).
+    yellow_events.sort(key=lambda e: e.get("time", {}).get("elapsed") or 0)
+
+    clusters = []
+    current_cluster = []
+    last_minute = None
+    for e in yellow_events:
+        minute = e.get("time", {}).get("elapsed") or 0
+        if last_minute is not None and (minute - last_minute) > window_minutes:
+            clusters.append(current_cluster)
+            current_cluster = []
+        current_cluster.append(e)
+        last_minute = minute
+    if current_cluster:
+        clusters.append(current_cluster)
+
+    home_total, away_total = 0.0, 0.0
+    for cluster in clusters:
+        weight = 0.5 if len(cluster) >= 2 else 1.0
+        for e in cluster:
+            team_id = e.get("team", {}).get("id")
+            if team_id == home_team_id:
+                home_total += weight
+            elif team_id == away_team_id:
+                away_total += weight
+
+    return round(home_total, 1), round(away_total, 1)
+
+
 def fetch_league_stats(api_key: str, league_id: int, season: int, csv_path: Path):
     """Ίδια resume-able λογική με τα desktop scripts: προσπερνάει αγώνες
     που έχουμε ήδη, μαζεύει μόνο τους νέους."""
@@ -96,6 +148,8 @@ def fetch_league_stats(api_key: str, league_id: int, season: int, csv_path: Path
     new_rows = []
     for item in todo:
         fixture_id = item["fixture"]["id"]
+        home_id = item["teams"]["home"]["id"]
+        away_id = item["teams"]["away"]["id"]
         home_name = canonical_team_name(item["teams"]["home"]["name"])
         away_name = canonical_team_name(item["teams"]["away"]["name"])
         date = item["fixture"]["date"][:10]
@@ -113,9 +167,16 @@ def fetch_league_stats(api_key: str, league_id: int, season: int, csv_path: Path
         for team_block in stats_data.get("response", []):
             stats_by_team[team_block["team"]["name"]] = {s["type"]: s["value"] for s in team_block["statistics"]}
 
+        # Προσαρμοσμένες κάρτες (μισό βάρος σε "τσακωμούς" ίδιου λεπτού)
+        adjusted_home_cards, adjusted_away_cards = fetch_match_card_events(api_key, fixture_id, home_id, away_id)
+        time.sleep(0.3)
+
         for our_label, api_type in CATEGORY_MAP.items():
-            home_val = stats_by_team.get(home_name, {}).get(api_type)
-            away_val = stats_by_team.get(away_name, {}).get(api_type)
+            if our_label == "yellow_cards" and adjusted_home_cards is not None:
+                home_val, away_val = adjusted_home_cards, adjusted_away_cards
+            else:
+                home_val = stats_by_team.get(home_name, {}).get(api_type)
+                away_val = stats_by_team.get(away_name, {}).get(api_type)
             new_rows.append({
                 "fixture_id": fixture_id, "season": season, "date": date,
                 "home_team": home_name, "away_team": away_name, "referee": referee,
