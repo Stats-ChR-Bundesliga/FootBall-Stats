@@ -1,0 +1,589 @@
+﻿fixture_id,season,date,home_team,away_team,referee,category,home_value,away_value
+1554368,2026,2026-07-07,Lincoln Red Imps FC,Inter Club d'Escaldes,"Joao Antonio Ferreira Goncalves, Portugal",shots,,
+1554368,2026,2026-07-07,Lincoln Red Imps FC,Inter Club d'Escaldes,"Joao Antonio Ferreira Goncalves, Portugal",shots_on_target,,
+1554368,2026,2026-07-07,Lincoln Red Imps FC,Inter Club d'Escaldes,"Joao Antonio Ferreira Goncalves, Portugal",fouls,,
+1554368,2026,2026-07-07,Lincoln Red Imps FC,Inter Club d'Escaldes,"Joao Antonio Ferreira Goncalves, Portugal",corners,,
+1554368,2026,2026-07-07,Lincoln Red Imps FC,Inter Club d'Escaldes,"Joao Antonio Ferreira Goncalves, Portugal",offside,,
+1554368,2026,2026-07-07,Lincoln Red Imps FC,Inter Club d'Escaldes,"Joao Antonio Ferreira Goncalves, Portugal",yellow_cards,,
+1554361,2026,2026-07-07,Ararat-Armenia,Riga,"Klim Zabroda, Ukraine",shots,,
+1554361,2026,2026-07-07,Ararat-Armenia,Riga,"Klim Zabroda, Ukraine",shots_on_target,,
+1554361,2026,2026-07-07,Ararat-Armenia,Riga,"Klim Zabroda, Ukraine",fouls,,
+1554361,2026,2026-07-07,Ararat-Armenia,Riga,"Klim Zabroda, Ukraine",corners,,
+1554361,2026,2026-07-07,Ararat-Armenia,Riga,"Klim Zabroda, Ukraine",offside,,
+1554361,2026,2026-07-07,Ararat-Armenia,Riga,"Klim Zabroda, Ukraine",yellow_cards,,
+1554366,2026,2026-07-07,Kauno Žalgiris,Drita,"Ivar Orri Kristjansson, Iceland",shots,,
+1554366,2026,2026-07-07,Kauno Žalgiris,Drita,"Ivar Orri Kristjansson, Iceland",shots_on_target,,
+1554366,2026,2026-07-07,Kauno Žalgiris,Drita,"Ivar Orri Kristjansson, Iceland",fouls,,
+1554366,2026,2026-07-07,Kauno Žalgiris,Drita,"Ivar Orri Kristjansson, Iceland",corners,,
+1554366,2026,2026-07-07,Kauno Žalgiris,Drita,"Ivar Orri Kristjansson, Iceland",offside,,
+1554366,2026,2026-07-07,Kauno Žalgiris,Drita,"Ivar Orri Kristjansson, Iceland",yellow_cards,,
+1554371,2026,2026-07-07,Sabah FA,The New Saints,"Patryk Gryckiewicz, Poland",shots,,
+1554371,2026,2026-07-07,Sabah FA,The New Saints,"Patryk Gryckiewicz, Poland",shots_on_target,,
+1554371,2026,2026-07-07,Sabah FA,The New Saints,"Patryk Gryckiewicz, Poland",fouls,,
+1554371,2026,2026-07-07,Sabah FA,The New Saints,"Patryk Gryckiewicz, Poland",corners,,
+1554371,2026,2026-07-07,Sabah FA,The New Saints,"Patryk Gryckiewicz, Poland",offside,,
+1554371,2026,2026-07-07,Sabah FA,The New Saints,"Patryk Gryckiewicz, Poland",yellow_cards,,
+1554373,2026,2026-07-07,Vardar Skopje,KuPS,"Kadir Saglam, Türkiye",shots,,
+1554373,2026,2026-07-07,Vardar Skopje,KuPS,"Kadir Saglam, Türkiye",shots_on_target,,
+1554373,2026,2026-07-07,Vardar Skopje,KuPS,"Kadir Saglam, Türkiye",fouls,,
+1554373,2026,2026-07-07,Vardar Skopje,KuPS,"Kadir Saglam, Türkiye",corners,,
+1554373,2026,2026-07-07,Vardar Skopje,KuPS,"Kadir Saglam, Türkiye",offside,,
+1554373,2026,2026-07-07,Vardar Skopje,KuPS,"Kadir Saglam, Türkiye",yellow_cards,,
+1554364,2026,2026-07-07,Floriana,Shamrock Rovers,"Benjamin Brand, Germany",shots,,
+1554364,2026,2026-07-07,Floriana,Shamrock Rovers,"Benjamin Brand, Germany",shots_on_target,,
+1554364,2026,2026-07-07,Floriana,Shamrock Rovers,"Benjamin Brand, Germany",fouls,,
+1554364,2026,2026-07-07,Floriana,Shamrock Rovers,"Benjamin Brand, Germany",corners,,
+1554364,2026,2026-07-07,Floriana,Shamrock Rovers,"Benjamin Brand, Germany",offside,,
+1554364,2026,2026-07-07,Floriana,Shamrock Rovers,"Benjamin Brand, Germany",yellow_cards,,
+1554372,2026,2026-07-07,Tre Fiori,Larne,"Artem Gasparyan, Armenia",shots,,
+1554372,2026,2026-07-07,Tre Fiori,Larne,"Artem Gasparyan, Armenia",shots_on_target,,
+1554372,2026,2026-07-07,Tre Fiori,Larne,"Artem Gasparyan, Armenia",fouls,,
+1554372,2026,2026-07-07,Tre Fiori,Larne,"Artem Gasparyan, Armenia",corners,,
+1554372,2026,2026-07-07,Tre Fiori,Larne,"Artem Gasparyan, Armenia",offside,,
+1554372,2026,2026-07-07,Tre Fiori,Larne,"Artem Gasparyan, Armenia",yellow_cards,,
+1554362,2026,2026-07-07,Borac Banja Luka,Levski Sofia,"Mehmet Turkmen, Türkiye",shots,,
+1554362,2026,2026-07-07,Borac Banja Luka,Levski Sofia,"Mehmet Turkmen, Türkiye",shots_on_target,,
+1554362,2026,2026-07-07,Borac Banja Luka,Levski Sofia,"Mehmet Turkmen, Türkiye",fouls,,
+1554362,2026,2026-07-07,Borac Banja Luka,Levski Sofia,"Mehmet Turkmen, Türkiye",corners,,
+1554362,2026,2026-07-07,Borac Banja Luka,Levski Sofia,"Mehmet Turkmen, Türkiye",offside,,
+1554362,2026,2026-07-07,Borac Banja Luka,Levski Sofia,"Mehmet Turkmen, Türkiye",yellow_cards,,
+1554367,2026,2026-07-07,KI Klaksvik,Atert Bissen,"Dominik Stary, Czechia",shots,,
+1554367,2026,2026-07-07,KI Klaksvik,Atert Bissen,"Dominik Stary, Czechia",shots_on_target,,
+1554367,2026,2026-07-07,KI Klaksvik,Atert Bissen,"Dominik Stary, Czechia",fouls,,
+1554367,2026,2026-07-07,KI Klaksvik,Atert Bissen,"Dominik Stary, Czechia",corners,,
+1554367,2026,2026-07-07,KI Klaksvik,Atert Bissen,"Dominik Stary, Czechia",offside,,
+1554367,2026,2026-07-07,KI Klaksvik,Atert Bissen,"Dominik Stary, Czechia",yellow_cards,,
+1554374,2026,2026-07-07,Vikingur Reykjavik,Gyori ETO FC,"Romain Lissorgue, France",shots,,
+1554374,2026,2026-07-07,Vikingur Reykjavik,Gyori ETO FC,"Romain Lissorgue, France",shots_on_target,,
+1554374,2026,2026-07-07,Vikingur Reykjavik,Gyori ETO FC,"Romain Lissorgue, France",fouls,,
+1554374,2026,2026-07-07,Vikingur Reykjavik,Gyori ETO FC,"Romain Lissorgue, France",corners,,
+1554374,2026,2026-07-07,Vikingur Reykjavik,Gyori ETO FC,"Romain Lissorgue, France",offside,,
+1554374,2026,2026-07-07,Vikingur Reykjavik,Gyori ETO FC,"Romain Lissorgue, France",yellow_cards,,
+1554365,2026,2026-07-08,Kairat Almaty,Sutjeska,"Dmitriy Panchishin, Ukraine",shots,,
+1554365,2026,2026-07-08,Kairat Almaty,Sutjeska,"Dmitriy Panchishin, Ukraine",shots_on_target,,
+1554365,2026,2026-07-08,Kairat Almaty,Sutjeska,"Dmitriy Panchishin, Ukraine",fouls,,
+1554365,2026,2026-07-08,Kairat Almaty,Sutjeska,"Dmitriy Panchishin, Ukraine",corners,,
+1554365,2026,2026-07-08,Kairat Almaty,Sutjeska,"Dmitriy Panchishin, Ukraine",offside,,
+1554365,2026,2026-07-08,Kairat Almaty,Sutjeska,"Dmitriy Panchishin, Ukraine",yellow_cards,,
+1554363,2026,2026-07-08,Flora Tallinn,FC Iberia 1999,"Sandi Putros, Denmark",shots,,
+1554363,2026,2026-07-08,Flora Tallinn,FC Iberia 1999,"Sandi Putros, Denmark",shots_on_target,,
+1554363,2026,2026-07-08,Flora Tallinn,FC Iberia 1999,"Sandi Putros, Denmark",fouls,,
+1554363,2026,2026-07-08,Flora Tallinn,FC Iberia 1999,"Sandi Putros, Denmark",corners,,
+1554363,2026,2026-07-08,Flora Tallinn,FC Iberia 1999,"Sandi Putros, Denmark",offside,,
+1554363,2026,2026-07-08,Flora Tallinn,FC Iberia 1999,"Sandi Putros, Denmark",yellow_cards,,
+1554370,2026,2026-07-08,Petrocub,Egnatia Rrogozhinë,"Sayat Karabaev, Kazakhstan",shots,,
+1554370,2026,2026-07-08,Petrocub,Egnatia Rrogozhinë,"Sayat Karabaev, Kazakhstan",shots_on_target,,
+1554370,2026,2026-07-08,Petrocub,Egnatia Rrogozhinë,"Sayat Karabaev, Kazakhstan",fouls,,
+1554370,2026,2026-07-08,Petrocub,Egnatia Rrogozhinë,"Sayat Karabaev, Kazakhstan",corners,,
+1554370,2026,2026-07-08,Petrocub,Egnatia Rrogozhinë,"Sayat Karabaev, Kazakhstan",offside,,
+1554370,2026,2026-07-08,Petrocub,Egnatia Rrogozhinë,"Sayat Karabaev, Kazakhstan",yellow_cards,,
+1554369,2026,2026-07-08,ML Vitebsk,Universitatea Craiova,"Luka Bilbija, Bosnia & Herzegovina",shots,,
+1554369,2026,2026-07-08,ML Vitebsk,Universitatea Craiova,"Luka Bilbija, Bosnia & Herzegovina",shots_on_target,,
+1554369,2026,2026-07-08,ML Vitebsk,Universitatea Craiova,"Luka Bilbija, Bosnia & Herzegovina",fouls,,
+1554369,2026,2026-07-08,ML Vitebsk,Universitatea Craiova,"Luka Bilbija, Bosnia & Herzegovina",corners,,
+1554369,2026,2026-07-08,ML Vitebsk,Universitatea Craiova,"Luka Bilbija, Bosnia & Herzegovina",offside,,
+1554369,2026,2026-07-08,ML Vitebsk,Universitatea Craiova,"Luka Bilbija, Bosnia & Herzegovina",yellow_cards,,
+1554380,2026,2026-07-14,Inter Club d'Escaldes,Lincoln Red Imps FC,"Sven Wolfensberger, Switzerland",shots,,
+1554380,2026,2026-07-14,Inter Club d'Escaldes,Lincoln Red Imps FC,"Sven Wolfensberger, Switzerland",shots_on_target,,
+1554380,2026,2026-07-14,Inter Club d'Escaldes,Lincoln Red Imps FC,"Sven Wolfensberger, Switzerland",fouls,,
+1554380,2026,2026-07-14,Inter Club d'Escaldes,Lincoln Red Imps FC,"Sven Wolfensberger, Switzerland",corners,,
+1554380,2026,2026-07-14,Inter Club d'Escaldes,Lincoln Red Imps FC,"Sven Wolfensberger, Switzerland",offside,,
+1554380,2026,2026-07-14,Inter Club d'Escaldes,Lincoln Red Imps FC,"Sven Wolfensberger, Switzerland",yellow_cards,,
+1554379,2026,2026-07-14,FC Iberia 1999,Flora Tallinn,"Florjan Lata, Albania",shots,,
+1554379,2026,2026-07-14,FC Iberia 1999,Flora Tallinn,"Florjan Lata, Albania",shots_on_target,,
+1554379,2026,2026-07-14,FC Iberia 1999,Flora Tallinn,"Florjan Lata, Albania",fouls,,
+1554379,2026,2026-07-14,FC Iberia 1999,Flora Tallinn,"Florjan Lata, Albania",corners,,
+1554379,2026,2026-07-14,FC Iberia 1999,Flora Tallinn,"Florjan Lata, Albania",offside,,
+1554379,2026,2026-07-14,FC Iberia 1999,Flora Tallinn,"Florjan Lata, Albania",yellow_cards,,
+1554378,2026,2026-07-14,Gyori ETO FC,Vikingur Reykjavik,"Mateo Erceg, Croatia",shots,12.0,10.0
+1554378,2026,2026-07-14,Gyori ETO FC,Vikingur Reykjavik,"Mateo Erceg, Croatia",shots_on_target,2.0,2.0
+1554378,2026,2026-07-14,Gyori ETO FC,Vikingur Reykjavik,"Mateo Erceg, Croatia",fouls,9.0,9.0
+1554378,2026,2026-07-14,Gyori ETO FC,Vikingur Reykjavik,"Mateo Erceg, Croatia",corners,5.0,4.0
+1554378,2026,2026-07-14,Gyori ETO FC,Vikingur Reykjavik,"Mateo Erceg, Croatia",offside,2.0,1.0
+1554378,2026,2026-07-14,Gyori ETO FC,Vikingur Reykjavik,"Mateo Erceg, Croatia",yellow_cards,6.0,2.0
+1554384,2026,2026-07-14,Riga,Ararat-Armenia,"Bence Csonka, Hungary",shots,16.0,6.0
+1554384,2026,2026-07-14,Riga,Ararat-Armenia,"Bence Csonka, Hungary",shots_on_target,7.0,3.0
+1554384,2026,2026-07-14,Riga,Ararat-Armenia,"Bence Csonka, Hungary",fouls,,
+1554384,2026,2026-07-14,Riga,Ararat-Armenia,"Bence Csonka, Hungary",corners,2.0,2.0
+1554384,2026,2026-07-14,Riga,Ararat-Armenia,"Bence Csonka, Hungary",offside,,
+1554384,2026,2026-07-14,Riga,Ararat-Armenia,"Bence Csonka, Hungary",yellow_cards,4.0,3.0
+1554387,2026,2026-07-14,The New Saints,Sabah FA,"Mateo Busquets Ferrer, Spain",shots,10.0,12.0
+1554387,2026,2026-07-14,The New Saints,Sabah FA,"Mateo Busquets Ferrer, Spain",shots_on_target,4.0,6.0
+1554387,2026,2026-07-14,The New Saints,Sabah FA,"Mateo Busquets Ferrer, Spain",fouls,,
+1554387,2026,2026-07-14,The New Saints,Sabah FA,"Mateo Busquets Ferrer, Spain",corners,3.0,3.0
+1554387,2026,2026-07-14,The New Saints,Sabah FA,"Mateo Busquets Ferrer, Spain",offside,,
+1554387,2026,2026-07-14,The New Saints,Sabah FA,"Mateo Busquets Ferrer, Spain",yellow_cards,2.0,1.0
+1554383,2026,2026-07-14,Levski Sofia,Borac Banja Luka,"Andy Madley, England",shots,12.0,4.0
+1554383,2026,2026-07-14,Levski Sofia,Borac Banja Luka,"Andy Madley, England",shots_on_target,4.0,0.0
+1554383,2026,2026-07-14,Levski Sofia,Borac Banja Luka,"Andy Madley, England",fouls,,
+1554383,2026,2026-07-14,Levski Sofia,Borac Banja Luka,"Andy Madley, England",corners,7.0,2.0
+1554383,2026,2026-07-14,Levski Sofia,Borac Banja Luka,"Andy Madley, England",offside,,
+1554383,2026,2026-07-14,Levski Sofia,Borac Banja Luka,"Andy Madley, England",yellow_cards,0.0,3.0
+1554376,2026,2026-07-14,Drita,Kauno Žalgiris,"Oguzhan Cakir, Türkiye",shots,12.0,27.0
+1554376,2026,2026-07-14,Drita,Kauno Žalgiris,"Oguzhan Cakir, Türkiye",shots_on_target,4.0,9.0
+1554376,2026,2026-07-14,Drita,Kauno Žalgiris,"Oguzhan Cakir, Türkiye",fouls,,
+1554376,2026,2026-07-14,Drita,Kauno Žalgiris,"Oguzhan Cakir, Türkiye",corners,5.0,7.0
+1554376,2026,2026-07-14,Drita,Kauno Žalgiris,"Oguzhan Cakir, Türkiye",offside,,
+1554376,2026,2026-07-14,Drita,Kauno Žalgiris,"Oguzhan Cakir, Türkiye",yellow_cards,3.0,1.0
+1554385,2026,2026-07-14,Shamrock Rovers,Floriana,"Joakim Ostling, Sweden",shots,21.0,6.0
+1554385,2026,2026-07-14,Shamrock Rovers,Floriana,"Joakim Ostling, Sweden",shots_on_target,14.0,1.0
+1554385,2026,2026-07-14,Shamrock Rovers,Floriana,"Joakim Ostling, Sweden",fouls,,
+1554385,2026,2026-07-14,Shamrock Rovers,Floriana,"Joakim Ostling, Sweden",corners,6.0,2.0
+1554385,2026,2026-07-14,Shamrock Rovers,Floriana,"Joakim Ostling, Sweden",offside,,
+1554385,2026,2026-07-14,Shamrock Rovers,Floriana,"Joakim Ostling, Sweden",yellow_cards,3.0,1.0
+1554382,2026,2026-07-14,Larne,Tre Fiori,"Sigurd Smehus Kringstad, Norway",shots,12.0,7.0
+1554382,2026,2026-07-14,Larne,Tre Fiori,"Sigurd Smehus Kringstad, Norway",shots_on_target,4.0,3.0
+1554382,2026,2026-07-14,Larne,Tre Fiori,"Sigurd Smehus Kringstad, Norway",fouls,,
+1554382,2026,2026-07-14,Larne,Tre Fiori,"Sigurd Smehus Kringstad, Norway",corners,5.0,1.0
+1554382,2026,2026-07-14,Larne,Tre Fiori,"Sigurd Smehus Kringstad, Norway",offside,,
+1554382,2026,2026-07-14,Larne,Tre Fiori,"Sigurd Smehus Kringstad, Norway",yellow_cards,1.0,4.0
+1554388,2026,2026-07-15,Universitatea Craiova,ML Vitebsk,"Marton Rusz, Hungary",shots,4.0,1.0
+1554388,2026,2026-07-15,Universitatea Craiova,ML Vitebsk,"Marton Rusz, Hungary",shots_on_target,1.0,1.0
+1554388,2026,2026-07-15,Universitatea Craiova,ML Vitebsk,"Marton Rusz, Hungary",fouls,,
+1554388,2026,2026-07-15,Universitatea Craiova,ML Vitebsk,"Marton Rusz, Hungary",corners,2.0,1.0
+1554388,2026,2026-07-15,Universitatea Craiova,ML Vitebsk,"Marton Rusz, Hungary",offside,,
+1554388,2026,2026-07-15,Universitatea Craiova,ML Vitebsk,"Marton Rusz, Hungary",yellow_cards,0.0,0.0
+1554375,2026,2026-07-15,Atert Bissen,KI Klaksvik,"Igor Stojcevski, North Macedonia",shots,,
+1554375,2026,2026-07-15,Atert Bissen,KI Klaksvik,"Igor Stojcevski, North Macedonia",shots_on_target,,
+1554375,2026,2026-07-15,Atert Bissen,KI Klaksvik,"Igor Stojcevski, North Macedonia",fouls,,
+1554375,2026,2026-07-15,Atert Bissen,KI Klaksvik,"Igor Stojcevski, North Macedonia",corners,,
+1554375,2026,2026-07-15,Atert Bissen,KI Klaksvik,"Igor Stojcevski, North Macedonia",offside,,
+1554375,2026,2026-07-15,Atert Bissen,KI Klaksvik,"Igor Stojcevski, North Macedonia",yellow_cards,,
+1554386,2026,2026-07-15,Sutjeska,Kairat Almaty,"Wojciech Myc, Poland",shots,,
+1554386,2026,2026-07-15,Sutjeska,Kairat Almaty,"Wojciech Myc, Poland",shots_on_target,,
+1554386,2026,2026-07-15,Sutjeska,Kairat Almaty,"Wojciech Myc, Poland",fouls,,
+1554386,2026,2026-07-15,Sutjeska,Kairat Almaty,"Wojciech Myc, Poland",corners,,
+1554386,2026,2026-07-15,Sutjeska,Kairat Almaty,"Wojciech Myc, Poland",offside,,
+1554386,2026,2026-07-15,Sutjeska,Kairat Almaty,"Wojciech Myc, Poland",yellow_cards,,
+1554377,2026,2026-07-15,Egnatia Rrogozhinë,Petrocub,"Philip Farrugia, Malta",shots,,
+1554377,2026,2026-07-15,Egnatia Rrogozhinë,Petrocub,"Philip Farrugia, Malta",shots_on_target,,
+1554377,2026,2026-07-15,Egnatia Rrogozhinë,Petrocub,"Philip Farrugia, Malta",fouls,,
+1554377,2026,2026-07-15,Egnatia Rrogozhinë,Petrocub,"Philip Farrugia, Malta",corners,,
+1554377,2026,2026-07-15,Egnatia Rrogozhinë,Petrocub,"Philip Farrugia, Malta",offside,,
+1554377,2026,2026-07-15,Egnatia Rrogozhinë,Petrocub,"Philip Farrugia, Malta",yellow_cards,,
+1589418,2026,2026-07-21,Mjallby AIF,Lincoln Red Imps FC,"Matthew Degabriele, Malta",shots,,
+1589418,2026,2026-07-21,Mjallby AIF,Lincoln Red Imps FC,"Matthew Degabriele, Malta",shots_on_target,,
+1589418,2026,2026-07-21,Mjallby AIF,Lincoln Red Imps FC,"Matthew Degabriele, Malta",fouls,,
+1589418,2026,2026-07-21,Mjallby AIF,Lincoln Red Imps FC,"Matthew Degabriele, Malta",corners,,
+1589418,2026,2026-07-21,Mjallby AIF,Lincoln Red Imps FC,"Matthew Degabriele, Malta",offside,,
+1589418,2026,2026-07-21,Mjallby AIF,Lincoln Red Imps FC,"Matthew Degabriele, Malta",yellow_cards,,
+1589416,2026,2026-07-21,FC Iberia 1999,Slovan Bratislava,"Lukas Fahndrich, Switzerland",shots,,
+1589416,2026,2026-07-21,FC Iberia 1999,Slovan Bratislava,"Lukas Fahndrich, Switzerland",shots_on_target,,
+1589416,2026,2026-07-21,FC Iberia 1999,Slovan Bratislava,"Lukas Fahndrich, Switzerland",fouls,,
+1589416,2026,2026-07-21,FC Iberia 1999,Slovan Bratislava,"Lukas Fahndrich, Switzerland",corners,,
+1589416,2026,2026-07-21,FC Iberia 1999,Slovan Bratislava,"Lukas Fahndrich, Switzerland",offside,,
+1589416,2026,2026-07-21,FC Iberia 1999,Slovan Bratislava,"Lukas Fahndrich, Switzerland",yellow_cards,,
+1589415,2026,2026-07-21,Ararat-Armenia,Shamrock Rovers,"David Dickinson, Scotland",shots,,
+1589415,2026,2026-07-21,Ararat-Armenia,Shamrock Rovers,"David Dickinson, Scotland",shots_on_target,,
+1589415,2026,2026-07-21,Ararat-Armenia,Shamrock Rovers,"David Dickinson, Scotland",fouls,,
+1589415,2026,2026-07-21,Ararat-Armenia,Shamrock Rovers,"David Dickinson, Scotland",corners,,
+1589415,2026,2026-07-21,Ararat-Armenia,Shamrock Rovers,"David Dickinson, Scotland",offside,,
+1589415,2026,2026-07-21,Ararat-Armenia,Shamrock Rovers,"David Dickinson, Scotland",yellow_cards,,
+1589419,2026,2026-07-21,Sabah FA,KuPS,"Lukasz Kuzma, Poland",shots,,
+1589419,2026,2026-07-21,Sabah FA,KuPS,"Lukasz Kuzma, Poland",shots_on_target,,
+1589419,2026,2026-07-21,Sabah FA,KuPS,"Lukasz Kuzma, Poland",fouls,,
+1589419,2026,2026-07-21,Sabah FA,KuPS,"Lukasz Kuzma, Poland",corners,,
+1589419,2026,2026-07-21,Sabah FA,KuPS,"Lukasz Kuzma, Poland",offside,,
+1589419,2026,2026-07-21,Sabah FA,KuPS,"Lukasz Kuzma, Poland",yellow_cards,,
+1556501,2026,2026-07-21,Aarhus,Lech Poznan,"Oliver Reitala, Finland",shots,11.0,17.0
+1556501,2026,2026-07-21,Aarhus,Lech Poznan,"Oliver Reitala, Finland",shots_on_target,4.0,7.0
+1556501,2026,2026-07-21,Aarhus,Lech Poznan,"Oliver Reitala, Finland",fouls,11.0,12.0
+1556501,2026,2026-07-21,Aarhus,Lech Poznan,"Oliver Reitala, Finland",corners,4.0,2.0
+1556501,2026,2026-07-21,Aarhus,Lech Poznan,"Oliver Reitala, Finland",offside,2.0,1.0
+1556501,2026,2026-07-21,Aarhus,Lech Poznan,"Oliver Reitala, Finland",yellow_cards,1.0,2.0
+1556502,2026,2026-07-21,Fenerbahçe,Gornik Zabrze,"Manfredas Lukjancukas, Lithuania",shots,15.0,2.0
+1556502,2026,2026-07-21,Fenerbahçe,Gornik Zabrze,"Manfredas Lukjancukas, Lithuania",shots_on_target,6.0,1.0
+1556502,2026,2026-07-21,Fenerbahçe,Gornik Zabrze,"Manfredas Lukjancukas, Lithuania",fouls,15.0,11.0
+1556502,2026,2026-07-21,Fenerbahçe,Gornik Zabrze,"Manfredas Lukjancukas, Lithuania",corners,9.0,2.0
+1556502,2026,2026-07-21,Fenerbahçe,Gornik Zabrze,"Manfredas Lukjancukas, Lithuania",offside,,
+1556502,2026,2026-07-21,Fenerbahçe,Gornik Zabrze,"Manfredas Lukjancukas, Lithuania",yellow_cards,,
+1556504,2026,2026-07-21,FC Thun,Dinamo Zagreb,"Bulat Sariyev, Kazakhstan",shots,16.0,20.0
+1556504,2026,2026-07-21,FC Thun,Dinamo Zagreb,"Bulat Sariyev, Kazakhstan",shots_on_target,3.0,6.0
+1556504,2026,2026-07-21,FC Thun,Dinamo Zagreb,"Bulat Sariyev, Kazakhstan",fouls,19.0,13.0
+1556504,2026,2026-07-21,FC Thun,Dinamo Zagreb,"Bulat Sariyev, Kazakhstan",corners,9.0,5.0
+1556504,2026,2026-07-21,FC Thun,Dinamo Zagreb,"Bulat Sariyev, Kazakhstan",offside,3.0,3.0
+1556504,2026,2026-07-21,FC Thun,Dinamo Zagreb,"Bulat Sariyev, Kazakhstan",yellow_cards,3.0,2.0
+1556503,2026,2026-07-21,Sturm Graz,Heart Of Midlothian,"Gergo Bogar, Hungary",shots,20.0,19.0
+1556503,2026,2026-07-21,Sturm Graz,Heart Of Midlothian,"Gergo Bogar, Hungary",shots_on_target,6.0,6.0
+1556503,2026,2026-07-21,Sturm Graz,Heart Of Midlothian,"Gergo Bogar, Hungary",fouls,18.0,13.0
+1556503,2026,2026-07-21,Sturm Graz,Heart Of Midlothian,"Gergo Bogar, Hungary",corners,4.0,12.0
+1556503,2026,2026-07-21,Sturm Graz,Heart Of Midlothian,"Gergo Bogar, Hungary",offside,0.0,2.0
+1556503,2026,2026-07-21,Sturm Graz,Heart Of Midlothian,"Gergo Bogar, Hungary",yellow_cards,1.0,2.0
+1591934,2026,2026-07-21,KI Klaksvik,Kauno Žalgiris,"Bastien Dechepy, France",shots,,
+1591934,2026,2026-07-21,KI Klaksvik,Kauno Žalgiris,"Bastien Dechepy, France",shots_on_target,,
+1591934,2026,2026-07-21,KI Klaksvik,Kauno Žalgiris,"Bastien Dechepy, France",fouls,,
+1591934,2026,2026-07-21,KI Klaksvik,Kauno Žalgiris,"Bastien Dechepy, France",corners,,
+1591934,2026,2026-07-21,KI Klaksvik,Kauno Žalgiris,"Bastien Dechepy, France",offside,,
+1591934,2026,2026-07-21,KI Klaksvik,Kauno Žalgiris,"Bastien Dechepy, France",yellow_cards,,
+1589420,2026,2026-07-21,Vikingur Reykjavik,Hapoel Beer Sheva,"Filip Glova, Slovakia",shots,,
+1589420,2026,2026-07-21,Vikingur Reykjavik,Hapoel Beer Sheva,"Filip Glova, Slovakia",shots_on_target,,
+1589420,2026,2026-07-21,Vikingur Reykjavik,Hapoel Beer Sheva,"Filip Glova, Slovakia",fouls,,
+1589420,2026,2026-07-21,Vikingur Reykjavik,Hapoel Beer Sheva,"Filip Glova, Slovakia",corners,,
+1589420,2026,2026-07-21,Vikingur Reykjavik,Hapoel Beer Sheva,"Filip Glova, Slovakia",offside,,
+1589420,2026,2026-07-21,Vikingur Reykjavik,Hapoel Beer Sheva,"Filip Glova, Slovakia",yellow_cards,,
+1589417,2026,2026-07-21,Larne,FK Crvena Zvezda,"Rares George Vidican, Romania",shots,,
+1589417,2026,2026-07-21,Larne,FK Crvena Zvezda,"Rares George Vidican, Romania",shots_on_target,,
+1589417,2026,2026-07-21,Larne,FK Crvena Zvezda,"Rares George Vidican, Romania",fouls,,
+1589417,2026,2026-07-21,Larne,FK Crvena Zvezda,"Rares George Vidican, Romania",corners,,
+1589417,2026,2026-07-21,Larne,FK Crvena Zvezda,"Rares George Vidican, Romania",offside,,
+1589417,2026,2026-07-21,Larne,FK Crvena Zvezda,"Rares George Vidican, Romania",yellow_cards,,
+1591936,2026,2026-07-22,Omonia Nicosia,Kairat Almaty,"Gustavo Correia, Portugal",shots,,
+1591936,2026,2026-07-22,Omonia Nicosia,Kairat Almaty,"Gustavo Correia, Portugal",shots_on_target,,
+1591936,2026,2026-07-22,Omonia Nicosia,Kairat Almaty,"Gustavo Correia, Portugal",fouls,,
+1591936,2026,2026-07-22,Omonia Nicosia,Kairat Almaty,"Gustavo Correia, Portugal",corners,,
+1591936,2026,2026-07-22,Omonia Nicosia,Kairat Almaty,"Gustavo Correia, Portugal",offside,,
+1591936,2026,2026-07-22,Omonia Nicosia,Kairat Almaty,"Gustavo Correia, Portugal",yellow_cards,,
+1591935,2026,2026-07-22,Levski Sofia,Universitatea Craiova,"Adam Ladeback, Sweden",shots,,
+1591935,2026,2026-07-22,Levski Sofia,Universitatea Craiova,"Adam Ladeback, Sweden",shots_on_target,,
+1591935,2026,2026-07-22,Levski Sofia,Universitatea Craiova,"Adam Ladeback, Sweden",fouls,,
+1591935,2026,2026-07-22,Levski Sofia,Universitatea Craiova,"Adam Ladeback, Sweden",corners,,
+1591935,2026,2026-07-22,Levski Sofia,Universitatea Craiova,"Adam Ladeback, Sweden",offside,,
+1591935,2026,2026-07-22,Levski Sofia,Universitatea Craiova,"Adam Ladeback, Sweden",yellow_cards,,
+1591933,2026,2026-07-22,Egnatia Rrogozhinë,Celje,"Atilla Karaoglan, Türkiye",shots,,
+1591933,2026,2026-07-22,Egnatia Rrogozhinë,Celje,"Atilla Karaoglan, Türkiye",shots_on_target,,
+1591933,2026,2026-07-22,Egnatia Rrogozhinë,Celje,"Atilla Karaoglan, Türkiye",fouls,,
+1591933,2026,2026-07-22,Egnatia Rrogozhinë,Celje,"Atilla Karaoglan, Türkiye",corners,,
+1591933,2026,2026-07-22,Egnatia Rrogozhinë,Celje,"Atilla Karaoglan, Türkiye",offside,,
+1591933,2026,2026-07-22,Egnatia Rrogozhinë,Celje,"Atilla Karaoglan, Türkiye",yellow_cards,,
+1589423,2026,2026-07-28,KuPS,Sabah FA,"Gal Leibovitz, Israel",shots,,
+1589423,2026,2026-07-28,KuPS,Sabah FA,"Gal Leibovitz, Israel",shots_on_target,,
+1589423,2026,2026-07-28,KuPS,Sabah FA,"Gal Leibovitz, Israel",fouls,,
+1589423,2026,2026-07-28,KuPS,Sabah FA,"Gal Leibovitz, Israel",corners,,
+1589423,2026,2026-07-28,KuPS,Sabah FA,"Gal Leibovitz, Israel",offside,,
+1589423,2026,2026-07-28,KuPS,Sabah FA,"Gal Leibovitz, Israel",yellow_cards,,
+1589424,2026,2026-07-28,Lincoln Red Imps FC,Mjallby AIF,"Alexandros Tsakalidis, Greece",shots,,
+1589424,2026,2026-07-28,Lincoln Red Imps FC,Mjallby AIF,"Alexandros Tsakalidis, Greece",shots_on_target,,
+1589424,2026,2026-07-28,Lincoln Red Imps FC,Mjallby AIF,"Alexandros Tsakalidis, Greece",fouls,,
+1589424,2026,2026-07-28,Lincoln Red Imps FC,Mjallby AIF,"Alexandros Tsakalidis, Greece",corners,,
+1589424,2026,2026-07-28,Lincoln Red Imps FC,Mjallby AIF,"Alexandros Tsakalidis, Greece",offside,,
+1589424,2026,2026-07-28,Lincoln Red Imps FC,Mjallby AIF,"Alexandros Tsakalidis, Greece",yellow_cards,,
+1556507,2026,2026-07-28,Heart Of Midlothian,Sturm Graz,"Andris Treimanis, Latvia",shots,15.0,17.0
+1556507,2026,2026-07-28,Heart Of Midlothian,Sturm Graz,"Andris Treimanis, Latvia",shots_on_target,4.0,9.0
+1556507,2026,2026-07-28,Heart Of Midlothian,Sturm Graz,"Andris Treimanis, Latvia",fouls,10.0,15.0
+1556507,2026,2026-07-28,Heart Of Midlothian,Sturm Graz,"Andris Treimanis, Latvia",corners,8.0,2.0
+1556507,2026,2026-07-28,Heart Of Midlothian,Sturm Graz,"Andris Treimanis, Latvia",offside,2.0,2.0
+1556507,2026,2026-07-28,Heart Of Midlothian,Sturm Graz,"Andris Treimanis, Latvia",yellow_cards,0.0,1.0
+1589425,2026,2026-07-28,Shamrock Rovers,Ararat-Armenia,"Samuel Barrott, England",shots,,
+1589425,2026,2026-07-28,Shamrock Rovers,Ararat-Armenia,"Samuel Barrott, England",shots_on_target,,
+1589425,2026,2026-07-28,Shamrock Rovers,Ararat-Armenia,"Samuel Barrott, England",fouls,,
+1589425,2026,2026-07-28,Shamrock Rovers,Ararat-Armenia,"Samuel Barrott, England",corners,,
+1589425,2026,2026-07-28,Shamrock Rovers,Ararat-Armenia,"Samuel Barrott, England",offside,,
+1589425,2026,2026-07-28,Shamrock Rovers,Ararat-Armenia,"Samuel Barrott, England",yellow_cards,,
+1591939,2026,2026-07-29,Kauno Žalgiris,KI Klaksvik,"David Smajc, Slovenia",shots,,
+1591939,2026,2026-07-29,Kauno Žalgiris,KI Klaksvik,"David Smajc, Slovenia",shots_on_target,,
+1591939,2026,2026-07-29,Kauno Žalgiris,KI Klaksvik,"David Smajc, Slovenia",fouls,,
+1591939,2026,2026-07-29,Kauno Žalgiris,KI Klaksvik,"David Smajc, Slovenia",corners,,
+1591939,2026,2026-07-29,Kauno Žalgiris,KI Klaksvik,"David Smajc, Slovenia",offside,,
+1591939,2026,2026-07-29,Kauno Žalgiris,KI Klaksvik,"David Smajc, Slovenia",yellow_cards,,
+1589422,2026,2026-07-29,Hapoel Beer Sheva,Vikingur Reykjavik,"Antoni Bandić, Bosnia & Herzegovina",shots,,
+1589422,2026,2026-07-29,Hapoel Beer Sheva,Vikingur Reykjavik,"Antoni Bandić, Bosnia & Herzegovina",shots_on_target,,
+1589422,2026,2026-07-29,Hapoel Beer Sheva,Vikingur Reykjavik,"Antoni Bandić, Bosnia & Herzegovina",fouls,,
+1589422,2026,2026-07-29,Hapoel Beer Sheva,Vikingur Reykjavik,"Antoni Bandić, Bosnia & Herzegovina",corners,,
+1589422,2026,2026-07-29,Hapoel Beer Sheva,Vikingur Reykjavik,"Antoni Bandić, Bosnia & Herzegovina",offside,,
+1589422,2026,2026-07-29,Hapoel Beer Sheva,Vikingur Reykjavik,"Antoni Bandić, Bosnia & Herzegovina",yellow_cards,,
+1591940,2026,2026-07-29,Universitatea Craiova,Levski Sofia,"Matteo Marcenaro, Italy",shots,,
+1591940,2026,2026-07-29,Universitatea Craiova,Levski Sofia,"Matteo Marcenaro, Italy",shots_on_target,,
+1591940,2026,2026-07-29,Universitatea Craiova,Levski Sofia,"Matteo Marcenaro, Italy",fouls,,
+1591940,2026,2026-07-29,Universitatea Craiova,Levski Sofia,"Matteo Marcenaro, Italy",corners,,
+1591940,2026,2026-07-29,Universitatea Craiova,Levski Sofia,"Matteo Marcenaro, Italy",offside,,
+1591940,2026,2026-07-29,Universitatea Craiova,Levski Sofia,"Matteo Marcenaro, Italy",yellow_cards,,
+1556506,2026,2026-07-29,Gornik Zabrze,Fenerbahçe,"Lothar D'hondt, Belgium",shots,15.0,14.0
+1556506,2026,2026-07-29,Gornik Zabrze,Fenerbahçe,"Lothar D'hondt, Belgium",shots_on_target,6.0,2.0
+1556506,2026,2026-07-29,Gornik Zabrze,Fenerbahçe,"Lothar D'hondt, Belgium",fouls,8.0,15.0
+1556506,2026,2026-07-29,Gornik Zabrze,Fenerbahçe,"Lothar D'hondt, Belgium",corners,9.0,7.0
+1556506,2026,2026-07-29,Gornik Zabrze,Fenerbahçe,"Lothar D'hondt, Belgium",offside,1.0,2.0
+1556506,2026,2026-07-29,Gornik Zabrze,Fenerbahçe,"Lothar D'hondt, Belgium",yellow_cards,4.0,5.0
+1589421,2026,2026-07-29,FK Crvena Zvezda,Larne,"Elcin Masiyev, Azerbaijan",shots,,
+1589421,2026,2026-07-29,FK Crvena Zvezda,Larne,"Elcin Masiyev, Azerbaijan",shots_on_target,,
+1589421,2026,2026-07-29,FK Crvena Zvezda,Larne,"Elcin Masiyev, Azerbaijan",fouls,,
+1589421,2026,2026-07-29,FK Crvena Zvezda,Larne,"Elcin Masiyev, Azerbaijan",corners,,
+1589421,2026,2026-07-29,FK Crvena Zvezda,Larne,"Elcin Masiyev, Azerbaijan",offside,,
+1589421,2026,2026-07-29,FK Crvena Zvezda,Larne,"Elcin Masiyev, Azerbaijan",yellow_cards,,
+1589426,2026,2026-07-29,Slovan Bratislava,FC Iberia 1999,"Christian-Petru Ciochirca, Austria",shots,,
+1589426,2026,2026-07-29,Slovan Bratislava,FC Iberia 1999,"Christian-Petru Ciochirca, Austria",shots_on_target,,
+1589426,2026,2026-07-29,Slovan Bratislava,FC Iberia 1999,"Christian-Petru Ciochirca, Austria",fouls,,
+1589426,2026,2026-07-29,Slovan Bratislava,FC Iberia 1999,"Christian-Petru Ciochirca, Austria",corners,,
+1589426,2026,2026-07-29,Slovan Bratislava,FC Iberia 1999,"Christian-Petru Ciochirca, Austria",offside,,
+1589426,2026,2026-07-29,Slovan Bratislava,FC Iberia 1999,"Christian-Petru Ciochirca, Austria",yellow_cards,,
+1607168,2026,2026-08-04,Mjallby AIF,Slovan Bratislava,"Nick Walsh, Scotland",shots,,
+1607168,2026,2026-08-04,Mjallby AIF,Slovan Bratislava,"Nick Walsh, Scotland",shots_on_target,,
+1607168,2026,2026-08-04,Mjallby AIF,Slovan Bratislava,"Nick Walsh, Scotland",fouls,,
+1607168,2026,2026-08-04,Mjallby AIF,Slovan Bratislava,"Nick Walsh, Scotland",corners,,
+1607168,2026,2026-08-04,Mjallby AIF,Slovan Bratislava,"Nick Walsh, Scotland",offside,,
+1607168,2026,2026-08-04,Mjallby AIF,Slovan Bratislava,"Nick Walsh, Scotland",yellow_cards,,
+1605370,2026,2026-08-04,Ararat-Armenia,Celje,"Ivan Kružliak, Slovakia",shots,,
+1605370,2026,2026-08-04,Ararat-Armenia,Celje,"Ivan Kružliak, Slovakia",shots_on_target,,
+1605370,2026,2026-08-04,Ararat-Armenia,Celje,"Ivan Kružliak, Slovakia",fouls,,
+1605370,2026,2026-08-04,Ararat-Armenia,Celje,"Ivan Kružliak, Slovakia",corners,,
+1605370,2026,2026-08-04,Ararat-Armenia,Celje,"Ivan Kružliak, Slovakia",offside,,
+1605370,2026,2026-08-04,Ararat-Armenia,Celje,"Ivan Kružliak, Slovakia",yellow_cards,,
+1607166,2026,2026-08-04,Hapoel Beer Sheva,FK Crvena Zvezda,"Jesus Gil Manzano, Spain",shots,,
+1607166,2026,2026-08-04,Hapoel Beer Sheva,FK Crvena Zvezda,"Jesus Gil Manzano, Spain",shots_on_target,,
+1607166,2026,2026-08-04,Hapoel Beer Sheva,FK Crvena Zvezda,"Jesus Gil Manzano, Spain",fouls,,
+1607166,2026,2026-08-04,Hapoel Beer Sheva,FK Crvena Zvezda,"Jesus Gil Manzano, Spain",corners,,
+1607166,2026,2026-08-04,Hapoel Beer Sheva,FK Crvena Zvezda,"Jesus Gil Manzano, Spain",offside,,
+1607166,2026,2026-08-04,Hapoel Beer Sheva,FK Crvena Zvezda,"Jesus Gil Manzano, Spain",yellow_cards,,
+1607167,2026,2026-08-04,Levski Sofia,Kairat Almaty,"Donatas Rumsas, Lithuania",shots,,
+1607167,2026,2026-08-04,Levski Sofia,Kairat Almaty,"Donatas Rumsas, Lithuania",shots_on_target,,
+1607167,2026,2026-08-04,Levski Sofia,Kairat Almaty,"Donatas Rumsas, Lithuania",fouls,,
+1607167,2026,2026-08-04,Levski Sofia,Kairat Almaty,"Donatas Rumsas, Lithuania",corners,,
+1607167,2026,2026-08-04,Levski Sofia,Kairat Almaty,"Donatas Rumsas, Lithuania",offside,,
+1607167,2026,2026-08-04,Levski Sofia,Kairat Almaty,"Donatas Rumsas, Lithuania",yellow_cards,,
+1598824,2026,2026-08-04,Olympiakos Piraeus,NEC Nijmegen,"José María Sánchez Martínez, Spain",shots,12.0,13.0
+1598824,2026,2026-08-04,Olympiakos Piraeus,NEC Nijmegen,"José María Sánchez Martínez, Spain",shots_on_target,5.0,4.0
+1598824,2026,2026-08-04,Olympiakos Piraeus,NEC Nijmegen,"José María Sánchez Martínez, Spain",fouls,11.0,16.0
+1598824,2026,2026-08-04,Olympiakos Piraeus,NEC Nijmegen,"José María Sánchez Martínez, Spain",corners,5.0,2.0
+1598824,2026,2026-08-04,Olympiakos Piraeus,NEC Nijmegen,"José María Sánchez Martínez, Spain",offside,2.0,6.0
+1598824,2026,2026-08-04,Olympiakos Piraeus,NEC Nijmegen,"José María Sánchez Martínez, Spain",yellow_cards,2.0,1.0
+1607164,2026,2026-08-04,Dinamo Zagreb,Kauno Žalgiris,"Eric Lambrechts, Belgium",shots,,
+1607164,2026,2026-08-04,Dinamo Zagreb,Kauno Žalgiris,"Eric Lambrechts, Belgium",shots_on_target,,
+1607164,2026,2026-08-04,Dinamo Zagreb,Kauno Žalgiris,"Eric Lambrechts, Belgium",fouls,,
+1607164,2026,2026-08-04,Dinamo Zagreb,Kauno Žalgiris,"Eric Lambrechts, Belgium",corners,,
+1607164,2026,2026-08-04,Dinamo Zagreb,Kauno Žalgiris,"Eric Lambrechts, Belgium",offside,,
+1607164,2026,2026-08-04,Dinamo Zagreb,Kauno Žalgiris,"Eric Lambrechts, Belgium",yellow_cards,,
+1598826,2026,2026-08-04,Sparta Praha,Lyon,"Serdar Gozubuyuk, Netherlands",shots,9.0,11.0
+1598826,2026,2026-08-04,Sparta Praha,Lyon,"Serdar Gozubuyuk, Netherlands",shots_on_target,3.0,4.0
+1598826,2026,2026-08-04,Sparta Praha,Lyon,"Serdar Gozubuyuk, Netherlands",fouls,11.0,7.0
+1598826,2026,2026-08-04,Sparta Praha,Lyon,"Serdar Gozubuyuk, Netherlands",corners,6.0,9.0
+1598826,2026,2026-08-04,Sparta Praha,Lyon,"Serdar Gozubuyuk, Netherlands",offside,3.0,2.0
+1598826,2026,2026-08-04,Sparta Praha,Lyon,"Serdar Gozubuyuk, Netherlands",yellow_cards,2.0,0.0
+1598825,2026,2026-08-04,Union St. Gilloise,Bodo/Glimt,"Irfan Peljto, Bosnia & Herzegovina",shots,18.0,6.0
+1598825,2026,2026-08-04,Union St. Gilloise,Bodo/Glimt,"Irfan Peljto, Bosnia & Herzegovina",shots_on_target,7.0,3.0
+1598825,2026,2026-08-04,Union St. Gilloise,Bodo/Glimt,"Irfan Peljto, Bosnia & Herzegovina",fouls,,
+1598825,2026,2026-08-04,Union St. Gilloise,Bodo/Glimt,"Irfan Peljto, Bosnia & Herzegovina",corners,5.0,0.0
+1598825,2026,2026-08-04,Union St. Gilloise,Bodo/Glimt,"Irfan Peljto, Bosnia & Herzegovina",offside,,
+1598825,2026,2026-08-04,Union St. Gilloise,Bodo/Glimt,"Irfan Peljto, Bosnia & Herzegovina",yellow_cards,5.0,2.0
+1607163,2026,2026-08-05,Aarhus,Sabah FA,"Rade Obrenovič, Slovenia",shots,10.0,15.0
+1607163,2026,2026-08-05,Aarhus,Sabah FA,"Rade Obrenovič, Slovenia",shots_on_target,3.0,4.0
+1607163,2026,2026-08-05,Aarhus,Sabah FA,"Rade Obrenovič, Slovenia",fouls,13.0,11.0
+1607163,2026,2026-08-05,Aarhus,Sabah FA,"Rade Obrenovič, Slovenia",corners,6.0,5.0
+1607163,2026,2026-08-05,Aarhus,Sabah FA,"Rade Obrenovič, Slovenia",offside,0.0,1.0
+1607163,2026,2026-08-05,Aarhus,Sabah FA,"Rade Obrenovič, Slovenia",yellow_cards,2.0,2.0
+1607165,2026,2026-08-05,Fenerbahçe,Sturm Graz,"Chris Kavanagh, England",shots,17.0,5.0
+1607165,2026,2026-08-05,Fenerbahçe,Sturm Graz,"Chris Kavanagh, England",shots_on_target,10.0,1.0
+1607165,2026,2026-08-05,Fenerbahçe,Sturm Graz,"Chris Kavanagh, England",fouls,10.0,19.0
+1607165,2026,2026-08-05,Fenerbahçe,Sturm Graz,"Chris Kavanagh, England",corners,4.0,2.0
+1607165,2026,2026-08-05,Fenerbahçe,Sturm Graz,"Chris Kavanagh, England",offside,4.0,0.0
+1607165,2026,2026-08-05,Fenerbahçe,Sturm Graz,"Chris Kavanagh, England",yellow_cards,0.0,3.0
+1607170,2026,2026-08-11,Kairat Almaty,Levski Sofia,"Daniel Siebert, Germany",shots,20.0,9.0
+1607170,2026,2026-08-11,Kairat Almaty,Levski Sofia,"Daniel Siebert, Germany",shots_on_target,6.0,2.0
+1607170,2026,2026-08-11,Kairat Almaty,Levski Sofia,"Daniel Siebert, Germany",fouls,10.0,14.0
+1607170,2026,2026-08-11,Kairat Almaty,Levski Sofia,"Daniel Siebert, Germany",corners,9.0,4.0
+1607170,2026,2026-08-11,Kairat Almaty,Levski Sofia,"Daniel Siebert, Germany",offside,3.0,1.0
+1607170,2026,2026-08-11,Kairat Almaty,Levski Sofia,"Daniel Siebert, Germany",yellow_cards,3.0,4.0
+1607172,2026,2026-08-11,Sabah FA,Aarhus,"Willy Delajod, France",shots,29.0,14.0
+1607172,2026,2026-08-11,Sabah FA,Aarhus,"Willy Delajod, France",shots_on_target,10.0,5.0
+1607172,2026,2026-08-11,Sabah FA,Aarhus,"Willy Delajod, France",fouls,11.0,10.0
+1607172,2026,2026-08-11,Sabah FA,Aarhus,"Willy Delajod, France",corners,7.0,4.0
+1607172,2026,2026-08-11,Sabah FA,Aarhus,"Willy Delajod, France",offside,3.0,0.0
+1607172,2026,2026-08-11,Sabah FA,Aarhus,"Willy Delajod, France",yellow_cards,0.0,3.0
+1607171,2026,2026-08-11,Kauno Žalgiris,Dinamo Zagreb,"Davide Massa, Italy",shots,,
+1607171,2026,2026-08-11,Kauno Žalgiris,Dinamo Zagreb,"Davide Massa, Italy",shots_on_target,7.0,5.0
+1607171,2026,2026-08-11,Kauno Žalgiris,Dinamo Zagreb,"Davide Massa, Italy",fouls,14.0,8.0
+1607171,2026,2026-08-11,Kauno Žalgiris,Dinamo Zagreb,"Davide Massa, Italy",corners,8.0,1.0
+1607171,2026,2026-08-11,Kauno Žalgiris,Dinamo Zagreb,"Davide Massa, Italy",offside,3.0,0.0
+1607171,2026,2026-08-11,Kauno Žalgiris,Dinamo Zagreb,"Davide Massa, Italy",yellow_cards,2.0,1.0
+1607169,2026,2026-08-11,FK Crvena Zvezda,Hapoel Beer Sheva,"Glenn Nyberg, Sweden",shots,,
+1607169,2026,2026-08-11,FK Crvena Zvezda,Hapoel Beer Sheva,"Glenn Nyberg, Sweden",shots_on_target,2.0,6.0
+1607169,2026,2026-08-11,FK Crvena Zvezda,Hapoel Beer Sheva,"Glenn Nyberg, Sweden",fouls,10.0,5.0
+1607169,2026,2026-08-11,FK Crvena Zvezda,Hapoel Beer Sheva,"Glenn Nyberg, Sweden",corners,3.0,3.0
+1607169,2026,2026-08-11,FK Crvena Zvezda,Hapoel Beer Sheva,"Glenn Nyberg, Sweden",offside,0.0,0.0
+1607169,2026,2026-08-11,FK Crvena Zvezda,Hapoel Beer Sheva,"Glenn Nyberg, Sweden",yellow_cards,0.0,2.0
+1607173,2026,2026-08-11,Slovan Bratislava,Mjallby AIF,"Michael Oliver, England",shots,,
+1607173,2026,2026-08-11,Slovan Bratislava,Mjallby AIF,"Michael Oliver, England",shots_on_target,4.0,2.0
+1607173,2026,2026-08-11,Slovan Bratislava,Mjallby AIF,"Michael Oliver, England",fouls,15.0,9.0
+1607173,2026,2026-08-11,Slovan Bratislava,Mjallby AIF,"Michael Oliver, England",corners,2.0,4.0
+1607173,2026,2026-08-11,Slovan Bratislava,Mjallby AIF,"Michael Oliver, England",offside,0.0,1.0
+1607173,2026,2026-08-11,Slovan Bratislava,Mjallby AIF,"Michael Oliver, England",yellow_cards,3.0,2.0
+1605371,2026,2026-08-11,Celje,Ararat-Armenia,"Marco Guida, Italy",shots,,
+1605371,2026,2026-08-11,Celje,Ararat-Armenia,"Marco Guida, Italy",shots_on_target,8.0,3.0
+1605371,2026,2026-08-11,Celje,Ararat-Armenia,"Marco Guida, Italy",fouls,16.0,13.0
+1605371,2026,2026-08-11,Celje,Ararat-Armenia,"Marco Guida, Italy",corners,12.0,9.0
+1605371,2026,2026-08-11,Celje,Ararat-Armenia,"Marco Guida, Italy",offside,3.0,1.0
+1605371,2026,2026-08-11,Celje,Ararat-Armenia,"Marco Guida, Italy",yellow_cards,5.0,3.0
+1607174,2026,2026-08-11,Sturm Graz,Fenerbahçe,"Alejandro Hernandez, Spain",shots,19.0,11.0
+1607174,2026,2026-08-11,Sturm Graz,Fenerbahçe,"Alejandro Hernandez, Spain",shots_on_target,2.0,6.0
+1607174,2026,2026-08-11,Sturm Graz,Fenerbahçe,"Alejandro Hernandez, Spain",fouls,12.0,13.0
+1607174,2026,2026-08-11,Sturm Graz,Fenerbahçe,"Alejandro Hernandez, Spain",corners,7.0,6.0
+1607174,2026,2026-08-11,Sturm Graz,Fenerbahçe,"Alejandro Hernandez, Spain",offside,1.0,0.0
+1607174,2026,2026-08-11,Sturm Graz,Fenerbahçe,"Alejandro Hernandez, Spain",yellow_cards,1.0,3.0
+1598828,2026,2026-08-11,Lyon,Sparta Praha,"Szymon Marciniak, Poland",shots,19.0,6.0
+1598828,2026,2026-08-11,Lyon,Sparta Praha,"Szymon Marciniak, Poland",shots_on_target,11.0,1.0
+1598828,2026,2026-08-11,Lyon,Sparta Praha,"Szymon Marciniak, Poland",fouls,20.0,14.0
+1598828,2026,2026-08-11,Lyon,Sparta Praha,"Szymon Marciniak, Poland",corners,7.0,1.0
+1598828,2026,2026-08-11,Lyon,Sparta Praha,"Szymon Marciniak, Poland",offside,2.0,1.0
+1598828,2026,2026-08-11,Lyon,Sparta Praha,"Szymon Marciniak, Poland",yellow_cards,1.0,1.0
+1622621,2026,2026-08-18,Fenerbahçe,Lyon,"Sven Jablonski, Germany",shots,12.0,12.0
+1622621,2026,2026-08-18,Fenerbahçe,Lyon,"Sven Jablonski, Germany",shots_on_target,5.0,5.0
+1622621,2026,2026-08-18,Fenerbahçe,Lyon,"Sven Jablonski, Germany",fouls,13.0,13.0
+1622621,2026,2026-08-18,Fenerbahçe,Lyon,"Sven Jablonski, Germany",corners,3.0,0.0
+1622621,2026,2026-08-18,Fenerbahçe,Lyon,"Sven Jablonski, Germany",offside,3.0,1.0
+1622621,2026,2026-08-18,Fenerbahçe,Lyon,"Sven Jablonski, Germany",yellow_cards,2.0,1.0
+1622620,2026,2026-08-18,Dinamo Zagreb,Viking,"Serdar Gozubuyuk, Netherlands",shots,23.0,6.0
+1622620,2026,2026-08-18,Dinamo Zagreb,Viking,"Serdar Gozubuyuk, Netherlands",shots_on_target,4.0,3.0
+1622620,2026,2026-08-18,Dinamo Zagreb,Viking,"Serdar Gozubuyuk, Netherlands",fouls,12.0,10.0
+1622620,2026,2026-08-18,Dinamo Zagreb,Viking,"Serdar Gozubuyuk, Netherlands",corners,9.0,3.0
+1622620,2026,2026-08-18,Dinamo Zagreb,Viking,"Serdar Gozubuyuk, Netherlands",offside,1.0,0.0
+1622620,2026,2026-08-18,Dinamo Zagreb,Viking,"Serdar Gozubuyuk, Netherlands",yellow_cards,1.0,1.0
+1622622,2026,2026-08-18,Levski Sofia,AEK Athens FC,"Glenn Nyberg, Sweden",shots,15.0,12.0
+1622622,2026,2026-08-18,Levski Sofia,AEK Athens FC,"Glenn Nyberg, Sweden",shots_on_target,3.0,1.0
+1622622,2026,2026-08-18,Levski Sofia,AEK Athens FC,"Glenn Nyberg, Sweden",fouls,8.0,17.0
+1622622,2026,2026-08-18,Levski Sofia,AEK Athens FC,"Glenn Nyberg, Sweden",corners,1.0,2.0
+1622622,2026,2026-08-18,Levski Sofia,AEK Athens FC,"Glenn Nyberg, Sweden",offside,0.0,1.0
+1622622,2026,2026-08-18,Levski Sofia,AEK Athens FC,"Glenn Nyberg, Sweden",yellow_cards,,
+1610923,2026,2026-08-19,Celtic,Lask Linz,"Sandro Schärer, Switzerland",shots,17.0,20.0
+1610923,2026,2026-08-19,Celtic,Lask Linz,"Sandro Schärer, Switzerland",shots_on_target,7.0,8.0
+1610923,2026,2026-08-19,Celtic,Lask Linz,"Sandro Schärer, Switzerland",fouls,6.0,9.0
+1610923,2026,2026-08-19,Celtic,Lask Linz,"Sandro Schärer, Switzerland",corners,8.0,3.0
+1610923,2026,2026-08-19,Celtic,Lask Linz,"Sandro Schärer, Switzerland",offside,1.0,5.0
+1610923,2026,2026-08-19,Celtic,Lask Linz,"Sandro Schärer, Switzerland",yellow_cards,0.0,1.0
+1622624,2026,2026-08-19,NEC Nijmegen,Bodo/Glimt,"François Letexier, France",shots,22.0,8.0
+1622624,2026,2026-08-19,NEC Nijmegen,Bodo/Glimt,"François Letexier, France",shots_on_target,6.0,4.0
+1622624,2026,2026-08-19,NEC Nijmegen,Bodo/Glimt,"François Letexier, France",fouls,9.0,12.0
+1622624,2026,2026-08-19,NEC Nijmegen,Bodo/Glimt,"François Letexier, France",corners,7.0,2.0
+1622624,2026,2026-08-19,NEC Nijmegen,Bodo/Glimt,"François Letexier, France",offside,0.0,1.0
+1622624,2026,2026-08-19,NEC Nijmegen,Bodo/Glimt,"François Letexier, France",yellow_cards,2.0,1.0
+1622623,2026,2026-08-19,Hapoel Beer Sheva,Sabah FA,"Davide Massa, Italy",shots,18.0,8.0
+1622623,2026,2026-08-19,Hapoel Beer Sheva,Sabah FA,"Davide Massa, Italy",shots_on_target,7.0,5.0
+1622623,2026,2026-08-19,Hapoel Beer Sheva,Sabah FA,"Davide Massa, Italy",fouls,12.0,6.0
+1622623,2026,2026-08-19,Hapoel Beer Sheva,Sabah FA,"Davide Massa, Italy",corners,3.0,2.0
+1622623,2026,2026-08-19,Hapoel Beer Sheva,Sabah FA,"Davide Massa, Italy",offside,3.0,1.0
+1622623,2026,2026-08-19,Hapoel Beer Sheva,Sabah FA,"Davide Massa, Italy",yellow_cards,3.0,0.0
+1622625,2026,2026-08-19,Slovan Bratislava,Celje,"Felix Zwayer, Germany",shots,14.0,8.0
+1622625,2026,2026-08-19,Slovan Bratislava,Celje,"Felix Zwayer, Germany",shots_on_target,2.0,4.0
+1622625,2026,2026-08-19,Slovan Bratislava,Celje,"Felix Zwayer, Germany",fouls,12.0,13.0
+1622625,2026,2026-08-19,Slovan Bratislava,Celje,"Felix Zwayer, Germany",corners,4.0,0.0
+1622625,2026,2026-08-19,Slovan Bratislava,Celje,"Felix Zwayer, Germany",offside,0.0,5.0
+1622625,2026,2026-08-19,Slovan Bratislava,Celje,"Felix Zwayer, Germany",yellow_cards,2.0,2.0
+1622627,2026,2026-08-25,Bodo/Glimt,NEC Nijmegen,"Michael Oliver, England",shots,21.0,3.0
+1622627,2026,2026-08-25,Bodo/Glimt,NEC Nijmegen,"Michael Oliver, England",shots_on_target,9.0,2.0
+1622627,2026,2026-08-25,Bodo/Glimt,NEC Nijmegen,"Michael Oliver, England",fouls,10.0,8.0
+1622627,2026,2026-08-25,Bodo/Glimt,NEC Nijmegen,"Michael Oliver, England",corners,4.0,2.0
+1622627,2026,2026-08-25,Bodo/Glimt,NEC Nijmegen,"Michael Oliver, England",offside,2.0,3.0
+1622627,2026,2026-08-25,Bodo/Glimt,NEC Nijmegen,"Michael Oliver, England",yellow_cards,0.0,2.0
+1622630,2026,2026-08-26,Lyon,Fenerbahçe,"Maurizio Mariani, Italy",shots,17.0,16.0
+1622630,2026,2026-08-26,Lyon,Fenerbahçe,"Maurizio Mariani, Italy",shots_on_target,6.0,7.0
+1622630,2026,2026-08-26,Lyon,Fenerbahçe,"Maurizio Mariani, Italy",fouls,12.0,17.0
+1622630,2026,2026-08-26,Lyon,Fenerbahçe,"Maurizio Mariani, Italy",corners,5.0,7.0
+1622630,2026,2026-08-26,Lyon,Fenerbahçe,"Maurizio Mariani, Italy",offside,3.0,2.0
+1622630,2026,2026-08-26,Lyon,Fenerbahçe,"Maurizio Mariani, Italy",yellow_cards,1.0,3.0
+1622629,2026,2026-08-26,AEK Athens FC,Levski Sofia,"Clement Turpin, France",shots,18.0,11.0
+1622629,2026,2026-08-26,AEK Athens FC,Levski Sofia,"Clement Turpin, France",shots_on_target,7.0,3.0
+1622629,2026,2026-08-26,AEK Athens FC,Levski Sofia,"Clement Turpin, France",fouls,16.0,9.0
+1622629,2026,2026-08-26,AEK Athens FC,Levski Sofia,"Clement Turpin, France",corners,6.0,3.0
+1622629,2026,2026-08-26,AEK Athens FC,Levski Sofia,"Clement Turpin, France",offside,0.0,1.0
+1622629,2026,2026-08-26,AEK Athens FC,Levski Sofia,"Clement Turpin, France",yellow_cards,3.0,0.0
+1622631,2026,2026-08-26,Viking,Dinamo Zagreb,"José María Sánchez Martínez, Spain",shots,13.0,20.0
+1622631,2026,2026-08-26,Viking,Dinamo Zagreb,"José María Sánchez Martínez, Spain",shots_on_target,8.0,4.0
+1622631,2026,2026-08-26,Viking,Dinamo Zagreb,"José María Sánchez Martínez, Spain",fouls,16.0,12.0
+1622631,2026,2026-08-26,Viking,Dinamo Zagreb,"José María Sánchez Martínez, Spain",corners,3.0,5.0
+1622631,2026,2026-08-26,Viking,Dinamo Zagreb,"José María Sánchez Martínez, Spain",offside,4.0,2.0
+1622631,2026,2026-08-26,Viking,Dinamo Zagreb,"José María Sánchez Martínez, Spain",yellow_cards,4.0,2.0
+1635643,2026,2026-09-08,Club Brugge KV,Aston Villa,"Sandro Schärer, Switzerland",shots,14.0,21.0
+1635643,2026,2026-09-08,Club Brugge KV,Aston Villa,"Sandro Schärer, Switzerland",shots_on_target,7.0,9.0
+1635643,2026,2026-09-08,Club Brugge KV,Aston Villa,"Sandro Schärer, Switzerland",fouls,17.0,14.0
+1635643,2026,2026-09-08,Club Brugge KV,Aston Villa,"Sandro Schärer, Switzerland",corners,4.0,5.0
+1635643,2026,2026-09-08,Club Brugge KV,Aston Villa,"Sandro Schärer, Switzerland",offside,1.0,2.0
+1635643,2026,2026-09-08,Club Brugge KV,Aston Villa,"Sandro Schärer, Switzerland",yellow_cards,3.0,3.0
+1635609,2026,2026-09-08,AEK Athens FC,Lask Linz,"Luís Godinho, Portugal",shots,18.0,11.0
+1635609,2026,2026-09-08,AEK Athens FC,Lask Linz,"Luís Godinho, Portugal",shots_on_target,4.0,3.0
+1635609,2026,2026-09-08,AEK Athens FC,Lask Linz,"Luís Godinho, Portugal",fouls,7.0,15.0
+1635609,2026,2026-09-08,AEK Athens FC,Lask Linz,"Luís Godinho, Portugal",corners,7.0,3.0
+1635609,2026,2026-09-08,AEK Athens FC,Lask Linz,"Luís Godinho, Portugal",offside,2.0,1.0
+1635609,2026,2026-09-08,AEK Athens FC,Lask Linz,"Luís Godinho, Portugal",yellow_cards,1.0,2.0
+1635683,2026,2026-09-08,Lille,Real Betis,"Georgi Kabakov, Bulgaria",shots,6.0,20.0
+1635683,2026,2026-09-08,Lille,Real Betis,"Georgi Kabakov, Bulgaria",shots_on_target,2.0,5.0
+1635683,2026,2026-09-08,Lille,Real Betis,"Georgi Kabakov, Bulgaria",fouls,11.0,13.0
+1635683,2026,2026-09-08,Lille,Real Betis,"Georgi Kabakov, Bulgaria",corners,5.0,5.0
+1635683,2026,2026-09-08,Lille,Real Betis,"Georgi Kabakov, Bulgaria",offside,4.0,0.0
+1635683,2026,2026-09-08,Lille,Real Betis,"Georgi Kabakov, Bulgaria",yellow_cards,1.0,3.0
+1635652,2026,2026-09-08,Borussia Dortmund,Villarreal,"Simone Sozza, Italy",shots,18.0,13.0
+1635652,2026,2026-09-08,Borussia Dortmund,Villarreal,"Simone Sozza, Italy",shots_on_target,6.0,6.0
+1635652,2026,2026-09-08,Borussia Dortmund,Villarreal,"Simone Sozza, Italy",fouls,15.0,10.0
+1635652,2026,2026-09-08,Borussia Dortmund,Villarreal,"Simone Sozza, Italy",corners,9.0,7.0
+1635652,2026,2026-09-08,Borussia Dortmund,Villarreal,"Simone Sozza, Italy",offside,1.0,3.0
+1635652,2026,2026-09-08,Borussia Dortmund,Villarreal,"Simone Sozza, Italy",yellow_cards,1.0,3.0
+1635654,2026,2026-09-08,FC Porto,Manchester City,"Szymon Marciniak, Poland",shots,5.0,20.0
+1635654,2026,2026-09-08,FC Porto,Manchester City,"Szymon Marciniak, Poland",shots_on_target,0.0,10.0
+1635654,2026,2026-09-08,FC Porto,Manchester City,"Szymon Marciniak, Poland",fouls,10.0,17.0
+1635654,2026,2026-09-08,FC Porto,Manchester City,"Szymon Marciniak, Poland",corners,2.0,5.0
+1635654,2026,2026-09-08,FC Porto,Manchester City,"Szymon Marciniak, Poland",offside,7.0,1.0
+1635654,2026,2026-09-08,FC Porto,Manchester City,"Szymon Marciniak, Poland",yellow_cards,1.0,3.0
+1635714,2026,2026-09-08,Real Madrid,Inter,"Michael Oliver, England",shots,16.0,21.0
+1635714,2026,2026-09-08,Real Madrid,Inter,"Michael Oliver, England",shots_on_target,8.0,7.0
+1635714,2026,2026-09-08,Real Madrid,Inter,"Michael Oliver, England",fouls,12.0,10.0
+1635714,2026,2026-09-08,Real Madrid,Inter,"Michael Oliver, England",corners,4.0,11.0
+1635714,2026,2026-09-08,Real Madrid,Inter,"Michael Oliver, England",offside,2.0,4.0
+1635714,2026,2026-09-08,Real Madrid,Inter,"Michael Oliver, England",yellow_cards,1.0,3.0
+1635741,2026,2026-09-09,VfB Stuttgart,Viking,"Nenad Minaković, Serbia",shots,17.0,9.0
+1635741,2026,2026-09-09,VfB Stuttgart,Viking,"Nenad Minaković, Serbia",shots_on_target,3.0,3.0
+1635741,2026,2026-09-09,VfB Stuttgart,Viking,"Nenad Minaković, Serbia",fouls,13.0,13.0
+1635741,2026,2026-09-09,VfB Stuttgart,Viking,"Nenad Minaković, Serbia",corners,4.0,5.0
+1635741,2026,2026-09-09,VfB Stuttgart,Viking,"Nenad Minaković, Serbia",offside,4.0,0.0
+1635741,2026,2026-09-09,VfB Stuttgart,Viking,"Nenad Minaković, Serbia",yellow_cards,0.0,3.0
+1635628,2026,2026-09-09,Barcelona,Feyenoord,"Sven Jablonski, Germany",shots,24.0,4.0
+1635628,2026,2026-09-09,Barcelona,Feyenoord,"Sven Jablonski, Germany",shots_on_target,9.0,2.0
+1635628,2026,2026-09-09,Barcelona,Feyenoord,"Sven Jablonski, Germany",fouls,10.0,12.0
+1635628,2026,2026-09-09,Barcelona,Feyenoord,"Sven Jablonski, Germany",corners,4.0,1.0
+1635628,2026,2026-09-09,Barcelona,Feyenoord,"Sven Jablonski, Germany",offside,2.0,8.0
+1635628,2026,2026-09-09,Barcelona,Feyenoord,"Sven Jablonski, Germany",yellow_cards,1.0,1.0
+1635686,2026,2026-09-09,Liverpool,Atletico Madrid,"Davide Massa, Italy",shots,14.0,9.0
+1635686,2026,2026-09-09,Liverpool,Atletico Madrid,"Davide Massa, Italy",shots_on_target,5.0,4.0
+1635686,2026,2026-09-09,Liverpool,Atletico Madrid,"Davide Massa, Italy",fouls,11.0,10.0
+1635686,2026,2026-09-09,Liverpool,Atletico Madrid,"Davide Massa, Italy",corners,7.0,5.0
+1635686,2026,2026-09-09,Liverpool,Atletico Madrid,"Davide Massa, Italy",offside,3.0,5.0
+1635686,2026,2026-09-09,Liverpool,Atletico Madrid,"Davide Massa, Italy",yellow_cards,1.0,1.0
+1635705,2026,2026-09-09,Paris Saint Germain,Slovan Bratislava,"Mykola Balakin, Ukraine",shots,35.0,9.0
+1635705,2026,2026-09-09,Paris Saint Germain,Slovan Bratislava,"Mykola Balakin, Ukraine",shots_on_target,14.0,4.0
+1635705,2026,2026-09-09,Paris Saint Germain,Slovan Bratislava,"Mykola Balakin, Ukraine",fouls,8.0,6.0
+1635705,2026,2026-09-09,Paris Saint Germain,Slovan Bratislava,"Mykola Balakin, Ukraine",corners,7.0,2.0
+1635705,2026,2026-09-09,Paris Saint Germain,Slovan Bratislava,"Mykola Balakin, Ukraine",offside,4.0,1.0
+1635705,2026,2026-09-09,Paris Saint Germain,Slovan Bratislava,"Mykola Balakin, Ukraine",yellow_cards,0.0,1.0
+1635736,2026,2026-09-09,Sporting CP,Galatasaray,"Espen Eskas, Norway",shots,8.0,10.0
+1635736,2026,2026-09-09,Sporting CP,Galatasaray,"Espen Eskas, Norway",shots_on_target,5.0,3.0
+1635736,2026,2026-09-09,Sporting CP,Galatasaray,"Espen Eskas, Norway",fouls,13.0,11.0
+1635736,2026,2026-09-09,Sporting CP,Galatasaray,"Espen Eskas, Norway",corners,1.0,4.0
+1635736,2026,2026-09-09,Sporting CP,Galatasaray,"Espen Eskas, Norway",offside,3.0,0.0
+1635736,2026,2026-09-09,Sporting CP,Galatasaray,"Espen Eskas, Norway",yellow_cards,2.0,3.0
+1635698,2026,2026-09-09,Napoli,Arsenal,"Glenn Nyberg, Sweden",shots,5.0,26.0
+1635698,2026,2026-09-09,Napoli,Arsenal,"Glenn Nyberg, Sweden",shots_on_target,3.0,8.0
+1635698,2026,2026-09-09,Napoli,Arsenal,"Glenn Nyberg, Sweden",fouls,12.0,11.0
+1635698,2026,2026-09-09,Napoli,Arsenal,"Glenn Nyberg, Sweden",corners,0.0,6.0
+1635698,2026,2026-09-09,Napoli,Arsenal,"Glenn Nyberg, Sweden",offside,1.0,1.0
+1635698,2026,2026-09-09,Napoli,Arsenal,"Glenn Nyberg, Sweden",yellow_cards,2.0,1.0
+1635708,2026,2026-09-10,PSV Eindhoven,Shakhtar Donetsk,,shots,10.0,8.0
+1635708,2026,2026-09-10,PSV Eindhoven,Shakhtar Donetsk,,shots_on_target,2.0,2.0
+1635708,2026,2026-09-10,PSV Eindhoven,Shakhtar Donetsk,,fouls,14.0,15.0
+1635708,2026,2026-09-10,PSV Eindhoven,Shakhtar Donetsk,,corners,3.0,3.0
+1635708,2026,2026-09-10,PSV Eindhoven,Shakhtar Donetsk,,offside,1.0,0.0
+1635708,2026,2026-09-10,PSV Eindhoven,Shakhtar Donetsk,,yellow_cards,3.0,6.0
+1635659,2026,2026-09-10,Fenerbahçe,AS Roma,,shots,11.0,8.0
+1635659,2026,2026-09-10,Fenerbahçe,AS Roma,,shots_on_target,5.0,3.0
+1635659,2026,2026-09-10,Fenerbahçe,AS Roma,,fouls,12.0,19.0
+1635659,2026,2026-09-10,Fenerbahçe,AS Roma,,corners,1.0,3.0
+1635659,2026,2026-09-10,Fenerbahçe,AS Roma,,offside,1.0,0.0
+1635659,2026,2026-09-10,Fenerbahçe,AS Roma,,yellow_cards,4.0,2.0
+1635697,2026,2026-09-10,Manchester United,Sabah FA,,shots,21.0,11.0
+1635697,2026,2026-09-10,Manchester United,Sabah FA,,shots_on_target,10.0,0.0
+1635697,2026,2026-09-10,Manchester United,Sabah FA,,fouls,12.0,13.0
+1635697,2026,2026-09-10,Manchester United,Sabah FA,,corners,7.0,2.0
+1635697,2026,2026-09-10,Manchester United,Sabah FA,,offside,,
+1635697,2026,2026-09-10,Manchester United,Sabah FA,,yellow_cards,1.0,1.0
+1635632,2026,2026-09-10,Bayern München,Bodo/Glimt,,shots,25.0,3.0
+1635632,2026,2026-09-10,Bayern München,Bodo/Glimt,,shots_on_target,12.0,0.0
+1635632,2026,2026-09-10,Bayern München,Bodo/Glimt,,fouls,5.0,8.0
+1635632,2026,2026-09-10,Bayern München,Bodo/Glimt,,corners,6.0,3.0
+1635632,2026,2026-09-10,Bayern München,Bodo/Glimt,,offside,3.0,1.0
+1635632,2026,2026-09-10,Bayern München,Bodo/Glimt,,yellow_cards,0.0,1.0
+1635729,2026,2026-09-10,Slavia Praha,Lens,,shots,17.0,26.0
+1635729,2026,2026-09-10,Slavia Praha,Lens,,shots_on_target,5.0,8.0
+1635729,2026,2026-09-10,Slavia Praha,Lens,,fouls,8.0,8.0
+1635729,2026,2026-09-10,Slavia Praha,Lens,,corners,6.0,9.0
+1635729,2026,2026-09-10,Slavia Praha,Lens,,offside,2.0,0.0
+1635729,2026,2026-09-10,Slavia Praha,Lens,,yellow_cards,0.0,1.0
+1635648,2026,2026-09-10,Como,RB Leipzig,,shots,14.0,14.0
+1635648,2026,2026-09-10,Como,RB Leipzig,,shots_on_target,6.0,4.0
+1635648,2026,2026-09-10,Como,RB Leipzig,,fouls,9.0,10.0
+1635648,2026,2026-09-10,Como,RB Leipzig,,corners,1.0,5.0
+1635648,2026,2026-09-10,Como,RB Leipzig,,offside,5.0,1.0
+1635648,2026,2026-09-10,Como,RB Leipzig,,yellow_cards,2.0,3.0

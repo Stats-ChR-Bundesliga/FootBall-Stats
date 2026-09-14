@@ -1,0 +1,163 @@
+﻿fixture_id,season,date,home_team,away_team,referee,category,home_value,away_value
+1575140,2026,2026-08-28,Bayern München,VfB Stuttgart,"Sören Storks, Germany",shots,21.0,11.0
+1575140,2026,2026-08-28,Bayern München,VfB Stuttgart,"Sören Storks, Germany",shots_on_target,9.0,4.0
+1575140,2026,2026-08-28,Bayern München,VfB Stuttgart,"Sören Storks, Germany",fouls,10.0,17.0
+1575140,2026,2026-08-28,Bayern München,VfB Stuttgart,"Sören Storks, Germany",corners,9.0,3.0
+1575140,2026,2026-08-28,Bayern München,VfB Stuttgart,"Sören Storks, Germany",offside,3.0,1.0
+1575140,2026,2026-08-28,Bayern München,VfB Stuttgart,"Sören Storks, Germany",yellow_cards,1.0,3.0
+1575146,2026,2026-08-29,FSV Mainz 05,SC Paderborn 07,"Tobias Stieler, Germany",shots,21.0,10.0
+1575146,2026,2026-08-29,FSV Mainz 05,SC Paderborn 07,"Tobias Stieler, Germany",shots_on_target,4.0,0.0
+1575146,2026,2026-08-29,FSV Mainz 05,SC Paderborn 07,"Tobias Stieler, Germany",fouls,8.0,10.0
+1575146,2026,2026-08-29,FSV Mainz 05,SC Paderborn 07,"Tobias Stieler, Germany",corners,11.0,2.0
+1575146,2026,2026-08-29,FSV Mainz 05,SC Paderborn 07,"Tobias Stieler, Germany",offside,1.0,1.0
+1575146,2026,2026-08-29,FSV Mainz 05,SC Paderborn 07,"Tobias Stieler, Germany",yellow_cards,1.0,2.0
+1575147,2026,2026-08-29,RB Leipzig,Borussia Mönchengladbach,"Sven Jablonski, Germany",shots,25.0,15.0
+1575147,2026,2026-08-29,RB Leipzig,Borussia Mönchengladbach,"Sven Jablonski, Germany",shots_on_target,11.0,4.0
+1575147,2026,2026-08-29,RB Leipzig,Borussia Mönchengladbach,"Sven Jablonski, Germany",fouls,10.0,13.0
+1575147,2026,2026-08-29,RB Leipzig,Borussia Mönchengladbach,"Sven Jablonski, Germany",corners,7.0,6.0
+1575147,2026,2026-08-29,RB Leipzig,Borussia Mönchengladbach,"Sven Jablonski, Germany",offside,0.0,5.0
+1575147,2026,2026-08-29,RB Leipzig,Borussia Mönchengladbach,"Sven Jablonski, Germany",yellow_cards,1.0,0.0
+1575148,2026,2026-08-29,Union Berlin,Eintracht Frankfurt,"Bastian Dankert, Germany",shots,19.0,12.0
+1575148,2026,2026-08-29,Union Berlin,Eintracht Frankfurt,"Bastian Dankert, Germany",shots_on_target,10.0,3.0
+1575148,2026,2026-08-29,Union Berlin,Eintracht Frankfurt,"Bastian Dankert, Germany",fouls,11.0,10.0
+1575148,2026,2026-08-29,Union Berlin,Eintracht Frankfurt,"Bastian Dankert, Germany",corners,5.0,2.0
+1575148,2026,2026-08-29,Union Berlin,Eintracht Frankfurt,"Bastian Dankert, Germany",offside,2.0,2.0
+1575148,2026,2026-08-29,Union Berlin,Eintracht Frankfurt,"Bastian Dankert, Germany",yellow_cards,2.0,4.0
+1575144,2026,2026-08-29,1. FC Köln,1899 Hoffenheim,"Florian Badstubner, Germany",shots,18.0,15.0
+1575144,2026,2026-08-29,1. FC Köln,1899 Hoffenheim,"Florian Badstubner, Germany",shots_on_target,6.0,4.0
+1575144,2026,2026-08-29,1. FC Köln,1899 Hoffenheim,"Florian Badstubner, Germany",fouls,11.0,14.0
+1575144,2026,2026-08-29,1. FC Köln,1899 Hoffenheim,"Florian Badstubner, Germany",corners,6.0,7.0
+1575144,2026,2026-08-29,1. FC Köln,1899 Hoffenheim,"Florian Badstubner, Germany",offside,,
+1575144,2026,2026-08-29,1. FC Köln,1899 Hoffenheim,"Florian Badstubner, Germany",yellow_cards,0.0,2.0
+1575143,2026,2026-08-29,SV Elversberg,Bayer Leverkusen,"Robert Hartmann, Germany",shots,11.0,21.0
+1575143,2026,2026-08-29,SV Elversberg,Bayer Leverkusen,"Robert Hartmann, Germany",shots_on_target,6.0,4.0
+1575143,2026,2026-08-29,SV Elversberg,Bayer Leverkusen,"Robert Hartmann, Germany",fouls,18.0,15.0
+1575143,2026,2026-08-29,SV Elversberg,Bayer Leverkusen,"Robert Hartmann, Germany",corners,4.0,3.0
+1575143,2026,2026-08-29,SV Elversberg,Bayer Leverkusen,"Robert Hartmann, Germany",offside,1.0,1.0
+1575143,2026,2026-08-29,SV Elversberg,Bayer Leverkusen,"Robert Hartmann, Germany",yellow_cards,3.0,2.0
+1575142,2026,2026-08-29,Borussia Dortmund,Hamburger SV,"Felix Zwayer, Germany",shots,20.0,8.0
+1575142,2026,2026-08-29,Borussia Dortmund,Hamburger SV,"Felix Zwayer, Germany",shots_on_target,6.0,3.0
+1575142,2026,2026-08-29,Borussia Dortmund,Hamburger SV,"Felix Zwayer, Germany",fouls,13.0,19.0
+1575142,2026,2026-08-29,Borussia Dortmund,Hamburger SV,"Felix Zwayer, Germany",corners,3.0,1.0
+1575142,2026,2026-08-29,Borussia Dortmund,Hamburger SV,"Felix Zwayer, Germany",offside,1.0,1.0
+1575142,2026,2026-08-29,Borussia Dortmund,Hamburger SV,"Felix Zwayer, Germany",yellow_cards,2.0,1.0
+1575145,2026,2026-08-30,SC Freiburg,Werder Bremen,"Daniel Siebert, Germany",shots,19.0,9.0
+1575145,2026,2026-08-30,SC Freiburg,Werder Bremen,"Daniel Siebert, Germany",shots_on_target,5.0,3.0
+1575145,2026,2026-08-30,SC Freiburg,Werder Bremen,"Daniel Siebert, Germany",fouls,13.0,16.0
+1575145,2026,2026-08-30,SC Freiburg,Werder Bremen,"Daniel Siebert, Germany",corners,6.0,5.0
+1575145,2026,2026-08-30,SC Freiburg,Werder Bremen,"Daniel Siebert, Germany",offside,0.0,1.0
+1575145,2026,2026-08-30,SC Freiburg,Werder Bremen,"Daniel Siebert, Germany",yellow_cards,1.0,1.0
+1575141,2026,2026-08-30,FC Augsburg,FC Schalke 04,"Sascha Stegemann, Germany",shots,24.0,11.0
+1575141,2026,2026-08-30,FC Augsburg,FC Schalke 04,"Sascha Stegemann, Germany",shots_on_target,13.0,5.0
+1575141,2026,2026-08-30,FC Augsburg,FC Schalke 04,"Sascha Stegemann, Germany",fouls,5.0,6.0
+1575141,2026,2026-08-30,FC Augsburg,FC Schalke 04,"Sascha Stegemann, Germany",corners,11.0,3.0
+1575141,2026,2026-08-30,FC Augsburg,FC Schalke 04,"Sascha Stegemann, Germany",offside,3.0,2.0
+1575141,2026,2026-08-30,FC Augsburg,FC Schalke 04,"Sascha Stegemann, Germany",yellow_cards,1.0,0.0
+1575149,2026,2026-09-04,VfB Stuttgart,1. FC Köln,"Christian Dingert, Germany",shots,22.0,17.0
+1575149,2026,2026-09-04,VfB Stuttgart,1. FC Köln,"Christian Dingert, Germany",shots_on_target,8.0,3.0
+1575149,2026,2026-09-04,VfB Stuttgart,1. FC Köln,"Christian Dingert, Germany",fouls,5.0,6.0
+1575149,2026,2026-09-04,VfB Stuttgart,1. FC Köln,"Christian Dingert, Germany",corners,10.0,8.0
+1575149,2026,2026-09-04,VfB Stuttgart,1. FC Köln,"Christian Dingert, Germany",offside,1.0,0.0
+1575149,2026,2026-09-04,VfB Stuttgart,1. FC Köln,"Christian Dingert, Germany",yellow_cards,1.0,3.0
+1575155,2026,2026-09-05,Werder Bremen,RB Leipzig,"Benjamin Brand, Germany",shots,12.0,19.0
+1575155,2026,2026-09-05,Werder Bremen,RB Leipzig,"Benjamin Brand, Germany",shots_on_target,7.0,5.0
+1575155,2026,2026-09-05,Werder Bremen,RB Leipzig,"Benjamin Brand, Germany",fouls,13.0,8.0
+1575155,2026,2026-09-05,Werder Bremen,RB Leipzig,"Benjamin Brand, Germany",corners,2.0,7.0
+1575155,2026,2026-09-05,Werder Bremen,RB Leipzig,"Benjamin Brand, Germany",offside,4.0,1.0
+1575155,2026,2026-09-05,Werder Bremen,RB Leipzig,"Benjamin Brand, Germany",yellow_cards,1.0,0.0
+1575153,2026,2026-09-05,Borussia Mönchengladbach,SV Elversberg,"Martin Petersen, Germany",shots,25.0,14.0
+1575153,2026,2026-09-05,Borussia Mönchengladbach,SV Elversberg,"Martin Petersen, Germany",shots_on_target,6.0,10.0
+1575153,2026,2026-09-05,Borussia Mönchengladbach,SV Elversberg,"Martin Petersen, Germany",fouls,18.0,9.0
+1575153,2026,2026-09-05,Borussia Mönchengladbach,SV Elversberg,"Martin Petersen, Germany",corners,13.0,4.0
+1575153,2026,2026-09-05,Borussia Mönchengladbach,SV Elversberg,"Martin Petersen, Germany",offside,5.0,0.0
+1575153,2026,2026-09-05,Borussia Mönchengladbach,SV Elversberg,"Martin Petersen, Germany",yellow_cards,3.0,1.0
+1575150,2026,2026-09-05,1899 Hoffenheim,Borussia Dortmund,"Matthias Jollenbeck, Germany",shots,18.0,11.0
+1575150,2026,2026-09-05,1899 Hoffenheim,Borussia Dortmund,"Matthias Jollenbeck, Germany",shots_on_target,6.0,4.0
+1575150,2026,2026-09-05,1899 Hoffenheim,Borussia Dortmund,"Matthias Jollenbeck, Germany",fouls,13.0,7.0
+1575150,2026,2026-09-05,1899 Hoffenheim,Borussia Dortmund,"Matthias Jollenbeck, Germany",corners,10.0,3.0
+1575150,2026,2026-09-05,1899 Hoffenheim,Borussia Dortmund,"Matthias Jollenbeck, Germany",offside,1.0,2.0
+1575150,2026,2026-09-05,1899 Hoffenheim,Borussia Dortmund,"Matthias Jollenbeck, Germany",yellow_cards,4.0,2.0
+1575151,2026,2026-09-05,Bayer Leverkusen,Union Berlin,"Robin Braun, Germany",shots,21.0,5.0
+1575151,2026,2026-09-05,Bayer Leverkusen,Union Berlin,"Robin Braun, Germany",shots_on_target,10.0,0.0
+1575151,2026,2026-09-05,Bayer Leverkusen,Union Berlin,"Robin Braun, Germany",fouls,11.0,12.0
+1575151,2026,2026-09-05,Bayer Leverkusen,Union Berlin,"Robin Braun, Germany",corners,11.0,1.0
+1575151,2026,2026-09-05,Bayer Leverkusen,Union Berlin,"Robin Braun, Germany",offside,3.0,3.0
+1575151,2026,2026-09-05,Bayer Leverkusen,Union Berlin,"Robin Braun, Germany",yellow_cards,2.0,2.0
+1575157,2026,2026-09-05,SC Paderborn 07,SC Freiburg,"Max Burda, Germany",shots,14.0,16.0
+1575157,2026,2026-09-05,SC Paderborn 07,SC Freiburg,"Max Burda, Germany",shots_on_target,3.0,5.0
+1575157,2026,2026-09-05,SC Paderborn 07,SC Freiburg,"Max Burda, Germany",fouls,16.0,10.0
+1575157,2026,2026-09-05,SC Paderborn 07,SC Freiburg,"Max Burda, Germany",corners,5.0,4.0
+1575157,2026,2026-09-05,SC Paderborn 07,SC Freiburg,"Max Burda, Germany",offside,1.0,1.0
+1575157,2026,2026-09-05,SC Paderborn 07,SC Freiburg,"Max Burda, Germany",yellow_cards,3.0,3.0
+1575156,2026,2026-09-05,FC Schalke 04,Bayern München,"Robert Schröder, Germany",shots,4.0,15.0
+1575156,2026,2026-09-05,FC Schalke 04,Bayern München,"Robert Schröder, Germany",shots_on_target,1.0,5.0
+1575156,2026,2026-09-05,FC Schalke 04,Bayern München,"Robert Schröder, Germany",fouls,5.0,12.0
+1575156,2026,2026-09-05,FC Schalke 04,Bayern München,"Robert Schröder, Germany",corners,0.0,11.0
+1575156,2026,2026-09-05,FC Schalke 04,Bayern München,"Robert Schröder, Germany",offside,0.0,1.0
+1575156,2026,2026-09-05,FC Schalke 04,Bayern München,"Robert Schröder, Germany",yellow_cards,2.0,2.0
+1575154,2026,2026-09-06,Hamburger SV,FSV Mainz 05,"Tobias Reichel, Germany",shots,8.0,17.0
+1575154,2026,2026-09-06,Hamburger SV,FSV Mainz 05,"Tobias Reichel, Germany",shots_on_target,1.0,8.0
+1575154,2026,2026-09-06,Hamburger SV,FSV Mainz 05,"Tobias Reichel, Germany",fouls,14.0,19.0
+1575154,2026,2026-09-06,Hamburger SV,FSV Mainz 05,"Tobias Reichel, Germany",corners,4.0,5.0
+1575154,2026,2026-09-06,Hamburger SV,FSV Mainz 05,"Tobias Reichel, Germany",offside,2.0,1.0
+1575154,2026,2026-09-06,Hamburger SV,FSV Mainz 05,"Tobias Reichel, Germany",yellow_cards,1.0,3.0
+1575152,2026,2026-09-06,Eintracht Frankfurt,FC Augsburg,"Daniel Schlager, Germany",shots,22.0,17.0
+1575152,2026,2026-09-06,Eintracht Frankfurt,FC Augsburg,"Daniel Schlager, Germany",shots_on_target,8.0,7.0
+1575152,2026,2026-09-06,Eintracht Frankfurt,FC Augsburg,"Daniel Schlager, Germany",fouls,10.0,13.0
+1575152,2026,2026-09-06,Eintracht Frankfurt,FC Augsburg,"Daniel Schlager, Germany",corners,9.0,4.0
+1575152,2026,2026-09-06,Eintracht Frankfurt,FC Augsburg,"Daniel Schlager, Germany",offside,3.0,0.0
+1575152,2026,2026-09-06,Eintracht Frankfurt,FC Augsburg,"Daniel Schlager, Germany",yellow_cards,1.0,1.0
+1575164,2026,2026-09-11,Union Berlin,FC Schalke 04,,shots,20.0,19.0
+1575164,2026,2026-09-11,Union Berlin,FC Schalke 04,,shots_on_target,8.0,10.0
+1575164,2026,2026-09-11,Union Berlin,FC Schalke 04,,fouls,11.0,10.0
+1575164,2026,2026-09-11,Union Berlin,FC Schalke 04,,corners,4.0,5.0
+1575164,2026,2026-09-11,Union Berlin,FC Schalke 04,,offside,3.0,3.0
+1575164,2026,2026-09-11,Union Berlin,FC Schalke 04,,yellow_cards,3.0,1.0
+1575161,2026,2026-09-12,SC Freiburg,Borussia Mönchengladbach,,shots,19.0,5.0
+1575161,2026,2026-09-12,SC Freiburg,Borussia Mönchengladbach,,shots_on_target,9.0,0.0
+1575161,2026,2026-09-12,SC Freiburg,Borussia Mönchengladbach,,fouls,7.0,16.0
+1575161,2026,2026-09-12,SC Freiburg,Borussia Mönchengladbach,,corners,6.0,2.0
+1575161,2026,2026-09-12,SC Freiburg,Borussia Mönchengladbach,,offside,1.0,1.0
+1575161,2026,2026-09-12,SC Freiburg,Borussia Mönchengladbach,,yellow_cards,1.0,2.0
+1575163,2026,2026-09-12,FSV Mainz 05,Eintracht Frankfurt,,shots,18.0,11.0
+1575163,2026,2026-09-12,FSV Mainz 05,Eintracht Frankfurt,,shots_on_target,5.0,5.0
+1575163,2026,2026-09-12,FSV Mainz 05,Eintracht Frankfurt,,fouls,11.0,9.0
+1575163,2026,2026-09-12,FSV Mainz 05,Eintracht Frankfurt,,corners,4.0,5.0
+1575163,2026,2026-09-12,FSV Mainz 05,Eintracht Frankfurt,,offside,1.0,3.0
+1575163,2026,2026-09-12,FSV Mainz 05,Eintracht Frankfurt,,yellow_cards,0.0,2.0
+1575158,2026,2026-09-12,Borussia Dortmund,SC Paderborn 07,,shots,14.0,10.0
+1575158,2026,2026-09-12,Borussia Dortmund,SC Paderborn 07,,shots_on_target,8.0,0.0
+1575158,2026,2026-09-12,Borussia Dortmund,SC Paderborn 07,,fouls,11.0,7.0
+1575158,2026,2026-09-12,Borussia Dortmund,SC Paderborn 07,,corners,7.0,3.0
+1575158,2026,2026-09-12,Borussia Dortmund,SC Paderborn 07,,offside,3.0,2.0
+1575158,2026,2026-09-12,Borussia Dortmund,SC Paderborn 07,,yellow_cards,1.0,1.0
+1575160,2026,2026-09-12,1899 Hoffenheim,VfB Stuttgart,,shots,20.0,16.0
+1575160,2026,2026-09-12,1899 Hoffenheim,VfB Stuttgart,,shots_on_target,8.0,5.0
+1575160,2026,2026-09-12,1899 Hoffenheim,VfB Stuttgart,,fouls,15.0,8.0
+1575160,2026,2026-09-12,1899 Hoffenheim,VfB Stuttgart,,corners,5.0,7.0
+1575160,2026,2026-09-12,1899 Hoffenheim,VfB Stuttgart,,offside,2.0,1.0
+1575160,2026,2026-09-12,1899 Hoffenheim,VfB Stuttgart,,yellow_cards,1.0,0.0
+1575162,2026,2026-09-12,FC Augsburg,Bayer Leverkusen,,shots,8.0,30.0
+1575162,2026,2026-09-12,FC Augsburg,Bayer Leverkusen,,shots_on_target,5.0,5.0
+1575162,2026,2026-09-12,FC Augsburg,Bayer Leverkusen,,fouls,6.0,12.0
+1575162,2026,2026-09-12,FC Augsburg,Bayer Leverkusen,,corners,2.0,14.0
+1575162,2026,2026-09-12,FC Augsburg,Bayer Leverkusen,,offside,0.0,1.0
+1575162,2026,2026-09-12,FC Augsburg,Bayer Leverkusen,,yellow_cards,1.0,1.0
+1575165,2026,2026-09-12,1. FC Köln,Werder Bremen,,shots,15.0,14.0
+1575165,2026,2026-09-12,1. FC Köln,Werder Bremen,,shots_on_target,6.0,5.0
+1575165,2026,2026-09-12,1. FC Köln,Werder Bremen,,fouls,11.0,12.0
+1575165,2026,2026-09-12,1. FC Köln,Werder Bremen,,corners,8.0,5.0
+1575165,2026,2026-09-12,1. FC Köln,Werder Bremen,,offside,1.0,1.0
+1575165,2026,2026-09-12,1. FC Köln,Werder Bremen,,yellow_cards,2.0,1.0
+1575159,2026,2026-09-13,RB Leipzig,Hamburger SV,,shots,19.0,10.0
+1575159,2026,2026-09-13,RB Leipzig,Hamburger SV,,shots_on_target,6.0,4.0
+1575159,2026,2026-09-13,RB Leipzig,Hamburger SV,,fouls,11.0,13.0
+1575159,2026,2026-09-13,RB Leipzig,Hamburger SV,,corners,8.0,7.0
+1575159,2026,2026-09-13,RB Leipzig,Hamburger SV,,offside,0.0,3.0
+1575159,2026,2026-09-13,RB Leipzig,Hamburger SV,,yellow_cards,1.0,2.0
+1575166,2026,2026-09-13,SV Elversberg,Bayern München,,shots,5.0,28.0
+1575166,2026,2026-09-13,SV Elversberg,Bayern München,,shots_on_target,1.0,6.0
+1575166,2026,2026-09-13,SV Elversberg,Bayern München,,fouls,9.0,8.0
+1575166,2026,2026-09-13,SV Elversberg,Bayern München,,corners,3.0,9.0
+1575166,2026,2026-09-13,SV Elversberg,Bayern München,,offside,2.0,2.0
+1575166,2026,2026-09-13,SV Elversberg,Bayern München,,yellow_cards,2.0,0.0
