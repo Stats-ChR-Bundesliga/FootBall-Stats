@@ -156,6 +156,51 @@ def build_team_summary(df: pd.DataFrame) -> list:
     return wide.to_dict(orient="records")
 
 
+def trimmed_mean(values: list) -> float:
+    """Μέσος όρος χωρίς το μεγαλύτερο και το μικρότερο - αποφεύγει να
+    στρεβλώνει ένα ακραίο μεμονωμένο ματς τη φόρμα. Χρειάζεται
+    τουλάχιστον 4 τιμές (αλλιώς απλός μέσος όρος)."""
+    if len(values) < 4:
+        return sum(values) / len(values)
+    sorted_vals = sorted(values)
+    trimmed = sorted_vals[1:-1]
+    return sum(trimmed) / len(trimmed)
+
+
+def build_team_form(df: pd.DataFrame, n_matches: int = 10) -> list:
+    """Δυναμική φόρμα: κομμένος μέσος όρος κάθε ομάδας στους τελευταίους
+    N αγώνες της (εντός+εκτός μαζί), ταξινομημένους χρονολογικά."""
+    if df is None or df.empty:
+        return []
+
+    home_rows = df[["date", "category", "home_team", "home_value"]].rename(columns={"home_team": "team", "home_value": "value"})
+    away_rows = df[["date", "category", "away_team", "away_value"]].rename(columns={"away_team": "team", "away_value": "value"})
+    all_rows = pd.concat([home_rows, away_rows], ignore_index=True)
+    all_rows["value"] = pd.to_numeric(all_rows["value"], errors="coerce")
+    all_rows["date"] = pd.to_datetime(all_rows["date"])
+
+    results = []
+    for (team, category), group in all_rows.groupby(["team", "category"]):
+        recent = group.dropna(subset=["value"]).sort_values("date", ascending=False).head(n_matches)
+        if recent.empty:
+            continue
+        results.append({
+            "team": team, "category": category,
+            "form_avg": trimmed_mean(recent["value"].tolist()),
+            "matches_used": len(recent),
+        })
+
+    if not results:
+        return []
+
+    long_df = pd.DataFrame(results)
+    wide = long_df.pivot_table(index="team", columns="category", values="form_avg", aggfunc="first").reset_index()
+    meta = long_df.groupby("team")["matches_used"].max().reset_index().rename(columns={"matches_used": "matches"})
+    wide = wide.merge(meta, on="team", how="left")
+    wide = wide.round(1)
+    return wide.to_dict(orient="records")
+
+
 def fetch_elo_ratings() -> dict:
     """Δοκιμάζει clubelo.com· αν αποτύχει, κρατάει το ήδη υπάρχον αρχείο."""
     fallback_path = SITE_DATA_DIR / "elo_ratings.json"
@@ -199,11 +244,16 @@ def main():
             time.sleep(1)  # μικρή ανάσα ανάμεσα σε σεζόν
 
         team_summary = build_team_summary(df)
+        team_form = build_team_form(df, n_matches=10)
         summary[league_name] = team_summary
 
         with open(SITE_DATA_DIR / f"{league_name}_teams.json", "w", encoding="utf-8") as f:
             json.dump(team_summary, f, ensure_ascii=False, indent=2)
         print(f"  Γράφτηκε: docs/data/{league_name}_teams.json ({len(team_summary)} ομάδες)")
+
+        with open(SITE_DATA_DIR / f"{league_name}_form.json", "w", encoding="utf-8") as f:
+            json.dump(team_form, f, ensure_ascii=False, indent=2)
+        print(f"  Γράφτηκε: docs/data/{league_name}_form.json ({len(team_form)} ομάδες)")
 
     print("\n=== Elo ===")
     elo_ratings = fetch_elo_ratings()
