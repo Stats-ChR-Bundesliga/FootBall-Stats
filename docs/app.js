@@ -6,8 +6,8 @@ async function loadJson(path) {
   return resp.json();
 }
 
-function renderTeamTable(teams) {
-  const body = document.getElementById("team-table-body");
+function renderTeamTable(teams, bodyId) {
+  const body = document.getElementById(bodyId);
   body.innerHTML = "";
   if (!teams || teams.length === 0) {
     body.innerHTML = `<tr><td colspan="8">Δεν υπάρχουν δεδομένα ακόμα.</td></tr>`;
@@ -39,17 +39,30 @@ function renderEloTable(eloRatings) {
   });
 }
 
+let currentLeague = "bundesliga";
+
 async function showLeague(league) {
+  currentLeague = league;
   const teams = await loadJson(`data/${league}_teams.json`);
-  renderTeamTable(teams);
+  renderTeamTable(teams, "team-table-body");
   document.getElementById("team-view").style.display = "block";
   document.getElementById("elo-view").style.display = "none";
+  document.getElementById("form-view").style.display = "none";
+}
+
+async function showForm() {
+  const form = await loadJson(`data/${currentLeague}_form.json`);
+  renderTeamTable(form, "form-table-body");
+  document.getElementById("team-view").style.display = "none";
+  document.getElementById("elo-view").style.display = "none";
+  document.getElementById("form-view").style.display = "block";
 }
 
 async function showElo() {
   const elo = await loadJson("data/elo_ratings.json");
   renderEloTable(elo);
   document.getElementById("team-view").style.display = "none";
+  document.getElementById("form-view").style.display = "none";
   document.getElementById("elo-view").style.display = "block";
 }
 
@@ -71,6 +84,8 @@ document.querySelectorAll(".tab-button").forEach((btn) => {
 
     if (btn.dataset.view === "elo") {
       showElo();
+    } else if (btn.dataset.view === "form") {
+      showForm();
     } else if (btn.dataset.league) {
       showLeague(btn.dataset.league);
     }
