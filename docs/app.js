@@ -54,6 +54,50 @@ function renderRefereeTable(referees) {
   }
 }
 
+function renderUpcoming(matches) {
+  const container = document.getElementById("upcoming-view");
+  container.innerHTML = "";
+  if (!matches || matches.length === 0) {
+    container.innerHTML = `<p>Δεν υπάρχουν επόμενοι αγώνες αυτή τη στιγμή.</p>`;
+    return;
+  }
+  const catLabels = {
+    shots: "Σουτ", shots_on_target: "Σουτ στο στόχο", fouls: "Φάουλ",
+    corners: "Κόρνερ", offside: "Οφσάιντ", yellow_cards: "Κίτρινες",
+  };
+  for (const m of matches) {
+    const card = document.createElement("div");
+    card.className = "match-card";
+    let rowsHtml = "";
+    for (const [key, label] of Object.entries(catLabels)) {
+      const total = m[`total_${key}`];
+      if (total !== undefined && total !== null) {
+        rowsHtml += `<tr><td>${label}</td><td>${m[`home_${key}`] ?? "-"}</td><td>${m[`away_${key}`] ?? "-"}</td><td><strong>${total}</strong></td></tr>`;
+      }
+    }
+    card.innerHTML = `
+      <h3>${m.home_team} vs ${m.away_team}</h3>
+      <p class="match-meta">${m.date || ""} ${m.referee ? "· Διαιτητής: " + m.referee : ""}</p>
+      <p class="match-meta">Elo: ${m.home_elo} / ${m.away_elo} · 1: ${(m.p_home_win*100).toFixed(0)}% Χ: ${(m.p_draw*100).toFixed(0)}% 2: ${(m.p_away_win*100).toFixed(0)}%</p>
+      <table class="mini-table">
+        <thead><tr><th>Κατηγορία</th><th>${m.home_team}</th><th>${m.away_team}</th><th>Σύνολο</th></tr></thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    `;
+    container.appendChild(card);
+  }
+}
+
+async function showUpcoming() {
+  const matches = await loadJson(`data/${currentLeague}_upcoming.json`);
+  renderUpcoming(matches);
+  document.getElementById("team-view").style.display = "none";
+  document.getElementById("elo-view").style.display = "none";
+  document.getElementById("form-view").style.display = "none";
+  document.getElementById("referees-view").style.display = "none";
+  document.getElementById("upcoming-view").style.display = "block";
+}
+
 let currentLeague = "bundesliga";
 
 async function showLeague(league) {
@@ -64,6 +108,7 @@ async function showLeague(league) {
   document.getElementById("elo-view").style.display = "none";
   document.getElementById("form-view").style.display = "none";
   document.getElementById("referees-view").style.display = "none";
+  document.getElementById("upcoming-view").style.display = "none";
 }
 
 async function showForm() {
@@ -73,6 +118,7 @@ async function showForm() {
   document.getElementById("elo-view").style.display = "none";
   document.getElementById("form-view").style.display = "block";
   document.getElementById("referees-view").style.display = "none";
+  document.getElementById("upcoming-view").style.display = "none";
 }
 
 async function showReferees() {
@@ -82,6 +128,7 @@ async function showReferees() {
   document.getElementById("elo-view").style.display = "none";
   document.getElementById("form-view").style.display = "none";
   document.getElementById("referees-view").style.display = "block";
+  document.getElementById("upcoming-view").style.display = "none";
 }
 
 async function showElo() {
@@ -90,6 +137,7 @@ async function showElo() {
   document.getElementById("team-view").style.display = "none";
   document.getElementById("form-view").style.display = "none";
   document.getElementById("referees-view").style.display = "none";
+  document.getElementById("upcoming-view").style.display = "none";
   document.getElementById("elo-view").style.display = "block";
 }
 
@@ -115,6 +163,8 @@ document.querySelectorAll(".tab-button").forEach((btn) => {
       showForm();
     } else if (btn.dataset.view === "referees") {
       showReferees();
+    } else if (btn.dataset.view === "upcoming") {
+      showUpcoming();
     } else if (btn.dataset.league) {
       showLeague(btn.dataset.league);
     }

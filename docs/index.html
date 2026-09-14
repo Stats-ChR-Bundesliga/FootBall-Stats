@@ -14,6 +14,7 @@
 
   <nav>
     <button class="tab-button active" data-league="bundesliga">Bundesliga</button>
+    <button class="tab-button" data-view="upcoming">Επόμενη Αγωνιστική</button>
     <button class="tab-button" data-view="form">Φόρμα (τελ. 10)</button>
     <button class="tab-button" data-view="referees">Διαιτητές</button>
     <button class="tab-button" data-view="elo">Κατάταξη Elo</button>
@@ -78,6 +79,8 @@
         <tbody id="referees-table-body"></tbody>
       </table>
     </div>
+
+    <div id="upcoming-view" style="display:none;"></div>
   </main>
 
   <script src="app.js"></script>

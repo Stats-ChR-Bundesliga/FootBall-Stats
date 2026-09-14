@@ -83,3 +83,31 @@ tr:hover {
   table { font-size: 0.85em; }
   th, td { padding: 6px 8px; }
 }
+
+.match-card {
+  background: #16202b;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.match-card h3 {
+  margin: 0 0 4px 0;
+  color: #e6edf3;
+}
+
+.match-meta {
+  margin: 2px 0 10px 0;
+  font-size: 0.85em;
+  color: #a9bacb;
+}
+
+.mini-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mini-table th, .mini-table td {
+  padding: 6px 8px;
+  font-size: 0.9em;
+}
