@@ -114,6 +114,11 @@
           <input type="range" id="w-elo" class="weight-slider" min="0" max="1" step="0.05" value="0.35">
           <span id="w-elo-label">35%</span>
         </div>
+        <div class="slider-row">
+          <label for="w-derby">Ένταση ντέρμπι (φάουλ/κάρτες/κόρνερ)</label>
+          <input type="range" id="w-derby" class="weight-slider" min="0" max="0.5" step="0.05" value="0.20">
+          <span id="w-derby-label">+20%</span>
+        </div>
         <button id="reset-sliders-btn" onclick="resetSliders()">Επαναφορά προεπιλογών</button>
       </div>
       <div id="upcoming-matches"></div>

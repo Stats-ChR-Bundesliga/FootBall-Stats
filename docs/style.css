@@ -174,3 +174,14 @@ tr:hover {
   font-size: 0.82em;
   white-space: nowrap;
 }
+
+.derby-badge {
+  display: inline-block;
+  background: #7a2020;
+  color: #ffdede;
+  font-size: 0.7em;
+  padding: 2px 8px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
