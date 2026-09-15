@@ -11,5 +11,6 @@
   },
   "elo_split_weight": 0.35,
   "elo_foul_bump_max": 3.0,
-  "elo_card_bump_max": 1.0
+  "elo_card_bump_max": 1.0,
+  "derby_boost_pct": 0.2
 }
