@@ -228,6 +228,43 @@ function resetSliders() {
   refreshUpcomingWithWeights();
 }
 
+function renderAdvancedTable(rows) {
+  const body = document.getElementById("advanced-table-body");
+  body.innerHTML = "";
+  if (!rows || rows.length === 0) {
+    body.innerHTML = `<tr><td colspan="15">Δεν υπάρχουν δεδομένα ακόμα.</td></tr>`;
+    return;
+  }
+  rows.sort((a, b) => a.rank - b.rank);
+  for (const r of rows) {
+    const tr = document.createElement("tr");
+    const fmt = (v, suffix = "") => (v === null || v === undefined ? "-" : v + suffix);
+    tr.innerHTML = `
+      <td>${r.rank}</td><td>${r.team}</td>
+      <td>${fmt(r.goals_for)}</td><td>${fmt(r.goals_against)}</td>
+      <td>${r.rating > 0 ? "+" : ""}${fmt(r.rating)}</td>
+      <td>${fmt(r.attack)}</td><td>${fmt(r.defence)}</td><td>${fmt(r.openness)}</td>
+      <td>${fmt(r.shot_volume)}</td><td>${fmt(r.on_target_pct, "%")}</td>
+      <td>${fmt(r.possession_pct, "%")}</td><td>${fmt(r.xg_per_shot)}</td>
+      <td>${fmt(r.finishing)}</td><td>${fmt(r.xg_for)}</td><td>${fmt(r.xg_against)}</td>
+      <td>${r.goals_minus_xg > 0 ? "+" : ""}${fmt(r.goals_minus_xg)}</td>
+    `;
+    body.appendChild(tr);
+  }
+}
+
+async function showAdvanced() {
+  const rows = await loadJson(`data/${currentLeague}_advanced.json`);
+  renderAdvancedTable(rows);
+  document.getElementById("team-view").style.display = "none";
+  document.getElementById("elo-view").style.display = "none";
+  document.getElementById("form-view").style.display = "none";
+  document.getElementById("referees-view").style.display = "none";
+  document.getElementById("upcoming-view").style.display = "none";
+  document.getElementById("advanced-view").style.display = "none";
+  document.getElementById("advanced-view").style.display = "block";
+}
+
 let currentLeague = "bundesliga";
 
 async function showLeague(league) {
@@ -239,6 +276,7 @@ async function showLeague(league) {
   document.getElementById("form-view").style.display = "none";
   document.getElementById("referees-view").style.display = "none";
   document.getElementById("upcoming-view").style.display = "none";
+  document.getElementById("advanced-view").style.display = "none";
 }
 
 async function showForm() {
@@ -249,6 +287,7 @@ async function showForm() {
   document.getElementById("form-view").style.display = "block";
   document.getElementById("referees-view").style.display = "none";
   document.getElementById("upcoming-view").style.display = "none";
+  document.getElementById("advanced-view").style.display = "none";
 }
 
 async function showReferees() {
@@ -259,6 +298,7 @@ async function showReferees() {
   document.getElementById("form-view").style.display = "none";
   document.getElementById("referees-view").style.display = "block";
   document.getElementById("upcoming-view").style.display = "none";
+  document.getElementById("advanced-view").style.display = "none";
 }
 
 async function showElo() {
@@ -268,6 +308,7 @@ async function showElo() {
   document.getElementById("form-view").style.display = "none";
   document.getElementById("referees-view").style.display = "none";
   document.getElementById("upcoming-view").style.display = "none";
+  document.getElementById("advanced-view").style.display = "none";
   document.getElementById("elo-view").style.display = "block";
 }
 
@@ -295,6 +336,8 @@ document.querySelectorAll(".tab-button").forEach((btn) => {
       showReferees();
     } else if (btn.dataset.view === "upcoming") {
       showUpcoming();
+    } else if (btn.dataset.view === "advanced") {
+      showAdvanced();
     } else if (btn.dataset.league) {
       showLeague(btn.dataset.league);
     }

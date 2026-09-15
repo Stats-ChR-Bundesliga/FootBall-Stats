@@ -18,6 +18,7 @@
     <button class="tab-button" data-view="form">Φόρμα (τελ. 10)</button>
     <button class="tab-button" data-view="referees">Διαιτητές</button>
     <button class="tab-button" data-view="elo">Κατάταξη Elo</button>
+    <button class="tab-button" data-view="advanced">Προχωρημένα (xG)</button>
   </nav>
 
   <main>
@@ -116,6 +117,23 @@
         <button id="reset-sliders-btn" onclick="resetSliders()">Επαναφορά προεπιλογών</button>
       </div>
       <div id="upcoming-matches"></div>
+    </div>
+
+    <div id="advanced-view" style="display:none;">
+      <p class="advanced-note">Δεδομένα από footballmeetsdata.com (χειροκίνητη ενημέρωση, όχι αυτόματη).</p>
+      <div class="table-scroll">
+      <table id="advanced-table">
+        <thead>
+          <tr>
+            <th>#</th><th>Ομάδα</th><th>Γκολ υπέρ</th><th>Γκολ κατά</th><th>Rating</th>
+            <th>Επίθεση</th><th>Άμυνα</th><th>Openness</th><th>Σουτ/αγ.</th>
+            <th>Στόχος %</th><th>Κατοχή %</th><th>xG/σουτ</th><th>Φίνισινγκ</th>
+            <th>xG υπέρ</th><th>xG κατά</th><th>Γκολ−xG</th>
+          </tr>
+        </thead>
+        <tbody id="advanced-table-body"></tbody>
+      </table>
+      </div>
     </div>
   </main>
 

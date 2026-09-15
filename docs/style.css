@@ -159,3 +159,18 @@ tr:hover {
   cursor: pointer;
   font-size: 0.85em;
 }
+
+.advanced-note {
+  font-size: 0.8em;
+  color: #a9bacb;
+  margin-bottom: 10px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+#advanced-table {
+  font-size: 0.82em;
+  white-space: nowrap;
+}
