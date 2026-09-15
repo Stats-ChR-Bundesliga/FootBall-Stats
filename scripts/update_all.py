@@ -403,12 +403,26 @@ def historical_venue_avg(all_rows, team, category, venue):
     return rows["value"].mean() if not rows.empty else None
 
 
+def historical_venue_count(all_rows, team, category, venue):
+    if all_rows is None:
+        return 0
+    rows = all_rows[(all_rows["team"] == team) & (all_rows["category"] == category) & (all_rows["venue"] == venue)]
+    return int(rows.dropna(subset=["value"]).shape[0])
+
+
 def referee_avg(all_rows, referee_name, category):
     if all_rows is None or not referee_name or "referee" not in all_rows.columns:
         return None
     rows = all_rows[(all_rows["referee"] == referee_name) & (all_rows["category"] == category)]
     rows = rows.dropna(subset=["value"])
     return rows["value"].mean() if not rows.empty else None
+
+
+def referee_count(all_rows, referee_name, category):
+    if all_rows is None or not referee_name or "referee" not in all_rows.columns:
+        return 0
+    rows = all_rows[(all_rows["referee"] == referee_name) & (all_rows["category"] == category)]
+    return int(rows.dropna(subset=["value"]).shape[0])
 
 
 def get_team_match_count(all_rows, team):
@@ -423,11 +437,17 @@ def compute_elo_trust(home_count, away_count, min_matches=5):
 
 
 def get_team_recent_form(api_key, team_id, last_n=10):
+    """Επιστρέφει (μέσοι όροι, πλήθος δειγμάτων ανά κατηγορία, ημερομηνία
+    τελευταίου αγώνα - ανεξαρτήτως διοργάνωσης)."""
     fixtures_data = api_get(api_key, "fixtures", {"team": team_id, "last": last_n})
     fixtures = fixtures_data.get("response", [])
     values_by_category = {cat: [] for cat in CATEGORY_MAP}
+    last_match_date = None
     for item in fixtures:
         fixture_id = item["fixture"]["id"]
+        fixture_date = item["fixture"]["date"][:10]
+        if last_match_date is None or fixture_date > last_match_date:
+            last_match_date = fixture_date
         try:
             stats_data = api_get(api_key, "fixtures/statistics", {"fixture": fixture_id})
         except Exception:
@@ -442,7 +462,10 @@ def get_team_recent_form(api_key, team_id, last_n=10):
             val = team_stats.get(api_type)
             if val is not None:
                 values_by_category[our_label].append(val)
-    return {cat: trimmed_mean(vals) for cat, vals in values_by_category.items() if vals}
+
+    means = {cat: trimmed_mean(vals) for cat, vals in values_by_category.items() if vals}
+    counts = {cat: len(vals) for cat, vals in values_by_category.items() if vals}
+    return means, counts, last_match_date
 
 
 def combine_estimate(form_avg, own_venue_avg, opp_venue_avg, referee_val=None, referee_weight=None):
@@ -519,6 +542,23 @@ def is_derby_match(derbies, home_name, away_name):
     return None
 
 
+FATIGUE_REST_DAYS_THRESHOLD = 3  # <= τόσες μέρες ανάπαυσης θεωρείται "κούραση"
+FATIGUE_ATTACK_PENALTY = 0.10    # μείωση σουτ/σουτ-στο-στόχο/κόρνερ για κουρασμένη ομάδα
+FATIGUE_FOUL_BONUS = 0.10        # αύξηση φάουλ/καρτών για κουρασμένη ομάδα
+FATIGUE_ATTACK_CATEGORIES = {"shots", "shots_on_target", "corners"}
+FATIGUE_FOUL_CATEGORIES = {"fouls", "yellow_cards"}
+
+
+def apply_fatigue_adjustment(category, value, is_tired):
+    if value is None or not is_tired:
+        return value
+    if category in FATIGUE_ATTACK_CATEGORIES:
+        return round(value * (1 - FATIGUE_ATTACK_PENALTY), 1)
+    if category in FATIGUE_FOUL_CATEGORIES:
+        return round(value * (1 + FATIGUE_FOUL_BONUS), 1)
+    return value
+
+
 def build_matchday_estimates(api_key, league_id, season, historical_df, elo_ratings, referee_overrides=None):
     fixtures = get_next_matchday_fixtures(api_key, league_id, season)
     if not fixtures:
@@ -553,6 +593,16 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
             print(f"    Φόρμα: {away_name}...")
             form_cache[away_id] = get_team_recent_form(api_key, away_id)
 
+        home_form_means, home_form_counts, home_last_match = form_cache[home_id]
+        away_form_means, away_form_counts, away_last_match = form_cache[away_id]
+
+        from datetime import date as date_cls
+        match_date_obj = date_cls.fromisoformat(date)
+        home_rest_days = (match_date_obj - date_cls.fromisoformat(home_last_match)).days if home_last_match else None
+        away_rest_days = (match_date_obj - date_cls.fromisoformat(away_last_match)).days if away_last_match else None
+        home_is_tired = home_rest_days is not None and home_rest_days <= FATIGUE_REST_DAYS_THRESHOLD
+        away_is_tired = away_rest_days is not None and away_rest_days <= FATIGUE_REST_DAYS_THRESHOLD
+
         derby_name = is_derby_match(derbies, home_name, away_name)
 
         row = {
@@ -561,26 +611,43 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
             "p_home_win": round(p_home, 3), "p_draw": round(p_draw, 3), "p_away_win": round(p_away, 3),
             "expected_score": round(expected_score, 4), "elo_trust": round(elo_trust, 3),
             "is_derby": derby_name is not None, "derby_name": derby_name,
+            "home_rest_days": home_rest_days, "away_rest_days": away_rest_days,
+            "home_is_tired": home_is_tired, "away_is_tired": away_is_tired,
             "components": {},
         }
         for category in CATEGORY_MAP:
-            home_form = form_cache[home_id].get(category)
-            away_form = form_cache[away_id].get(category)
+            home_form = home_form_means.get(category)
+            away_form = away_form_means.get(category)
+            home_form_n = home_form_counts.get(category, 0)
+            away_form_n = away_form_counts.get(category, 0)
+
             home_own = historical_venue_avg(historical_rows, home_name, category, "home")
             away_own = historical_venue_avg(historical_rows, away_name, category, "away")
+            home_own_n = historical_venue_count(historical_rows, home_name, category, "home")
+            away_own_n = historical_venue_count(historical_rows, away_name, category, "away")
+
             if category in CATEGORIES_WITH_DEFENSE:
                 home_opp = historical_venue_avg(historical_rows, away_name, f"{category}_against", "away")
                 away_opp = historical_venue_avg(historical_rows, home_name, f"{category}_against", "home")
+                home_opp_n = historical_venue_count(historical_rows, away_name, f"{category}_against", "away")
+                away_opp_n = historical_venue_count(historical_rows, home_name, f"{category}_against", "home")
             else:
                 home_opp = historical_venue_avg(historical_rows, away_name, category, "away")
                 away_opp = historical_venue_avg(historical_rows, home_name, category, "home")
+                home_opp_n = historical_venue_count(historical_rows, away_name, category, "away")
+                away_opp_n = historical_venue_count(historical_rows, home_name, category, "home")
+
             ref_val = referee_avg(historical_rows, referee, category)
+            ref_n = referee_count(historical_rows, referee, category)
 
             row["components"][category] = {
                 "home_form": home_form, "away_form": away_form,
+                "home_form_n": home_form_n, "away_form_n": away_form_n,
                 "home_own": home_own, "away_own": away_own,
+                "home_own_n": home_own_n, "away_own_n": away_own_n,
                 "home_opp": home_opp, "away_opp": away_opp,
-                "referee": ref_val,
+                "home_opp_n": home_opp_n, "away_opp_n": away_opp_n,
+                "referee": ref_val, "referee_n": ref_n,
                 "is_referee_boosted": category in REFEREE_WEIGHT_OVERRIDES,
             }
 
@@ -588,6 +655,9 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
             home_est = combine_estimate(home_form, home_own, home_opp, referee_val=ref_val, referee_weight=ref_weight)
             away_est = combine_estimate(away_form, away_own, away_opp, referee_val=ref_val, referee_weight=ref_weight)
             home_est, away_est = apply_elo_adjustment(category, home_est, away_est, expected_score, elo_trust=elo_trust)
+
+            home_est = apply_fatigue_adjustment(category, home_est, home_is_tired)
+            away_est = apply_fatigue_adjustment(category, away_est, away_is_tired)
 
             row[f"home_{category}"] = home_est
             row[f"away_{category}"] = away_est
@@ -597,6 +667,98 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
         results.append(row)
 
     return results
+
+
+# ================== BACKTESTING (ΙΣΤΟΡΙΚΟ ΑΚΡΙΒΕΙΑΣ) ==================
+
+def load_predictions_log(league_name):
+    path = DATA_DIR / f"{league_name}_predictions_log.json"
+    if not path.exists():
+        return []
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_predictions_log(league_name, log):
+    path = DATA_DIR / f"{league_name}_predictions_log.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(log, f, ensure_ascii=False, indent=2)
+
+
+def resolve_predictions(log, historical_df):
+    """Ελέγχει τις 'εκκρεμείς' προβλέψεις - αν ο αγώνας τους έχει πια
+    πραγματικά στατιστικά στο ιστορικό αρχείο, υπολογίζει το σφάλμα
+    (πρόβλεψη - πραγματικό) και τις σημειώνει ως 'resolved'."""
+    if historical_df is None or historical_df.empty:
+        return log, []
+
+    newly_resolved = []
+    for entry in log:
+        if entry.get("resolved"):
+            continue
+        match = historical_df[
+            (historical_df["home_team"] == entry["home_team"]) &
+            (historical_df["away_team"] == entry["away_team"]) &
+            (historical_df["date"] == entry["date"])
+        ]
+        if match.empty:
+            continue
+
+        actuals = {}
+        for category in CATEGORY_MAP:
+            cat_rows = match[match["category"] == category]
+            if cat_rows.empty:
+                continue
+            home_val = pd.to_numeric(cat_rows["home_value"], errors="coerce").iloc[0]
+            away_val = pd.to_numeric(cat_rows["away_value"], errors="coerce").iloc[0]
+            if pd.notna(home_val) and pd.notna(away_val):
+                actuals[category] = round(float(home_val) + float(away_val), 1)
+
+        entry["actual"] = actuals
+        entry["errors"] = {}
+        for category, actual_total in actuals.items():
+            predicted_total = entry.get("predicted", {}).get(category)
+            if predicted_total is not None:
+                entry["errors"][category] = round(predicted_total - actual_total, 1)
+        entry["resolved"] = True
+        newly_resolved.append(entry)
+
+    return log, newly_resolved
+
+
+def build_accuracy_summary(log):
+    """Μέσο απόλυτο σφάλμα (MAE) και μέση κατεύθυνση (bias) ανά κατηγορία,
+    από όλες τις ήδη επιλυμένες (resolved) προβλέψεις."""
+    resolved = [e for e in log if e.get("resolved") and e.get("errors")]
+    summary = {}
+    for category in CATEGORY_MAP:
+        errors = [e["errors"][category] for e in resolved if category in e.get("errors", {})]
+        if not errors:
+            continue
+        mae = sum(abs(x) for x in errors) / len(errors)
+        bias = sum(errors) / len(errors)
+        summary[category] = {
+            "samples": len(errors),
+            "mean_absolute_error": round(mae, 2),
+            "bias": round(bias, 2),  # θετικό = υπερεκτιμούμε, αρνητικό = υποεκτιμούμε
+        }
+    return summary
+
+
+def add_new_predictions_to_log(log, new_estimates, league_name):
+    """Προσθέτει τις φρέσκες προβλέψεις στο log, μόνο αν δεν υπάρχουν ήδη
+    (ίδιο ζευγάρι+ημερομηνία) - ώστε να μη διπλογράφονται σε κάθε τρέξιμο."""
+    existing_keys = {(e["home_team"], e["away_team"], e["date"]) for e in log}
+    for est in new_estimates:
+        key = (est["home_team"], est["away_team"], est["date"])
+        if key in existing_keys:
+            continue
+        predicted = {cat: est.get(f"total_{cat}") for cat in CATEGORY_MAP if est.get(f"total_{cat}") is not None}
+        log.append({
+            "home_team": est["home_team"], "away_team": est["away_team"], "date": est["date"],
+            "predicted": predicted, "resolved": False,
+        })
+    return log
 
 
 def main():
@@ -652,6 +814,15 @@ def main():
             json.dump(referee_profiles, f, ensure_ascii=False, indent=2)
         print(f"  Γράφτηκε: docs/data/{league_name}_referees.json ({len(referee_profiles)} διαιτητές)")
 
+        print(f"\n  --- Backtesting (έλεγχος παλιότερων προβλέψεων, {league_name}) ---")
+        predictions_log = load_predictions_log(league_name)
+        predictions_log, newly_resolved = resolve_predictions(predictions_log, df)
+        print(f"  Επιλύθηκαν {len(newly_resolved)} νέες προβλέψεις (σύγκριση με πραγματικά στατιστικά).")
+        accuracy_summary = build_accuracy_summary(predictions_log)
+        with open(SITE_DATA_DIR / f"{league_name}_accuracy.json", "w", encoding="utf-8") as f:
+            json.dump({"summary": accuracy_summary, "recent": [e for e in predictions_log if e.get("resolved")][-20:]}, f, ensure_ascii=False, indent=2)
+        print(f"  Γράφτηκε: docs/data/{league_name}_accuracy.json")
+
         print(f"\n  --- Εκτίμηση επόμενης αγωνιστικής ({league_name}) ---")
         try:
             matchday = build_matchday_estimates(api_key, league_id, SEASONS[-1], df, elo_ratings)
@@ -661,6 +832,10 @@ def main():
         with open(SITE_DATA_DIR / f"{league_name}_upcoming.json", "w", encoding="utf-8") as f:
             json.dump(matchday, f, ensure_ascii=False, indent=2)
         print(f"  Γράφτηκε: docs/data/{league_name}_upcoming.json ({len(matchday)} αγώνες)")
+
+        predictions_log = add_new_predictions_to_log(predictions_log, matchday, league_name)
+        save_predictions_log(league_name, predictions_log)
+        print(f"  Το log προβλέψεων έχει πλέον {len(predictions_log)} καταχωρήσεις συνολικά.")
 
     with open(SITE_DATA_DIR / "last_updated.json", "w", encoding="utf-8") as f:
         json.dump({"updated_at": datetime.now(timezone.utc).isoformat()}, f)
