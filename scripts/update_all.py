@@ -500,6 +500,25 @@ def get_next_matchday_fixtures(api_key, league_id, season):
     ]
 
 
+def load_derbies():
+    """Διαβάζει το derbies.json (αν υπάρχει) - λίστα γνωστών ντέρμπι/
+    αντιπαλοτήτων. Επεξεργάσιμο χειροκίνητα από τον χρήστη."""
+    derbies_path = REPO_ROOT / "derbies.json"
+    if not derbies_path.exists():
+        return []
+    with open(derbies_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def is_derby_match(derbies, home_name, away_name):
+    home_norm, away_norm = normalize_name(home_name), normalize_name(away_name)
+    for d in derbies:
+        t1, t2 = normalize_name(d["team1"]), normalize_name(d["team2"])
+        if {home_norm, away_norm} == {t1, t2}:
+            return d.get("name", "Ντέρμπι")
+    return None
+
+
 def build_matchday_estimates(api_key, league_id, season, historical_df, elo_ratings, referee_overrides=None):
     fixtures = get_next_matchday_fixtures(api_key, league_id, season)
     if not fixtures:
@@ -507,6 +526,7 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
         return []
 
     historical_rows = build_historical_long(historical_df)
+    derbies = load_derbies()
     form_cache = {}
     results = []
 
@@ -533,11 +553,14 @@ def build_matchday_estimates(api_key, league_id, season, historical_df, elo_rati
             print(f"    Φόρμα: {away_name}...")
             form_cache[away_id] = get_team_recent_form(api_key, away_id)
 
+        derby_name = is_derby_match(derbies, home_name, away_name)
+
         row = {
             "home_team": home_name, "away_team": away_name, "date": date, "referee": referee,
             "home_elo": round(home_elo, 1), "away_elo": round(away_elo, 1),
             "p_home_win": round(p_home, 3), "p_draw": round(p_draw, 3), "p_away_win": round(p_away, 3),
             "expected_score": round(expected_score, 4), "elo_trust": round(elo_trust, 3),
+            "is_derby": derby_name is not None, "derby_name": derby_name,
             "components": {},
         }
         for category in CATEGORY_MAP:
@@ -590,6 +613,7 @@ def main():
         "elo_split_weight": ELO_SPLIT_WEIGHT,
         "elo_foul_bump_max": ELO_FOUL_BUMP_MAX,
         "elo_card_bump_max": ELO_CARD_BUMP_MAX,
+        "derby_boost_pct": 0.20,
     }
     with open(SITE_DATA_DIR / "model_config.json", "w", encoding="utf-8") as f:
         json.dump(model_config, f, ensure_ascii=False, indent=2)
