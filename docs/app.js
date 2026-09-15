@@ -54,6 +54,15 @@ function renderRefereeTable(referees) {
   }
 }
 
+function confidenceLabel(counts) {
+  const valid = counts.filter((c) => c !== undefined && c !== null);
+  if (valid.length === 0) return { label: "?", cls: "conf-low" };
+  const minCount = Math.min(...valid);
+  if (minCount >= 7) return { label: "Υψηλή", cls: "conf-high" };
+  if (minCount >= 3) return { label: "Μέτρια", cls: "conf-medium" };
+  return { label: "Χαμηλή", cls: "conf-low" };
+}
+
 function renderUpcoming(matches) {
   const container = document.getElementById("upcoming-matches");
   container.innerHTML = "";
@@ -71,16 +80,23 @@ function renderUpcoming(matches) {
     let rowsHtml = "";
     for (const [key, label] of Object.entries(catLabels)) {
       const total = m[`total_${key}`];
+      const c = m.components && m.components[key];
       if (total !== undefined && total !== null) {
-        rowsHtml += `<tr><td>${label}</td><td>${m[`home_${key}`] ?? "-"}</td><td>${m[`away_${key}`] ?? "-"}</td><td><strong>${total}</strong></td></tr>`;
+        const conf = c ? confidenceLabel([c.home_form_n, c.away_form_n, c.home_own_n, c.away_own_n]) : { label: "?", cls: "conf-low" };
+        rowsHtml += `<tr><td>${label}</td><td>${m[`home_${key}`] ?? "-"}</td><td>${m[`away_${key}`] ?? "-"}</td><td><strong>${total}</strong></td><td><span class="conf-badge ${conf.cls}">${conf.label}</span></td></tr>`;
       }
     }
+    const fatigueBadges = [];
+    if (m.home_is_tired) fatigueBadges.push(`😓 ${m.home_team} (${m.home_rest_days}μ ανάπαυση)`);
+    if (m.away_is_tired) fatigueBadges.push(`😓 ${m.away_team} (${m.away_rest_days}μ ανάπαυση)`);
+
     card.innerHTML = `
       <h3>${m.home_team} vs ${m.away_team} ${m.is_derby ? '<span class="derby-badge">🔥 ' + (m.derby_name || 'Ντέρμπι') + '</span>' : ''}</h3>
       <p class="match-meta">${m.date || ""} ${m.referee ? "· Διαιτητής: " + m.referee : ""}</p>
       <p class="match-meta">Elo: ${m.home_elo} / ${m.away_elo} · 1: ${(m.p_home_win*100).toFixed(0)}% Χ: ${(m.p_draw*100).toFixed(0)}% 2: ${(m.p_away_win*100).toFixed(0)}%</p>
+      ${fatigueBadges.length ? `<p class="match-meta">${fatigueBadges.join(" · ")}</p>` : ""}
       <table class="mini-table">
-        <thead><tr><th>Κατηγορία</th><th>${m.home_team}</th><th>${m.away_team}</th><th>Σύνολο</th></tr></thead>
+        <thead><tr><th>Κατηγορία</th><th>${m.home_team}</th><th>${m.away_team}</th><th>Σύνολο</th><th>Αξιοπιστία</th></tr></thead>
         <tbody>${rowsHtml}</tbody>
       </table>
     `;
@@ -271,7 +287,61 @@ async function showAdvanced() {
   document.getElementById("referees-view").style.display = "none";
   document.getElementById("upcoming-view").style.display = "none";
   document.getElementById("advanced-view").style.display = "none";
+  document.getElementById("accuracy-view").style.display = "none";
   document.getElementById("advanced-view").style.display = "block";
+}
+
+function renderAccuracy(data) {
+  const container = document.getElementById("accuracy-content");
+  container.innerHTML = "";
+  if (!data || !data.summary || Object.keys(data.summary).length === 0) {
+    container.innerHTML = `<p>Δεν υπάρχουν ακόμα επιλυμένες προβλέψεις (χρειάζεται να περάσουν αγώνες μετά την πρώτη εκτίμηση).</p>`;
+    return;
+  }
+  const catLabels = {
+    shots: "Σουτ", shots_on_target: "Σουτ στο στόχο", fouls: "Φάουλ",
+    corners: "Κόρνερ", offside: "Οφσάιντ", yellow_cards: "Κίτρινες",
+  };
+
+  let html = `<table class="mini-table"><thead><tr>
+    <th>Κατηγορία</th><th>Δείγμα (αγώνες)</th><th>Μ.Ο. Απόλυτο Σφάλμα</th><th>Τάση (bias)</th>
+  </tr></thead><tbody>`;
+  for (const [cat, label] of Object.entries(catLabels)) {
+    const s = data.summary[cat];
+    if (!s) continue;
+    const biasText = s.bias > 0 ? `+${s.bias} (υπερεκτίμηση)` : (s.bias < 0 ? `${s.bias} (υποεκτίμηση)` : "0");
+    html += `<tr><td>${label}</td><td>${s.samples}</td><td>${s.mean_absolute_error}</td><td>${biasText}</td></tr>`;
+  }
+  html += `</tbody></table>`;
+
+  if (data.recent && data.recent.length > 0) {
+    html += `<h3 style="margin-top:20px;">Τελευταίες συγκρίσεις</h3>`;
+    for (const r of data.recent.slice().reverse()) {
+      html += `<div class="match-card"><h3 style="font-size:1em;">${r.home_team} vs ${r.away_team} (${r.date})</h3>`;
+      html += `<table class="mini-table"><thead><tr><th>Κατηγορία</th><th>Προβλέψαμε</th><th>Πραγματικό</th><th>Διαφορά</th></tr></thead><tbody>`;
+      for (const [cat, label] of Object.entries(catLabels)) {
+        if (r.predicted && r.predicted[cat] !== undefined) {
+          const err = r.errors ? r.errors[cat] : null;
+          html += `<tr><td>${label}</td><td>${r.predicted[cat]}</td><td>${r.actual ? r.actual[cat] ?? "-" : "-"}</td><td>${err !== null && err !== undefined ? (err > 0 ? "+" : "") + err : "-"}</td></tr>`;
+        }
+      }
+      html += `</tbody></table></div>`;
+    }
+  }
+  container.innerHTML = html;
+}
+
+async function showAccuracy() {
+  const data = await loadJson(`data/${currentLeague}_accuracy.json`);
+  renderAccuracy(data);
+  document.getElementById("team-view").style.display = "none";
+  document.getElementById("elo-view").style.display = "none";
+  document.getElementById("form-view").style.display = "none";
+  document.getElementById("referees-view").style.display = "none";
+  document.getElementById("upcoming-view").style.display = "none";
+  document.getElementById("advanced-view").style.display = "none";
+  document.getElementById("accuracy-view").style.display = "none";
+  document.getElementById("accuracy-view").style.display = "block";
 }
 
 let currentLeague = "bundesliga";
@@ -286,6 +356,7 @@ async function showLeague(league) {
   document.getElementById("referees-view").style.display = "none";
   document.getElementById("upcoming-view").style.display = "none";
   document.getElementById("advanced-view").style.display = "none";
+  document.getElementById("accuracy-view").style.display = "none";
 }
 
 async function showForm() {
@@ -297,6 +368,7 @@ async function showForm() {
   document.getElementById("referees-view").style.display = "none";
   document.getElementById("upcoming-view").style.display = "none";
   document.getElementById("advanced-view").style.display = "none";
+  document.getElementById("accuracy-view").style.display = "none";
 }
 
 async function showReferees() {
@@ -308,6 +380,7 @@ async function showReferees() {
   document.getElementById("referees-view").style.display = "block";
   document.getElementById("upcoming-view").style.display = "none";
   document.getElementById("advanced-view").style.display = "none";
+  document.getElementById("accuracy-view").style.display = "none";
 }
 
 async function showElo() {
@@ -318,6 +391,7 @@ async function showElo() {
   document.getElementById("referees-view").style.display = "none";
   document.getElementById("upcoming-view").style.display = "none";
   document.getElementById("advanced-view").style.display = "none";
+  document.getElementById("accuracy-view").style.display = "none";
   document.getElementById("elo-view").style.display = "block";
 }
 
@@ -347,6 +421,8 @@ document.querySelectorAll(".tab-button").forEach((btn) => {
       showUpcoming();
     } else if (btn.dataset.view === "advanced") {
       showAdvanced();
+    } else if (btn.dataset.view === "accuracy") {
+      showAccuracy();
     } else if (btn.dataset.league) {
       showLeague(btn.dataset.league);
     }

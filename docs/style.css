@@ -185,3 +185,14 @@ tr:hover {
   vertical-align: middle;
   margin-left: 6px;
 }
+
+.conf-badge {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 8px;
+  font-size: 0.85em;
+}
+
+.conf-high { background: #1e5c2e; color: #c6f0d0; }
+.conf-medium { background: #6b5a1e; color: #f0e3c6; }
+.conf-low { background: #6b1e1e; color: #f0c6c6; }
