@@ -41,10 +41,10 @@
   },
   {
     "team": "Bayern München",
-    "corners": 7.6,
+    "corners": 7.8,
     "fouls": 8.1,
-    "offside": 2.6,
-    "shots": 20.4,
+    "offside": 2.8,
+    "shots": 20.6,
     "shots_on_target": 7.6,
     "yellow_cards": 1.5,
     "matches": 10
@@ -211,12 +211,12 @@
   },
   {
     "team": "Union Berlin",
-    "corners": 4.9,
-    "fouls": 10.5,
-    "offside": 1.8,
-    "shots": 14.5,
-    "shots_on_target": 6.0,
-    "yellow_cards": 1.8,
+    "corners": 4.2,
+    "fouls": 10.4,
+    "offside": 1.6,
+    "shots": 13.1,
+    "shots_on_target": 5.2,
+    "yellow_cards": 2.0,
     "matches": 10
   },
   {

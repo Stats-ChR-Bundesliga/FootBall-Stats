@@ -45,9 +45,9 @@
     "fouls": 8.9,
     "offside": 2.1,
     "shots": 18.9,
-    "shots_on_target": 7.7,
+    "shots_on_target": 7.8,
     "yellow_cards": 1.6,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "Borussia Dortmund",
@@ -212,12 +212,12 @@
   {
     "team": "Union Berlin",
     "corners": 4.7,
-    "fouls": 12.4,
+    "fouls": 12.3,
     "offside": 1.9,
-    "shots": 12.1,
+    "shots": 12.0,
     "shots_on_target": 3.8,
     "yellow_cards": 2.1,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "VfB Stuttgart",
