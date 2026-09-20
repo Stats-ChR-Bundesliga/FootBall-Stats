@@ -14,10 +14,10 @@
     "corners": 5.4,
     "fouls": 10.8,
     "offside": 1.8,
-    "shots": 13.0,
+    "shots": 13.1,
     "shots_on_target": 4.6,
     "yellow_cards": 2.1,
-    "matches": 105
+    "matches": 106
   },
   {
     "team": "1899 Hoffenheim",
@@ -51,23 +51,23 @@
   },
   {
     "team": "Borussia Dortmund",
-    "corners": 5.7,
-    "fouls": 10.0,
+    "corners": 5.6,
+    "fouls": 10.1,
     "offside": 1.3,
     "shots": 14.7,
     "shots_on_target": 5.5,
     "yellow_cards": 2.0,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "Borussia Mönchengladbach",
-    "corners": 4.5,
+    "corners": 4.6,
     "fouls": 10.3,
-    "offside": 2.0,
-    "shots": 12.4,
+    "offside": 1.9,
+    "shots": 12.5,
     "shots_on_target": 4.6,
     "yellow_cards": 1.8,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "Eintracht Frankfurt",
@@ -77,17 +77,17 @@
     "shots": 12.6,
     "shots_on_target": 4.6,
     "yellow_cards": 2.0,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "FC Augsburg",
-    "corners": 4.8,
+    "corners": 4.7,
     "fouls": 11.8,
     "offside": 2.0,
-    "shots": 12.2,
+    "shots": 12.1,
     "shots_on_target": 3.9,
     "yellow_cards": 2.4,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "FC Schalke 04",
@@ -117,7 +117,7 @@
     "shots": 12.9,
     "shots_on_target": 4.4,
     "yellow_cards": 2.3,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "Fortuna Dusseldorf",
@@ -135,9 +135,9 @@
     "fouls": 12.1,
     "offside": 1.9,
     "shots": 11.8,
-    "shots_on_target": 4.3,
+    "shots_on_target": 4.4,
     "yellow_cards": 2.3,
-    "matches": 39
+    "matches": 40
   },
   {
     "team": "Hertha Berlin",
@@ -174,10 +174,10 @@
     "corners": 4.0,
     "fouls": 10.3,
     "offside": 1.8,
-    "shots": 12.2,
+    "shots": 12.3,
     "shots_on_target": 4.5,
     "yellow_cards": 1.7,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "SC Paderborn 07",
@@ -223,11 +223,11 @@
     "team": "VfB Stuttgart",
     "corners": 5.1,
     "fouls": 10.1,
-    "offside": 1.8,
+    "offside": 1.9,
     "shots": 14.6,
     "shots_on_target": 5.6,
     "yellow_cards": 2.0,
-    "matches": 141
+    "matches": 142
   },
   {
     "team": "VfL Bochum",
@@ -255,8 +255,8 @@
     "fouls": 11.0,
     "offside": 2.1,
     "shots": 12.2,
-    "shots_on_target": 4.1,
+    "shots_on_target": 4.2,
     "yellow_cards": 2.3,
-    "matches": 139
+    "matches": 140
   }
 ]

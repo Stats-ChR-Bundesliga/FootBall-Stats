@@ -11,12 +11,12 @@
   },
   {
     "team": "1. FC Köln",
-    "corners": 5.6,
-    "fouls": 8.6,
-    "offside": 1.1,
-    "shots": 15.8,
-    "shots_on_target": 5.6,
-    "yellow_cards": 1.9,
+    "corners": 6.0,
+    "fouls": 9.5,
+    "offside": 1.2,
+    "shots": 16.2,
+    "shots_on_target": 5.1,
+    "yellow_cards": 2.0,
     "matches": 10
   },
   {
@@ -52,40 +52,40 @@
   {
     "team": "Borussia Dortmund",
     "corners": 4.0,
-    "fouls": 11.4,
-    "offside": 1.0,
-    "shots": 12.4,
-    "shots_on_target": 4.8,
-    "yellow_cards": 2.1,
+    "fouls": 11.6,
+    "offside": 1.1,
+    "shots": 13.2,
+    "shots_on_target": 4.6,
+    "yellow_cards": 2.4,
     "matches": 10
   },
   {
     "team": "Borussia Mönchengladbach",
-    "corners": 3.0,
+    "corners": 3.5,
     "fouls": 11.6,
-    "offside": 2.2,
-    "shots": 12.6,
+    "offside": 2.1,
+    "shots": 13.4,
     "shots_on_target": 4.1,
     "yellow_cards": 2.8,
     "matches": 10
   },
   {
     "team": "Eintracht Frankfurt",
-    "corners": 6.0,
-    "fouls": 10.1,
-    "offside": 2.0,
-    "shots": 14.1,
-    "shots_on_target": 5.5,
-    "yellow_cards": 1.6,
+    "corners": 5.4,
+    "fouls": 10.4,
+    "offside": 2.1,
+    "shots": 12.9,
+    "shots_on_target": 5.0,
+    "yellow_cards": 1.8,
     "matches": 10
   },
   {
     "team": "FC Augsburg",
     "corners": 4.6,
-    "fouls": 8.2,
-    "offside": 1.5,
-    "shots": 15.0,
-    "shots_on_target": 6.0,
+    "fouls": 8.1,
+    "offside": 1.4,
+    "shots": 13.8,
+    "shots_on_target": 6.1,
     "yellow_cards": 1.4,
     "matches": 10
   },
@@ -111,12 +111,12 @@
   },
   {
     "team": "FSV Mainz 05",
-    "corners": 5.2,
-    "fouls": 10.2,
-    "offside": 1.9,
-    "shots": 16.1,
-    "shots_on_target": 5.8,
-    "yellow_cards": 1.2,
+    "corners": 5.4,
+    "fouls": 11.0,
+    "offside": 1.6,
+    "shots": 17.0,
+    "shots_on_target": 6.1,
+    "yellow_cards": 1.5,
     "matches": 10
   },
   {
@@ -131,12 +131,12 @@
   },
   {
     "team": "Hamburger SV",
-    "corners": 3.6,
+    "corners": 3.1,
     "fouls": 13.0,
-    "offside": 1.1,
-    "shots": 11.4,
-    "shots_on_target": 4.0,
-    "yellow_cards": 1.6,
+    "offside": 1.4,
+    "shots": 10.6,
+    "shots_on_target": 4.2,
+    "yellow_cards": 1.5,
     "matches": 10
   },
   {
@@ -172,11 +172,11 @@
   {
     "team": "SC Freiburg",
     "corners": 3.8,
-    "fouls": 10.0,
+    "fouls": 10.2,
     "offside": 1.4,
-    "shots": 12.8,
-    "shots_on_target": 4.1,
-    "yellow_cards": 1.5,
+    "shots": 13.5,
+    "shots_on_target": 4.5,
+    "yellow_cards": 1.4,
     "matches": 10
   },
   {
@@ -221,12 +221,12 @@
   },
   {
     "team": "VfB Stuttgart",
-    "corners": 6.4,
-    "fouls": 9.4,
-    "offside": 1.8,
-    "shots": 16.1,
-    "shots_on_target": 6.1,
-    "yellow_cards": 1.8,
+    "corners": 6.5,
+    "fouls": 9.2,
+    "offside": 1.9,
+    "shots": 16.0,
+    "shots_on_target": 6.2,
+    "yellow_cards": 1.6,
     "matches": 10
   },
   {
@@ -252,11 +252,11 @@
   {
     "team": "Werder Bremen",
     "corners": 4.1,
-    "fouls": 11.0,
-    "offside": 2.8,
-    "shots": 11.5,
-    "shots_on_target": 4.0,
-    "yellow_cards": 1.4,
+    "fouls": 10.6,
+    "offside": 2.5,
+    "shots": 12.1,
+    "shots_on_target": 4.6,
+    "yellow_cards": 1.5,
     "matches": 10
   }
 ]

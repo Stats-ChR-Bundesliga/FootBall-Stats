@@ -18,6 +18,12 @@
     "matches": 42
   },
   {
+    "referee_name": "Bastian Dankert",
+    "fouls": 21.0,
+    "yellow_cards": 5.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Bastian Dankert, Germany",
     "fouls": 18.7,
     "yellow_cards": 3.5,
@@ -180,6 +186,12 @@
     "matches": 11
   },
   {
+    "referee_name": "Matthias Jollenbeck",
+    "fouls": 26.0,
+    "yellow_cards": 4.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Matthias Jollenbeck, Germany",
     "fouls": 19.7,
     "yellow_cards": 3.9,
@@ -228,6 +240,12 @@
     "matches": 35
   },
   {
+    "referee_name": "Robert Hartmann",
+    "fouls": 26.0,
+    "yellow_cards": 7.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Robert Hartmann, Germany",
     "fouls": 23.9,
     "yellow_cards": 3.7,
@@ -268,6 +286,12 @@
     "fouls": 21.1,
     "yellow_cards": 3.3,
     "matches": 14
+  },
+  {
+    "referee_name": "Soren Storks",
+    "fouls": 23.0,
+    "yellow_cards": 4.0,
+    "matches": 1
   },
   {
     "referee_name": "Sven Jablonski, Germany",
@@ -316,6 +340,12 @@
     "fouls": 21.7,
     "yellow_cards": 3.5,
     "matches": 12
+  },
+  {
+    "referee_name": "Tobias Stieler",
+    "fouls": 23.0,
+    "yellow_cards": 6.0,
+    "matches": 1
   },
   {
     "referee_name": "Tobias Stieler, Germany",

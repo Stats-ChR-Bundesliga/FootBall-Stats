@@ -41,7 +41,23 @@
       "offside": 4.0,
       "yellow_cards": 3.2
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 27.0,
+      "shots_on_target": 15.0,
+      "fouls": 21.0,
+      "corners": 4.0,
+      "offside": 3.0,
+      "yellow_cards": 5.0
+    },
+    "errors": {
+      "shots": 0.7,
+      "shots_on_target": -4.5,
+      "fouls": 0.9,
+      "corners": 6.3,
+      "offside": 1.0,
+      "yellow_cards": -1.8
+    }
   },
   {
     "home_team": "Borussia Mönchengladbach",
@@ -55,7 +71,23 @@
       "offside": 4.3,
       "yellow_cards": 3.5
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 38.0,
+      "shots_on_target": 15.0,
+      "fouls": 26.0,
+      "corners": 10.0,
+      "offside": 2.0,
+      "yellow_cards": 7.0
+    },
+    "errors": {
+      "shots": -4.9,
+      "shots_on_target": -4.5,
+      "fouls": -2.2,
+      "corners": 1.6,
+      "offside": 2.3,
+      "yellow_cards": -3.5
+    }
   },
   {
     "home_team": "Eintracht Frankfurt",
@@ -69,7 +101,23 @@
       "offside": 3.5,
       "yellow_cards": 3.8
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 32.0,
+      "shots_on_target": 10.0,
+      "fouls": 23.0,
+      "corners": 8.0,
+      "offside": 3.0,
+      "yellow_cards": 4.0
+    },
+    "errors": {
+      "shots": -2.2,
+      "shots_on_target": 1.0,
+      "fouls": -1.8,
+      "corners": 2.4,
+      "offside": 0.5,
+      "yellow_cards": -0.2
+    }
   },
   {
     "home_team": "Hamburger SV",
@@ -83,7 +131,23 @@
       "offside": 3.2,
       "yellow_cards": 4.2
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 30.0,
+      "shots_on_target": 12.0,
+      "fouls": 26.0,
+      "corners": 8.0,
+      "offside": 3.0,
+      "yellow_cards": 4.0
+    },
+    "errors": {
+      "shots": -5.4,
+      "shots_on_target": -3.0,
+      "fouls": -2.8,
+      "corners": 1.2,
+      "offside": 0.2,
+      "yellow_cards": 0.2
+    }
   },
   {
     "home_team": "VfB Stuttgart",
@@ -97,7 +161,23 @@
       "offside": 3.3,
       "yellow_cards": 2.9
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 25.0,
+      "shots_on_target": 7.0,
+      "fouls": 23.0,
+      "corners": 8.0,
+      "offside": 5.0,
+      "yellow_cards": 6.0
+    },
+    "errors": {
+      "shots": 5.8,
+      "shots_on_target": 4.0,
+      "fouls": -2.4,
+      "corners": 3.4,
+      "offside": -1.7,
+      "yellow_cards": -3.1
+    }
   },
   {
     "home_team": "Bayer Leverkusen",
