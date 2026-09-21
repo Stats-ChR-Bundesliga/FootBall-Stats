@@ -72,6 +72,12 @@
     "matches": 48
   },
   {
+    "referee_name": "Daniel Schlager",
+    "fouls": 20.0,
+    "yellow_cards": 1.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Daniel Schlager, Germany",
     "fouls": 20.9,
     "yellow_cards": 4.4,
@@ -252,10 +258,22 @@
     "matches": 14
   },
   {
+    "referee_name": "Robert Schroder",
+    "fouls": 22.0,
+    "yellow_cards": 4.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Robert Schröder, Germany",
     "fouls": 22.0,
     "yellow_cards": 3.9,
     "matches": 10
+  },
+  {
+    "referee_name": "Robin Braun",
+    "fouls": 20.0,
+    "yellow_cards": 3.0,
+    "matches": 1
   },
   {
     "referee_name": "Robin Braun, Germany",

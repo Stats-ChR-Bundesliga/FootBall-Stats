@@ -24,10 +24,10 @@
     "corners": 4.9,
     "fouls": 12.4,
     "offside": 2.0,
-    "shots": 13.3,
+    "shots": 13.4,
     "shots_on_target": 4.7,
     "yellow_cards": 2.3,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "Bayer Leverkusen",
@@ -37,7 +37,7 @@
     "shots": 15.5,
     "shots_on_target": 5.7,
     "yellow_cards": 2.0,
-    "matches": 139
+    "matches": 140
   },
   {
     "team": "Bayern München",
@@ -95,9 +95,9 @@
     "fouls": 12.1,
     "offside": 2.1,
     "shots": 12.4,
-    "shots_on_target": 4.0,
-    "yellow_cards": 2.0,
-    "matches": 37
+    "shots_on_target": 3.9,
+    "yellow_cards": 1.9,
+    "matches": 38
   },
   {
     "team": "FC St. Pauli",
@@ -162,12 +162,12 @@
   {
     "team": "RB Leipzig",
     "corners": 5.3,
-    "fouls": 10.6,
+    "fouls": 10.5,
     "offside": 2.1,
     "shots": 14.7,
     "shots_on_target": 5.7,
-    "yellow_cards": 1.8,
-    "matches": 139
+    "yellow_cards": 1.9,
+    "matches": 140
   },
   {
     "team": "SC Freiburg",
@@ -181,13 +181,13 @@
   },
   {
     "team": "SC Paderborn 07",
-    "corners": 2.8,
-    "fouls": 12.2,
+    "corners": 3.4,
+    "fouls": 11.0,
     "offside": 1.0,
-    "shots": 9.0,
-    "shots_on_target": 1.0,
-    "yellow_cards": 2.5,
-    "matches": 4
+    "shots": 9.8,
+    "shots_on_target": 1.8,
+    "yellow_cards": 2.0,
+    "matches": 5
   },
   {
     "team": "SV Darmstadt 98",
@@ -201,13 +201,13 @@
   },
   {
     "team": "SV Elversberg",
-    "corners": 3.6,
-    "fouls": 11.8,
-    "offside": 1.0,
-    "shots": 10.2,
-    "shots_on_target": 4.6,
-    "yellow_cards": 1.4,
-    "matches": 5
+    "corners": 3.7,
+    "fouls": 11.5,
+    "offside": 1.2,
+    "shots": 10.3,
+    "shots_on_target": 4.0,
+    "yellow_cards": 1.5,
+    "matches": 6
   },
   {
     "team": "Union Berlin",
