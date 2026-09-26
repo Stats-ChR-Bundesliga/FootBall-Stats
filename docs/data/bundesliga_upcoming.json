@@ -719,7 +719,7 @@
     "is_derby": false,
     "derby_name": null,
     "home_rest_days": 20,
-    "away_rest_days": 21,
+    "away_rest_days": 15,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
