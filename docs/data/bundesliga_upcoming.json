@@ -577,8 +577,8 @@
     "elo_trust": 1.0,
     "is_derby": false,
     "derby_name": null,
-    "home_rest_days": 22,
-    "away_rest_days": 20,
+    "home_rest_days": 14,
+    "away_rest_days": 16,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
@@ -1001,7 +1001,7 @@
     "is_derby": true,
     "derby_name": "Rheinderby",
     "home_rest_days": 22,
-    "away_rest_days": 22,
+    "away_rest_days": 17,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
@@ -1142,7 +1142,7 @@
     "is_derby": false,
     "derby_name": null,
     "home_rest_days": 22,
-    "away_rest_days": 21,
+    "away_rest_days": 17,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
