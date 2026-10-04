@@ -154,7 +154,7 @@
     "elo_trust": 1.0,
     "is_derby": false,
     "derby_name": null,
-    "home_rest_days": 21,
+    "home_rest_days": 7,
     "away_rest_days": 20,
     "home_is_tired": false,
     "away_is_tired": false,
@@ -1000,15 +1000,15 @@
     "elo_trust": 1.0,
     "is_derby": true,
     "derby_name": "Rheinderby",
-    "home_rest_days": 22,
-    "away_rest_days": 17,
+    "home_rest_days": 8,
+    "away_rest_days": 8,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
       "shots": {
-        "home_form": 16.6,
+        "home_form": 16.25,
         "away_form": 20.333333333333332,
-        "home_form_n": 7,
+        "home_form_n": 6,
         "away_form_n": 5,
         "home_own": 15.037735849056604,
         "away_own": 11.17142857142857,
@@ -1023,9 +1023,9 @@
         "is_referee_boosted": false
       },
       "shots_on_target": {
-        "home_form": 5.6,
+        "home_form": 5.5,
         "away_form": 5.666666666666667,
-        "home_form_n": 7,
+        "home_form_n": 6,
         "away_form_n": 5,
         "home_own": 5.283018867924528,
         "away_own": 4.3,
@@ -1042,7 +1042,7 @@
       "fouls": {
         "home_form": 9.0,
         "away_form": 13.666666666666666,
-        "home_form_n": 7,
+        "home_form_n": 6,
         "away_form_n": 5,
         "home_own": 10.69811320754717,
         "away_own": 10.542857142857143,
@@ -1059,7 +1059,7 @@
       "corners": {
         "home_form": 6.0,
         "away_form": 6.666666666666667,
-        "home_form_n": 7,
+        "home_form_n": 6,
         "away_form_n": 5,
         "home_own": 6.150943396226415,
         "away_own": 4.228571428571429,
@@ -1074,9 +1074,9 @@
         "is_referee_boosted": false
       },
       "offside": {
-        "home_form": 0.75,
+        "home_form": 1.0,
         "away_form": 3.0,
-        "home_form_n": 6,
+        "home_form_n": 5,
         "away_form_n": 4,
         "home_own": 2.06,
         "away_own": 1.9275362318840579,
@@ -1091,9 +1091,9 @@
         "is_referee_boosted": false
       },
       "yellow_cards": {
-        "home_form": 1.8,
+        "home_form": 1.75,
         "away_form": 2.6666666666666665,
-        "home_form_n": 7,
+        "home_form_n": 6,
         "away_form_n": 5,
         "home_own": 1.98,
         "away_own": 1.8676470588235294,
@@ -1108,9 +1108,9 @@
         "is_referee_boosted": true
       }
     },
-    "home_shots": 16.5,
+    "home_shots": 16.4,
     "away_shots": 15.5,
-    "total_shots": 32.0,
+    "total_shots": 31.9,
     "home_shots_on_target": 5.7,
     "away_shots_on_target": 4.9,
     "total_shots_on_target": 10.6,
@@ -1120,12 +1120,12 @@
     "home_corners": 6.1,
     "away_corners": 5.5,
     "total_corners": 11.6,
-    "home_offside": 1.3801630434782608,
+    "home_offside": 1.5051630434782608,
     "away_offside": 2.488605072463768,
-    "total_offside": 3.9,
-    "home_yellow_cards": 1.9,
+    "total_offside": 4.0,
+    "home_yellow_cards": 1.8,
     "away_yellow_cards": 2.5,
-    "total_yellow_cards": 4.4
+    "total_yellow_cards": 4.3
   },
   {
     "home_team": "SC Freiburg",
@@ -1141,8 +1141,8 @@
     "elo_trust": 1.0,
     "is_derby": false,
     "derby_name": null,
-    "home_rest_days": 22,
-    "away_rest_days": 17,
+    "home_rest_days": 8,
+    "away_rest_days": 8,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
