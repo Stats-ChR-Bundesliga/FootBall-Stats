@@ -387,7 +387,7 @@
       },
       "yellow_cards": {
         "home_form": 1.75,
-        "away_form": 1.0,
+        "away_form": 1.3333333333333333,
         "home_form_n": 6,
         "away_form_n": 5,
         "home_own": 2.1492537313432836,
@@ -419,8 +419,8 @@
     "away_offside": 2.180453431372549,
     "total_offside": 4.4,
     "home_yellow_cards": 1.9,
-    "away_yellow_cards": 2.1,
-    "total_yellow_cards": 4.0
+    "away_yellow_cards": 2.3,
+    "total_yellow_cards": 4.2
   },
   {
     "home_team": "FC Augsburg",
@@ -990,7 +990,7 @@
     "home_team": "1. FC Köln",
     "away_team": "Borussia Mönchengladbach",
     "date": "2026-10-11",
-    "referee": null,
+    "referee": "Florian Badstubner",
     "home_elo": 1414,
     "away_elo": 1470,
     "p_home_win": 0.402,
@@ -1131,7 +1131,7 @@
     "home_team": "SC Freiburg",
     "away_team": "FC Schalke 04",
     "date": "2026-10-11",
-    "referee": null,
+    "referee": "Martin Petersen",
     "home_elo": 1500.0,
     "away_elo": 1320,
     "p_home_win": 0.75,
