@@ -51,12 +51,12 @@
   },
   {
     "team": "Borussia Dortmund",
-    "corners": 4.0,
-    "fouls": 11.6,
-    "offside": 1.1,
-    "shots": 13.2,
-    "shots_on_target": 4.6,
-    "yellow_cards": 2.4,
+    "corners": 4.2,
+    "fouls": 12.2,
+    "offside": 1.0,
+    "shots": 14.0,
+    "shots_on_target": 5.6,
+    "yellow_cards": 2.0,
     "matches": 10
   },
   {
@@ -251,12 +251,12 @@
   },
   {
     "team": "Werder Bremen",
-    "corners": 4.1,
-    "fouls": 10.6,
+    "corners": 3.9,
+    "fouls": 11.0,
     "offside": 2.5,
-    "shots": 12.1,
-    "shots_on_target": 4.6,
-    "yellow_cards": 1.5,
+    "shots": 12.4,
+    "shots_on_target": 4.9,
+    "yellow_cards": 1.4,
     "matches": 10
   }
 ]
