@@ -90,6 +90,12 @@
     "matches": 15
   },
   {
+    "referee_name": "Daniel Siebert",
+    "fouls": 29.0,
+    "yellow_cards": 4.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Daniel Siebert, Germany",
     "fouls": 21.4,
     "yellow_cards": 3.2,
@@ -132,6 +138,12 @@
     "matches": 49
   },
   {
+    "referee_name": "Felix Zwayer",
+    "fouls": 21.0,
+    "yellow_cards": 1.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Felix Zwayer, Germany",
     "fouls": 21.7,
     "yellow_cards": 4.5,
@@ -160,6 +172,12 @@
     "fouls": 22.4,
     "yellow_cards": 4.3,
     "matches": 46
+  },
+  {
+    "referee_name": "Harm Osmers",
+    "fouls": 27.0,
+    "yellow_cards": 2.0,
+    "matches": 1
   },
   {
     "referee_name": "Harm Osmers, Germany",
@@ -208,6 +226,12 @@
     "fouls": 19.7,
     "yellow_cards": 3.9,
     "matches": 15
+  },
+  {
+    "referee_name": "Max Burda",
+    "fouls": 21.0,
+    "yellow_cards": 4.0,
+    "matches": 1
   },
   {
     "referee_name": "Max Burda, Germany",
@@ -318,6 +342,12 @@
     "matches": 1
   },
   {
+    "referee_name": "Sven Jablonski",
+    "fouls": 16.0,
+    "yellow_cards": 2.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Sven Jablonski, Germany",
     "fouls": 21.4,
     "yellow_cards": 2.8,
@@ -358,6 +388,12 @@
     "fouls": 21.0,
     "yellow_cards": 4.4,
     "matches": 9
+  },
+  {
+    "referee_name": "Tobias Reichel",
+    "fouls": 23.0,
+    "yellow_cards": 3.0,
+    "matches": 1
   },
   {
     "referee_name": "Tobias Reichel, Germany",
