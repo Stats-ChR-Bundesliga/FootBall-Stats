@@ -150,6 +150,12 @@
     "matches": 18
   },
   {
+    "referee_name": "Florian Badstubner",
+    "fouls": 25.0,
+    "yellow_cards": 4.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Florian Badstubner, Germany",
     "fouls": 22.4,
     "yellow_cards": 2.7,
@@ -208,6 +214,12 @@
     "fouls": 24.2,
     "yellow_cards": 4.5,
     "matches": 33
+  },
+  {
+    "referee_name": "Martin Petersen",
+    "fouls": 24.0,
+    "yellow_cards": 3.0,
+    "matches": 1
   },
   {
     "referee_name": "Martin Petersen, Germany",

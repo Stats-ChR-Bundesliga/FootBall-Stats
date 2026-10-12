@@ -11,12 +11,12 @@
   },
   {
     "team": "1. FC Köln",
-    "corners": 6.0,
-    "fouls": 9.5,
-    "offside": 1.2,
-    "shots": 16.2,
-    "shots_on_target": 5.1,
-    "yellow_cards": 2.0,
+    "corners": 5.8,
+    "fouls": 8.8,
+    "offside": 1.0,
+    "shots": 15.5,
+    "shots_on_target": 5.0,
+    "yellow_cards": 1.8,
     "matches": 10
   },
   {
@@ -61,12 +61,12 @@
   },
   {
     "team": "Borussia Mönchengladbach",
-    "corners": 3.5,
-    "fouls": 11.6,
+    "corners": 3.8,
+    "fouls": 13.0,
     "offside": 2.1,
-    "shots": 13.4,
-    "shots_on_target": 4.1,
-    "yellow_cards": 2.8,
+    "shots": 13.5,
+    "shots_on_target": 4.6,
+    "yellow_cards": 3.0,
     "matches": 10
   },
   {
@@ -91,12 +91,12 @@
   },
   {
     "team": "FC Schalke 04",
-    "corners": 4.9,
-    "fouls": 9.6,
-    "offside": 1.5,
-    "shots": 12.8,
-    "shots_on_target": 4.8,
-    "yellow_cards": 1.9,
+    "corners": 4.5,
+    "fouls": 9.8,
+    "offside": 1.8,
+    "shots": 12.2,
+    "shots_on_target": 4.5,
+    "yellow_cards": 1.8,
     "matches": 10
   },
   {
@@ -171,12 +171,12 @@
   },
   {
     "team": "SC Freiburg",
-    "corners": 3.8,
-    "fouls": 10.2,
-    "offside": 1.4,
-    "shots": 13.5,
-    "shots_on_target": 4.5,
-    "yellow_cards": 1.4,
+    "corners": 4.0,
+    "fouls": 10.0,
+    "offside": 1.1,
+    "shots": 13.8,
+    "shots_on_target": 4.6,
+    "yellow_cards": 1.2,
     "matches": 10
   },
   {

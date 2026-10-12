@@ -1,34 +1,34 @@
 {
   "summary": {
     "shots": {
-      "samples": 16,
-      "mean_absolute_error": 5.62,
-      "bias": -2.46
+      "samples": 18,
+      "mean_absolute_error": 6.04,
+      "bias": -1.47
     },
     "shots_on_target": {
-      "samples": 16,
-      "mean_absolute_error": 3.74,
-      "bias": -0.62
+      "samples": 18,
+      "mean_absolute_error": 3.87,
+      "bias": -0.38
     },
     "fouls": {
-      "samples": 16,
-      "mean_absolute_error": 2.76,
-      "bias": 0.72
+      "samples": 18,
+      "mean_absolute_error": 2.7,
+      "bias": 0.4
     },
     "corners": {
-      "samples": 16,
-      "mean_absolute_error": 2.09,
-      "bias": 0.75
+      "samples": 18,
+      "mean_absolute_error": 1.93,
+      "bias": 0.69
     },
     "offside": {
-      "samples": 16,
-      "mean_absolute_error": 1.45,
-      "bias": -0.24
+      "samples": 18,
+      "mean_absolute_error": 1.46,
+      "bias": -0.17
     },
     "yellow_cards": {
-      "samples": 16,
-      "mean_absolute_error": 1.55,
-      "bias": 0.42
+      "samples": 18,
+      "mean_absolute_error": 1.45,
+      "bias": 0.45
     }
   },
   "recent": [
@@ -510,6 +510,66 @@
         "corners": 1.3,
         "offside": 0.5,
         "yellow_cards": 0.3
+      }
+    },
+    {
+      "home_team": "1. FC Köln",
+      "away_team": "Borussia Mönchengladbach",
+      "date": "2026-10-11",
+      "predicted": {
+        "shots": 32.0,
+        "shots_on_target": 10.6,
+        "fouls": 22.4,
+        "corners": 11.6,
+        "offside": 3.9,
+        "yellow_cards": 4.4
+      },
+      "resolved": true,
+      "actual": {
+        "shots": 35.0,
+        "shots_on_target": 14.0,
+        "fouls": 25.0,
+        "corners": 12.0,
+        "offside": 2.0,
+        "yellow_cards": 4.0
+      },
+      "errors": {
+        "shots": -3.0,
+        "shots_on_target": -3.4,
+        "fouls": -2.6,
+        "corners": -0.4,
+        "offside": 1.9,
+        "yellow_cards": 0.4
+      }
+    },
+    {
+      "home_team": "SC Freiburg",
+      "away_team": "FC Schalke 04",
+      "date": "2026-10-11",
+      "predicted": {
+        "shots": 30.8,
+        "shots_on_target": 11.5,
+        "fouls": 22.2,
+        "corners": 9.9,
+        "offside": 3.9,
+        "yellow_cards": 3.9
+      },
+      "resolved": true,
+      "actual": {
+        "shots": 15.0,
+        "shots_on_target": 5.0,
+        "fouls": 24.0,
+        "corners": 9.0,
+        "offside": 5.0,
+        "yellow_cards": 3.0
+      },
+      "errors": {
+        "shots": 15.8,
+        "shots_on_target": 6.5,
+        "fouls": -1.8,
+        "corners": 0.9,
+        "offside": -1.1,
+        "yellow_cards": 0.9
       }
     }
   ]
