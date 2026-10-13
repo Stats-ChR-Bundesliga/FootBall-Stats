@@ -601,7 +601,7 @@
       },
       "shots_on_target": {
         "home_form": 6.5,
-        "away_form": 6.166666666666667,
+        "away_form": 5.833333333333333,
         "home_form_n": 6,
         "away_form_n": 8,
         "home_own": 4.23943661971831,
@@ -689,8 +689,8 @@
     "away_shots": 17.0,
     "total_shots": 28.7,
     "home_shots_on_target": 4.5,
-    "away_shots_on_target": 6.4,
-    "total_shots_on_target": 10.9,
+    "away_shots_on_target": 6.2,
+    "total_shots_on_target": 10.7,
     "home_fouls": 13.7,
     "away_fouls": 10.9,
     "total_fouls": 24.6,
@@ -1233,7 +1233,7 @@
       },
       "yellow_cards": {
         "home_form": 2.75,
-        "away_form": 1.6,
+        "away_form": 2.0,
         "home_form_n": 6,
         "away_form_n": 7,
         "home_own": 1.8088235294117647,
@@ -1265,7 +1265,7 @@
     "away_offside": 2.206524197195839,
     "total_offside": 4.3,
     "home_yellow_cards": 2.3,
-    "away_yellow_cards": 2.0,
-    "total_yellow_cards": 4.3
+    "away_yellow_cards": 2.2,
+    "total_yellow_cards": 4.5
   }
 ]
