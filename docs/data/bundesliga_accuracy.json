@@ -1,33 +1,33 @@
 {
   "summary": {
     "shots": {
-      "samples": 18,
-      "mean_absolute_error": 6.04,
-      "bias": -1.47
+      "samples": 19,
+      "mean_absolute_error": 5.95,
+      "bias": -1.17
     },
     "shots_on_target": {
-      "samples": 18,
-      "mean_absolute_error": 3.87,
-      "bias": -0.38
+      "samples": 19,
+      "mean_absolute_error": 3.67,
+      "bias": -0.36
     },
     "fouls": {
-      "samples": 18,
-      "mean_absolute_error": 2.7,
-      "bias": 0.4
+      "samples": 19,
+      "mean_absolute_error": 2.72,
+      "bias": 0.22
     },
     "corners": {
-      "samples": 18,
-      "mean_absolute_error": 1.93,
+      "samples": 19,
+      "mean_absolute_error": 1.86,
       "bias": 0.69
     },
     "offside": {
-      "samples": 18,
-      "mean_absolute_error": 1.46,
-      "bias": -0.17
+      "samples": 19,
+      "mean_absolute_error": 1.5,
+      "bias": -0.04
     },
     "yellow_cards": {
-      "samples": 18,
-      "mean_absolute_error": 1.45,
+      "samples": 19,
+      "mean_absolute_error": 1.4,
       "bias": 0.45
     }
   },
@@ -570,6 +570,36 @@
         "corners": 0.9,
         "offside": -1.1,
         "yellow_cards": 0.9
+      }
+    },
+    {
+      "home_team": "Eintracht Frankfurt",
+      "away_team": "1. FC Köln",
+      "date": "2026-10-16",
+      "predicted": {
+        "shots": 28.3,
+        "shots_on_target": 10.1,
+        "fouls": 22.0,
+        "corners": 10.6,
+        "offside": 3.3,
+        "yellow_cards": 4.5
+      },
+      "resolved": true,
+      "actual": {
+        "shots": 24.0,
+        "shots_on_target": 10.0,
+        "fouls": 25.0,
+        "corners": 10.0,
+        "offside": 1.0,
+        "yellow_cards": 4.0
+      },
+      "errors": {
+        "shots": 4.3,
+        "shots_on_target": 0.1,
+        "fouls": -3.0,
+        "corners": 0.6,
+        "offside": 2.3,
+        "yellow_cards": 0.5
       }
     }
   ]

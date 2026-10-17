@@ -17,7 +17,7 @@
     "shots": 13.1,
     "shots_on_target": 4.6,
     "yellow_cards": 2.1,
-    "matches": 107
+    "matches": 108
   },
   {
     "team": "1899 Hoffenheim",
@@ -72,12 +72,12 @@
   {
     "team": "Eintracht Frankfurt",
     "corners": 5.0,
-    "fouls": 10.9,
+    "fouls": 10.8,
     "offside": 1.7,
     "shots": 12.6,
-    "shots_on_target": 4.6,
+    "shots_on_target": 4.7,
     "yellow_cards": 2.0,
-    "matches": 141
+    "matches": 142
   },
   {
     "team": "FC Augsburg",
