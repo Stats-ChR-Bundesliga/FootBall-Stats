@@ -79,9 +79,9 @@
   },
   {
     "referee_name": "Daniel Schlager",
-    "fouls": 20.0,
-    "yellow_cards": 1.0,
-    "matches": 1
+    "fouls": 23.0,
+    "yellow_cards": 3.0,
+    "matches": 2
   },
   {
     "referee_name": "Daniel Schlager, Germany",
@@ -160,6 +160,12 @@
     "fouls": 22.4,
     "yellow_cards": 2.7,
     "matches": 14
+  },
+  {
+    "referee_name": "Florian Exner",
+    "fouls": 30.0,
+    "yellow_cards": 5.0,
+    "matches": 1
   },
   {
     "referee_name": "Florian Exner, Germany",
@@ -288,10 +294,16 @@
     "matches": 35
   },
   {
-    "referee_name": "Robert Hartmann",
-    "fouls": 26.0,
-    "yellow_cards": 7.0,
+    "referee_name": "Richard Hempel",
+    "fouls": 32.0,
+    "yellow_cards": 2.0,
     "matches": 1
+  },
+  {
+    "referee_name": "Robert Hartmann",
+    "fouls": 23.5,
+    "yellow_cards": 5.0,
+    "matches": 2
   },
   {
     "referee_name": "Robert Hartmann, Germany",
@@ -301,9 +313,9 @@
   },
   {
     "referee_name": "Robert Schroder",
-    "fouls": 22.0,
-    "yellow_cards": 4.0,
-    "matches": 1
+    "fouls": 23.5,
+    "yellow_cards": 3.0,
+    "matches": 2
   },
   {
     "referee_name": "Robert Schröder, Germany",
@@ -415,9 +427,9 @@
   },
   {
     "referee_name": "Tobias Stieler",
-    "fouls": 23.0,
-    "yellow_cards": 6.0,
-    "matches": 1
+    "fouls": 22.0,
+    "yellow_cards": 3.5,
+    "matches": 2
   },
   {
     "referee_name": "Tobias Stieler, Germany",

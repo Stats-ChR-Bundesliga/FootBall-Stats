@@ -581,7 +581,23 @@
       "offside": 3.5,
       "yellow_cards": 3.8
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 29.0,
+      "shots_on_target": 15.0,
+      "fouls": 25.0,
+      "corners": 8.0,
+      "offside": 1.0,
+      "yellow_cards": 2.0
+    },
+    "errors": {
+      "shots": -2.2,
+      "shots_on_target": -6.7,
+      "fouls": -2.3,
+      "corners": 0.6,
+      "offside": 2.5,
+      "yellow_cards": 1.8
+    }
   },
   {
     "home_team": "FC Schalke 04",
@@ -595,7 +611,23 @@
       "offside": 3.9,
       "yellow_cards": 4.4
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 19.0,
+      "shots_on_target": 9.0,
+      "fouls": 32.0,
+      "corners": 5.0,
+      "offside": 10.0,
+      "yellow_cards": 2.0
+    },
+    "errors": {
+      "shots": 10.1,
+      "shots_on_target": 1.0,
+      "fouls": -8.2,
+      "corners": 4.4,
+      "offside": -6.1,
+      "yellow_cards": 2.4
+    }
   },
   {
     "home_team": "Hamburger SV",
@@ -609,7 +641,21 @@
       "offside": 3.5,
       "yellow_cards": 3.8
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 38.0,
+      "shots_on_target": 8.0,
+      "fouls": 21.0,
+      "corners": 14.0,
+      "yellow_cards": 3.0
+    },
+    "errors": {
+      "shots": -11.7,
+      "shots_on_target": 1.7,
+      "fouls": 3.8,
+      "corners": -5.1,
+      "yellow_cards": 0.8
+    }
   },
   {
     "home_team": "Union Berlin",
@@ -623,7 +669,23 @@
       "offside": 3.9,
       "yellow_cards": 4.5
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 21.0,
+      "shots_on_target": 2.0,
+      "fouls": 26.0,
+      "corners": 10.0,
+      "offside": 1.0,
+      "yellow_cards": 5.0
+    },
+    "errors": {
+      "shots": 7.7,
+      "shots_on_target": 8.9,
+      "fouls": -1.4,
+      "corners": 0.3,
+      "offside": 2.9,
+      "yellow_cards": -0.5
+    }
   },
   {
     "home_team": "SV Elversberg",
@@ -637,7 +699,23 @@
       "offside": 2.8,
       "yellow_cards": 3.8
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 48.0,
+      "shots_on_target": 16.0,
+      "fouls": 30.0,
+      "corners": 16.0,
+      "offside": 5.0,
+      "yellow_cards": 5.0
+    },
+    "errors": {
+      "shots": -22.6,
+      "shots_on_target": -7.1,
+      "fouls": -8.1,
+      "corners": -7.8,
+      "offside": -2.2,
+      "yellow_cards": -1.2
+    }
   },
   {
     "home_team": "Bayern München",
@@ -651,7 +729,23 @@
       "offside": 3.7,
       "yellow_cards": 3.6
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 41.0,
+      "shots_on_target": 21.0,
+      "fouls": 21.0,
+      "corners": 14.0,
+      "offside": 6.0,
+      "yellow_cards": 1.0
+    },
+    "errors": {
+      "shots": -5.0,
+      "shots_on_target": -7.4,
+      "fouls": 0.5,
+      "corners": -1.5,
+      "offside": -2.3,
+      "yellow_cards": 2.6
+    }
   },
   {
     "home_team": "Bayer Leverkusen",
