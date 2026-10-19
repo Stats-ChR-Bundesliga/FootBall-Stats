@@ -1,97 +1,37 @@
 {
   "summary": {
     "shots": {
-      "samples": 25,
-      "mean_absolute_error": 6.89,
-      "bias": -1.84
+      "samples": 27,
+      "mean_absolute_error": 7.11,
+      "bias": -0.97
     },
     "shots_on_target": {
-      "samples": 25,
-      "mean_absolute_error": 4.1,
-      "bias": -0.66
+      "samples": 27,
+      "mean_absolute_error": 4.01,
+      "bias": -0.44
     },
     "fouls": {
-      "samples": 25,
-      "mean_absolute_error": 3.04,
-      "bias": -0.46
+      "samples": 27,
+      "mean_absolute_error": 3.09,
+      "bias": -0.2
     },
     "corners": {
-      "samples": 25,
-      "mean_absolute_error": 2.2,
-      "bias": 0.16
+      "samples": 27,
+      "mean_absolute_error": 2.3,
+      "bias": 0.41
     },
     "offside": {
-      "samples": 24,
-      "mean_absolute_error": 1.85,
-      "bias": -0.25
+      "samples": 26,
+      "mean_absolute_error": 1.82,
+      "bias": -0.17
     },
     "yellow_cards": {
-      "samples": 25,
-      "mean_absolute_error": 1.44,
-      "bias": 0.58
+      "samples": 27,
+      "mean_absolute_error": 1.5,
+      "bias": 0.71
     }
   },
   "recent": [
-    {
-      "home_team": "VfB Stuttgart",
-      "away_team": "Borussia Dortmund",
-      "date": "2026-09-19",
-      "predicted": {
-        "shots": 30.8,
-        "shots_on_target": 11.0,
-        "fouls": 20.6,
-        "corners": 11.4,
-        "offside": 3.3,
-        "yellow_cards": 2.9
-      },
-      "resolved": true,
-      "actual": {
-        "shots": 25.0,
-        "shots_on_target": 7.0,
-        "fouls": 23.0,
-        "corners": 8.0,
-        "offside": 5.0,
-        "yellow_cards": 6.0
-      },
-      "errors": {
-        "shots": 5.8,
-        "shots_on_target": 4.0,
-        "fouls": -2.4,
-        "corners": 3.4,
-        "offside": -1.7,
-        "yellow_cards": -3.1
-      }
-    },
-    {
-      "home_team": "Bayer Leverkusen",
-      "away_team": "RB Leipzig",
-      "date": "2026-09-20",
-      "predicted": {
-        "shots": 35.0,
-        "shots_on_target": 12.1,
-        "fouls": 22.6,
-        "corners": 12.2,
-        "offside": 3.5,
-        "yellow_cards": 3.7
-      },
-      "resolved": true,
-      "actual": {
-        "shots": 30.0,
-        "shots_on_target": 9.0,
-        "fouls": 22.0,
-        "corners": 15.0,
-        "offside": 2.0,
-        "yellow_cards": 4.0
-      },
-      "errors": {
-        "shots": 5.0,
-        "shots_on_target": 3.1,
-        "fouls": 0.6,
-        "corners": -2.8,
-        "offside": 1.5,
-        "yellow_cards": -0.3
-      }
-    },
     {
       "home_team": "FC Schalke 04",
       "away_team": "SV Elversberg",
@@ -628,6 +568,66 @@
         "corners": -1.5,
         "offside": -2.3,
         "yellow_cards": 2.6
+      }
+    },
+    {
+      "home_team": "Bayer Leverkusen",
+      "away_team": "SC Freiburg",
+      "date": "2026-10-18",
+      "predicted": {
+        "shots": 32.8,
+        "shots_on_target": 12.2,
+        "fouls": 23.7,
+        "corners": 11.3,
+        "offside": 3.2,
+        "yellow_cards": 3.9
+      },
+      "resolved": true,
+      "actual": {
+        "shots": 23.0,
+        "shots_on_target": 7.0,
+        "fouls": 17.0,
+        "corners": 7.0,
+        "offside": 1.0,
+        "yellow_cards": 1.0
+      },
+      "errors": {
+        "shots": 9.8,
+        "shots_on_target": 5.2,
+        "fouls": 6.7,
+        "corners": 4.3,
+        "offside": 2.2,
+        "yellow_cards": 2.9
+      }
+    },
+    {
+      "home_team": "Borussia Mönchengladbach",
+      "away_team": "1899 Hoffenheim",
+      "date": "2026-10-18",
+      "predicted": {
+        "shots": 32.9,
+        "shots_on_target": 10.4,
+        "fouls": 25.3,
+        "corners": 11.8,
+        "offside": 4.3,
+        "yellow_cards": 4.3
+      },
+      "resolved": true,
+      "actual": {
+        "shots": 23.0,
+        "shots_on_target": 11.0,
+        "fouls": 26.0,
+        "corners": 9.0,
+        "offside": 5.0,
+        "yellow_cards": 2.5
+      },
+      "errors": {
+        "shots": 9.9,
+        "shots_on_target": -0.6,
+        "fouls": -0.7,
+        "corners": 2.8,
+        "offside": -0.7,
+        "yellow_cards": 1.8
       }
     }
   ]
