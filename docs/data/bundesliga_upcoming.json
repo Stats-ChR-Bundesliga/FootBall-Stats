@@ -669,7 +669,7 @@
       },
       "yellow_cards": {
         "home_form": 1.4,
-        "away_form": 1.4,
+        "away_form": 1.2,
         "home_form_n": 7,
         "away_form_n": 7,
         "home_own": 1.3333333333333333,
@@ -701,8 +701,8 @@
     "away_offside": 1.7976190476190474,
     "total_offside": 3.1,
     "home_yellow_cards": 1.5,
-    "away_yellow_cards": 1.7,
-    "total_yellow_cards": 3.2
+    "away_yellow_cards": 1.6,
+    "total_yellow_cards": 3.1
   },
   {
     "home_team": "1. FC Köln",
@@ -1232,7 +1232,7 @@
         "is_referee_boosted": false
       },
       "yellow_cards": {
-        "home_form": 1.1428571428571428,
+        "home_form": 1.4285714285714286,
         "away_form": 0.75,
         "home_form_n": 9,
         "away_form_n": 10,
@@ -1264,8 +1264,8 @@
     "home_offside": 1.317489495798319,
     "away_offside": 2.2833508403361344,
     "total_offside": 3.6,
-    "home_yellow_cards": 2.3,
+    "home_yellow_cards": 2.5,
     "away_yellow_cards": 1.4,
-    "total_yellow_cards": 3.7
+    "total_yellow_cards": 3.9
   }
 ]
