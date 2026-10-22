@@ -436,15 +436,15 @@
     "elo_trust": 1.0,
     "is_derby": false,
     "derby_name": null,
-    "home_rest_days": 7,
+    "home_rest_days": 3,
     "away_rest_days": 7,
-    "home_is_tired": false,
+    "home_is_tired": true,
     "away_is_tired": false,
     "components": {
       "shots": {
-        "home_form": 18.285714285714285,
+        "home_form": 17.5,
         "away_form": 11.6,
-        "home_form_n": 9,
+        "home_form_n": 10,
         "away_form_n": 7,
         "home_own": 15.704225352112676,
         "away_own": 11.25,
@@ -459,9 +459,9 @@
         "is_referee_boosted": false
       },
       "shots_on_target": {
-        "home_form": 6.714285714285714,
+        "home_form": 6.625,
         "away_form": 4.6,
-        "home_form_n": 9,
+        "home_form_n": 10,
         "away_form_n": 7,
         "home_own": 6.535211267605634,
         "away_own": 4.25,
@@ -476,9 +476,9 @@
         "is_referee_boosted": false
       },
       "fouls": {
-        "home_form": 9.857142857142858,
+        "home_form": 10.125,
         "away_form": 10.6,
-        "home_form_n": 9,
+        "home_form_n": 10,
         "away_form_n": 7,
         "home_own": 10.253521126760564,
         "away_own": 9.75,
@@ -493,9 +493,9 @@
         "is_referee_boosted": true
       },
       "corners": {
-        "home_form": 5.857142857142857,
+        "home_form": 5.5,
         "away_form": 3.6,
-        "home_form_n": 9,
+        "home_form_n": 10,
         "away_form_n": 7,
         "home_own": 5.887323943661972,
         "away_own": 3.75,
@@ -510,9 +510,9 @@
         "is_referee_boosted": false
       },
       "offside": {
-        "home_form": 0.8571428571428571,
+        "home_form": 1.0,
         "away_form": 1.6,
-        "home_form_n": 9,
+        "home_form_n": 10,
         "away_form_n": 7,
         "home_own": 2.0,
         "away_own": 2.5,
@@ -527,9 +527,9 @@
         "is_referee_boosted": false
       },
       "yellow_cards": {
-        "home_form": 1.1428571428571428,
+        "home_form": 1.125,
         "away_form": 1.8,
-        "home_form_n": 9,
+        "home_form_n": 10,
         "away_form_n": 7,
         "home_own": 1.5942028985507246,
         "away_own": 1.0,
@@ -544,24 +544,24 @@
         "is_referee_boosted": true
       }
     },
-    "home_shots": 20.5,
+    "home_shots": 18.1,
     "away_shots": 8.6,
-    "total_shots": 29.1,
-    "home_shots_on_target": 7.5,
+    "total_shots": 26.7,
+    "home_shots_on_target": 6.7,
     "away_shots_on_target": 3.2,
-    "total_shots_on_target": 10.7,
-    "home_fouls": 10.6,
+    "total_shots_on_target": 9.9,
+    "home_fouls": 11.9,
     "away_fouls": 12.8,
-    "total_fouls": 23.4,
-    "home_corners": 7.0,
+    "total_fouls": 24.7,
+    "home_corners": 6.1,
     "away_corners": 2.9,
-    "total_corners": 9.9,
-    "home_offside": 1.5223214285714286,
+    "total_corners": 9.0,
+    "home_offside": 1.5937499999999998,
     "away_offside": 1.95625,
-    "total_offside": 3.5,
-    "home_yellow_cards": 1.4,
+    "total_offside": 3.6,
+    "home_yellow_cards": 1.5,
     "away_yellow_cards": 2.4,
-    "total_yellow_cards": 3.8
+    "total_yellow_cards": 3.9
   },
   {
     "home_team": "SC Paderborn 07",
@@ -1142,13 +1142,13 @@
     "is_derby": false,
     "derby_name": null,
     "home_rest_days": 7,
-    "away_rest_days": 8,
+    "away_rest_days": 4,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
       "shots": {
         "home_form": 18.142857142857142,
-        "away_form": 23.75,
+        "away_form": 23.5,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 13.915492957746478,
@@ -1165,7 +1165,7 @@
       },
       "shots_on_target": {
         "home_form": 7.0,
-        "away_form": 9.375,
+        "away_form": 9.25,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 5.23943661971831,
@@ -1182,7 +1182,7 @@
       },
       "fouls": {
         "home_form": 9.0,
-        "away_form": 9.0,
+        "away_form": 10.0,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 10.492957746478874,
@@ -1216,7 +1216,7 @@
       },
       "offside": {
         "home_form": 0.5714285714285714,
-        "away_form": 2.5,
+        "away_form": 2.625,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 2.0588235294117645,
@@ -1233,7 +1233,7 @@
       },
       "yellow_cards": {
         "home_form": 1.4285714285714286,
-        "away_form": 0.75,
+        "away_form": 0.625,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 1.7857142857142858,
@@ -1250,22 +1250,22 @@
       }
     },
     "home_shots": 11.2,
-    "away_shots": 23.6,
-    "total_shots": 34.8,
+    "away_shots": 23.5,
+    "total_shots": 34.7,
     "home_shots_on_target": 4.2,
-    "away_shots_on_target": 9.1,
-    "total_shots_on_target": 13.3,
+    "away_shots_on_target": 9.0,
+    "total_shots_on_target": 13.2,
     "home_fouls": 12.2,
-    "away_fouls": 9.6,
-    "total_fouls": 21.8,
+    "away_fouls": 10.1,
+    "total_fouls": 22.3,
     "home_corners": 3.6,
     "away_corners": 8.3,
     "total_corners": 11.9,
     "home_offside": 1.317489495798319,
-    "away_offside": 2.2833508403361344,
-    "total_offside": 3.6,
+    "away_offside": 2.3458508403361344,
+    "total_offside": 3.7,
     "home_yellow_cards": 2.5,
-    "away_yellow_cards": 1.4,
-    "total_yellow_cards": 3.9
+    "away_yellow_cards": 1.3,
+    "total_yellow_cards": 3.8
   }
 ]
