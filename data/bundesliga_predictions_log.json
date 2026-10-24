@@ -819,7 +819,23 @@
       "offside": 4.2,
       "yellow_cards": 4.5
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 31.0,
+      "shots_on_target": 11.0,
+      "fouls": 23.0,
+      "corners": 11.0,
+      "offside": 4.0,
+      "yellow_cards": 3.5
+    },
+    "errors": {
+      "shots": -0.1,
+      "shots_on_target": -0.1,
+      "fouls": 2.2,
+      "corners": 0.1,
+      "offside": 0.2,
+      "yellow_cards": 1.0
+    }
   },
   {
     "home_team": "FSV Mainz 05",

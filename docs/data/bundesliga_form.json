@@ -62,11 +62,11 @@
   {
     "team": "Borussia Mönchengladbach",
     "corners": 4.0,
-    "fouls": 13.1,
-    "offside": 2.5,
-    "shots": 13.5,
-    "shots_on_target": 4.5,
-    "yellow_cards": 2.7,
+    "fouls": 13.8,
+    "offside": 2.2,
+    "shots": 14.2,
+    "shots_on_target": 5.0,
+    "yellow_cards": 2.6,
     "matches": 10
   },
   {
@@ -221,12 +221,12 @@
   },
   {
     "team": "VfB Stuttgart",
-    "corners": 6.9,
-    "fouls": 9.9,
-    "offside": 1.5,
-    "shots": 16.9,
-    "shots_on_target": 5.9,
-    "yellow_cards": 1.1,
+    "corners": 6.4,
+    "fouls": 10.0,
+    "offside": 1.6,
+    "shots": 16.2,
+    "shots_on_target": 6.0,
+    "yellow_cards": 1.2,
     "matches": 10
   },
   {
