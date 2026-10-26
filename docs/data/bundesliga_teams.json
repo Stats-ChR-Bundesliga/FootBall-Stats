@@ -27,17 +27,17 @@
     "shots": 13.4,
     "shots_on_target": 4.7,
     "yellow_cards": 2.3,
-    "matches": 142
+    "matches": 143
   },
   {
     "team": "Bayer Leverkusen",
     "corners": 5.8,
     "fouls": 9.7,
     "offside": 1.8,
-    "shots": 15.5,
+    "shots": 15.4,
     "shots_on_target": 5.7,
     "yellow_cards": 2.0,
-    "matches": 142
+    "matches": 143
   },
   {
     "team": "Bayern München",
@@ -47,7 +47,7 @@
     "shots": 19.1,
     "shots_on_target": 7.9,
     "yellow_cards": 1.6,
-    "matches": 142
+    "matches": 143
   },
   {
     "team": "Borussia Dortmund",
@@ -177,7 +177,7 @@
     "shots": 12.3,
     "shots_on_target": 4.5,
     "yellow_cards": 1.7,
-    "matches": 142
+    "matches": 143
   },
   {
     "team": "SC Paderborn 07",

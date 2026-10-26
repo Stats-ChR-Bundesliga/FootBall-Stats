@@ -1029,7 +1029,23 @@
       "offside": 3.9,
       "yellow_cards": 4.0
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 29.0,
+      "shots_on_target": 7.0,
+      "fouls": 20.0,
+      "corners": 8.0,
+      "offside": 1.0,
+      "yellow_cards": 7.0
+    },
+    "errors": {
+      "shots": 3.5,
+      "shots_on_target": 4.2,
+      "fouls": 5.0,
+      "corners": 3.5,
+      "offside": 2.9,
+      "yellow_cards": -3.0
+    }
   },
   {
     "home_team": "SC Freiburg",
@@ -1042,6 +1058,148 @@
       "corners": 11.9,
       "offside": 3.6,
       "yellow_cards": 3.7
+    },
+    "resolved": true,
+    "actual": {
+      "shots": 33.0,
+      "shots_on_target": 13.0,
+      "fouls": 20.0,
+      "corners": 11.0,
+      "offside": 2.0,
+      "yellow_cards": 4.0
+    },
+    "errors": {
+      "shots": 1.8,
+      "shots_on_target": 0.3,
+      "fouls": 1.8,
+      "corners": 0.9,
+      "offside": 1.6,
+      "yellow_cards": -0.3
+    }
+  },
+  {
+    "home_team": "SV Elversberg",
+    "away_team": "FSV Mainz 05",
+    "date": "2026-10-30",
+    "predicted": {
+      "shots": 28.6,
+      "shots_on_target": 10.0,
+      "fouls": 25.3,
+      "corners": 9.1,
+      "offside": 3.3,
+      "yellow_cards": 4.4
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Werder Bremen",
+    "away_team": "1899 Hoffenheim",
+    "date": "2026-10-31",
+    "predicted": {
+      "shots": 29.8,
+      "shots_on_target": 10.8,
+      "fouls": 24.6,
+      "corners": 10.4,
+      "offside": 4.1,
+      "yellow_cards": 4.0
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Borussia Mönchengladbach",
+    "away_team": "SC Paderborn 07",
+    "date": "2026-10-31",
+    "predicted": {
+      "shots": 28.6,
+      "shots_on_target": 9.0,
+      "fouls": 24.8,
+      "corners": 9.7,
+      "offside": 3.2,
+      "yellow_cards": 4.5
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Bayer Leverkusen",
+    "away_team": "VfB Stuttgart",
+    "date": "2026-10-31",
+    "predicted": {
+      "shots": 31.8,
+      "shots_on_target": 11.4,
+      "fouls": 23.8,
+      "corners": 11.7,
+      "offside": 3.7,
+      "yellow_cards": 3.6
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "FC Augsburg",
+    "away_team": "SC Freiburg",
+    "date": "2026-10-31",
+    "predicted": {
+      "shots": 29.9,
+      "shots_on_target": 10.1,
+      "fouls": 22.4,
+      "corners": 10.1,
+      "offside": 2.7,
+      "yellow_cards": 4.1
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "FC Schalke 04",
+    "away_team": "RB Leipzig",
+    "date": "2026-10-31",
+    "predicted": {
+      "shots": 26.9,
+      "shots_on_target": 9.4,
+      "fouls": 23.6,
+      "corners": 9.4,
+      "offside": 3.7,
+      "yellow_cards": 3.9
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Bayern München",
+    "away_team": "Borussia Dortmund",
+    "date": "2026-10-31",
+    "predicted": {
+      "shots": 34.3,
+      "shots_on_target": 13.3,
+      "fouls": 22.0,
+      "corners": 13.8,
+      "offside": 3.8,
+      "yellow_cards": 3.5
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Union Berlin",
+    "away_team": "1. FC Köln",
+    "date": "2026-11-01",
+    "predicted": {
+      "shots": 27.1,
+      "shots_on_target": 9.3,
+      "fouls": 23.2,
+      "corners": 10.1,
+      "offside": 3.6,
+      "yellow_cards": 4.7
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "Hamburger SV",
+    "date": "2026-11-01",
+    "predicted": {
+      "shots": 24.9,
+      "shots_on_target": 9.1,
+      "fouls": 24.8,
+      "corners": 8.6,
+      "offside": 3.7,
+      "yellow_cards": 4.2
     },
     "resolved": false
   }
