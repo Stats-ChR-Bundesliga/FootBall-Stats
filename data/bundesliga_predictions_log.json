@@ -1089,7 +1089,23 @@
       "offside": 3.3,
       "yellow_cards": 4.4
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 23.0,
+      "shots_on_target": 8.0,
+      "fouls": 30.0,
+      "corners": 16.0,
+      "offside": 2.0,
+      "yellow_cards": 4.0
+    },
+    "errors": {
+      "shots": 5.6,
+      "shots_on_target": 2.0,
+      "fouls": -4.7,
+      "corners": -6.9,
+      "offside": 1.3,
+      "yellow_cards": 0.4
+    }
   },
   {
     "home_team": "Werder Bremen",

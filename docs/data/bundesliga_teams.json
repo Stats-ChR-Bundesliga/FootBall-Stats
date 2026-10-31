@@ -111,13 +111,13 @@
   },
   {
     "team": "FSV Mainz 05",
-    "corners": 4.9,
-    "fouls": 12.7,
+    "corners": 5.0,
+    "fouls": 12.8,
     "offside": 2.1,
     "shots": 13.0,
     "shots_on_target": 4.5,
     "yellow_cards": 2.3,
-    "matches": 143
+    "matches": 144
   },
   {
     "team": "Fortuna Dusseldorf",
@@ -201,13 +201,13 @@
   },
   {
     "team": "SV Elversberg",
-    "corners": 3.9,
-    "fouls": 12.4,
-    "offside": 2.0,
-    "shots": 10.3,
-    "shots_on_target": 3.9,
-    "yellow_cards": 1.6,
-    "matches": 9
+    "corners": 4.0,
+    "fouls": 12.0,
+    "offside": 1.8,
+    "shots": 10.6,
+    "shots_on_target": 4.1,
+    "yellow_cards": 1.4,
+    "matches": 10
   },
   {
     "team": "Union Berlin",
