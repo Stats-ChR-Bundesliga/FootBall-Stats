@@ -1119,7 +1119,23 @@
       "offside": 4.1,
       "yellow_cards": 4.0
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 33.0,
+      "shots_on_target": 6.0,
+      "fouls": 22.0,
+      "corners": 12.0,
+      "offside": 1.0,
+      "yellow_cards": 2.0
+    },
+    "errors": {
+      "shots": -3.2,
+      "shots_on_target": 4.8,
+      "fouls": 2.6,
+      "corners": -1.6,
+      "offside": 3.1,
+      "yellow_cards": 2.0
+    }
   },
   {
     "home_team": "Borussia Mönchengladbach",
@@ -1133,7 +1149,23 @@
       "offside": 3.2,
       "yellow_cards": 4.5
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 25.0,
+      "shots_on_target": 8.0,
+      "fouls": 19.0,
+      "corners": 11.0,
+      "offside": 4.0,
+      "yellow_cards": 5.0
+    },
+    "errors": {
+      "shots": 3.6,
+      "shots_on_target": 1.0,
+      "fouls": 5.8,
+      "corners": -1.3,
+      "offside": -0.8,
+      "yellow_cards": -0.5
+    }
   },
   {
     "home_team": "Bayer Leverkusen",
@@ -1147,7 +1179,23 @@
       "offside": 3.7,
       "yellow_cards": 3.6
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 39.0,
+      "shots_on_target": 15.0,
+      "fouls": 22.0,
+      "corners": 15.0,
+      "offside": 1.0,
+      "yellow_cards": 6.0
+    },
+    "errors": {
+      "shots": -7.2,
+      "shots_on_target": -3.6,
+      "fouls": 1.8,
+      "corners": -3.3,
+      "offside": 2.7,
+      "yellow_cards": -2.4
+    }
   },
   {
     "home_team": "FC Augsburg",
@@ -1161,7 +1209,23 @@
       "offside": 2.7,
       "yellow_cards": 4.1
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 25.0,
+      "shots_on_target": 7.0,
+      "fouls": 18.0,
+      "corners": 3.0,
+      "offside": 4.0,
+      "yellow_cards": 3.0
+    },
+    "errors": {
+      "shots": 4.9,
+      "shots_on_target": 3.1,
+      "fouls": 4.4,
+      "corners": 7.1,
+      "offside": -1.3,
+      "yellow_cards": 1.1
+    }
   },
   {
     "home_team": "FC Schalke 04",
@@ -1175,7 +1239,23 @@
       "offside": 3.7,
       "yellow_cards": 3.9
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 24.0,
+      "shots_on_target": 11.0,
+      "fouls": 32.0,
+      "corners": 10.0,
+      "offside": 5.0,
+      "yellow_cards": 2.0
+    },
+    "errors": {
+      "shots": 2.9,
+      "shots_on_target": -1.6,
+      "fouls": -8.4,
+      "corners": -0.6,
+      "offside": -1.3,
+      "yellow_cards": 1.9
+    }
   },
   {
     "home_team": "Bayern München",
@@ -1189,7 +1269,23 @@
       "offside": 3.8,
       "yellow_cards": 3.5
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 35.0,
+      "shots_on_target": 11.0,
+      "fouls": 17.0,
+      "corners": 7.0,
+      "offside": 6.0,
+      "yellow_cards": 3.0
+    },
+    "errors": {
+      "shots": -0.7,
+      "shots_on_target": 2.3,
+      "fouls": 5.0,
+      "corners": 6.8,
+      "offside": -2.2,
+      "yellow_cards": 0.5
+    }
   },
   {
     "home_team": "Union Berlin",

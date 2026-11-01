@@ -31,9 +31,9 @@
   },
   {
     "referee_name": "Benjamin Brand",
-    "fouls": 23.0,
-    "yellow_cards": 4.0,
-    "matches": 2
+    "fouls": 22.7,
+    "yellow_cards": 4.7,
+    "matches": 3
   },
   {
     "referee_name": "Benjamin Brand, Germany",
@@ -49,9 +49,9 @@
   },
   {
     "referee_name": "Christian Dingert",
-    "fouls": 20.0,
-    "yellow_cards": 2.0,
-    "matches": 1
+    "fouls": 19.0,
+    "yellow_cards": 2.5,
+    "matches": 2
   },
   {
     "referee_name": "Christian Dingert, Germany",
@@ -247,9 +247,9 @@
   },
   {
     "referee_name": "Max Burda",
-    "fouls": 21.0,
-    "yellow_cards": 4.0,
-    "matches": 1
+    "fouls": 26.5,
+    "yellow_cards": 3.0,
+    "matches": 2
   },
   {
     "referee_name": "Max Burda, Germany",
@@ -414,6 +414,12 @@
     "matches": 31
   },
   {
+    "referee_name": "Timo Gerach",
+    "fouls": 19.0,
+    "yellow_cards": 5.0,
+    "matches": 1
+  },
+  {
     "referee_name": "Timo Gerach, Germany",
     "fouls": 21.0,
     "yellow_cards": 4.4,
@@ -421,9 +427,9 @@
   },
   {
     "referee_name": "Tobias Reichel",
-    "fouls": 23.0,
-    "yellow_cards": 3.0,
-    "matches": 1
+    "fouls": 22.5,
+    "yellow_cards": 2.5,
+    "matches": 2
   },
   {
     "referee_name": "Tobias Reichel, Germany",
@@ -433,9 +439,9 @@
   },
   {
     "referee_name": "Tobias Stieler",
-    "fouls": 22.0,
-    "yellow_cards": 3.5,
-    "matches": 2
+    "fouls": 20.3,
+    "yellow_cards": 3.3,
+    "matches": 3
   },
   {
     "referee_name": "Tobias Stieler, Germany",
