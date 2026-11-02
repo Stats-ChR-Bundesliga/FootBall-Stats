@@ -11,11 +11,11 @@
   },
   {
     "team": "1. FC Köln",
-    "corners": 5.9,
+    "corners": 6.0,
     "fouls": 9.6,
-    "offside": 0.9,
-    "shots": 14.8,
-    "shots_on_target": 4.9,
+    "offside": 1.0,
+    "shots": 15.4,
+    "shots_on_target": 4.6,
     "yellow_cards": 1.9,
     "matches": 10
   },
@@ -71,12 +71,12 @@
   },
   {
     "team": "Eintracht Frankfurt",
-    "corners": 5.0,
-    "fouls": 10.9,
-    "offside": 2.2,
-    "shots": 12.4,
-    "shots_on_target": 5.2,
-    "yellow_cards": 2.2,
+    "corners": 4.6,
+    "fouls": 10.5,
+    "offside": 2.4,
+    "shots": 13.2,
+    "shots_on_target": 5.8,
+    "yellow_cards": 2.0,
     "matches": 10
   },
   {
@@ -131,12 +131,12 @@
   },
   {
     "team": "Hamburger SV",
-    "corners": 3.4,
+    "corners": 3.6,
     "fouls": 13.5,
-    "offside": 1.2,
-    "shots": 11.2,
-    "shots_on_target": 3.8,
-    "yellow_cards": 1.5,
+    "offside": 1.5,
+    "shots": 11.6,
+    "shots_on_target": 3.6,
+    "yellow_cards": 1.8,
     "matches": 10
   },
   {
@@ -212,10 +212,10 @@
   {
     "team": "Union Berlin",
     "corners": 3.8,
-    "fouls": 10.2,
-    "offside": 1.8,
-    "shots": 13.2,
-    "shots_on_target": 4.8,
+    "fouls": 10.8,
+    "offside": 1.9,
+    "shots": 12.2,
+    "shots_on_target": 4.6,
     "yellow_cards": 2.4,
     "matches": 10
   },

@@ -15,9 +15,9 @@
     "fouls": 10.8,
     "offside": 1.8,
     "shots": 13.1,
-    "shots_on_target": 4.6,
+    "shots_on_target": 4.5,
     "yellow_cards": 2.1,
-    "matches": 109
+    "matches": 110
   },
   {
     "team": "1899 Hoffenheim",
@@ -75,9 +75,9 @@
     "fouls": 10.8,
     "offside": 1.7,
     "shots": 12.6,
-    "shots_on_target": 4.6,
+    "shots_on_target": 4.7,
     "yellow_cards": 2.0,
-    "matches": 143
+    "matches": 144
   },
   {
     "team": "FC Augsburg",
@@ -131,13 +131,13 @@
   },
   {
     "team": "Hamburger SV",
-    "corners": 3.7,
-    "fouls": 12.3,
+    "corners": 3.8,
+    "fouls": 12.2,
     "offside": 1.8,
     "shots": 11.9,
-    "shots_on_target": 4.3,
+    "shots_on_target": 4.2,
     "yellow_cards": 2.3,
-    "matches": 43
+    "matches": 44
   },
   {
     "team": "Hertha Berlin",
@@ -214,10 +214,10 @@
     "corners": 4.7,
     "fouls": 12.3,
     "offside": 1.9,
-    "shots": 12.0,
+    "shots": 11.9,
     "shots_on_target": 3.8,
     "yellow_cards": 2.1,
-    "matches": 143
+    "matches": 144
   },
   {
     "team": "VfB Stuttgart",
