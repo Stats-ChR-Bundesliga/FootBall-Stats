@@ -155,13 +155,13 @@
     "is_derby": false,
     "derby_name": null,
     "home_rest_days": 8,
-    "away_rest_days": 7,
+    "away_rest_days": 4,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
       "shots": {
         "home_form": 15.857142857142858,
-        "away_form": 23.625,
+        "away_form": 22.875,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 14.48611111111111,
@@ -178,7 +178,7 @@
       },
       "shots_on_target": {
         "home_form": 5.857142857142857,
-        "away_form": 9.125,
+        "away_form": 8.25,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 4.777777777777778,
@@ -212,7 +212,7 @@
       },
       "corners": {
         "home_form": 5.714285714285714,
-        "away_form": 7.625,
+        "away_form": 7.375,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 5.861111111111111,
@@ -229,7 +229,7 @@
       },
       "offside": {
         "home_form": 1.4285714285714286,
-        "away_form": 2.375,
+        "away_form": 2.5,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 2.1944444444444446,
@@ -246,7 +246,7 @@
       },
       "yellow_cards": {
         "home_form": 2.142857142857143,
-        "away_form": 0.875,
+        "away_form": 1.125,
         "home_form_n": 9,
         "away_form_n": 10,
         "home_own": 2.0694444444444446,
@@ -263,23 +263,23 @@
       }
     },
     "home_shots": 11.0,
-    "away_shots": 22.7,
-    "total_shots": 33.7,
+    "away_shots": 22.3,
+    "total_shots": 33.3,
     "home_shots_on_target": 3.9,
-    "away_shots_on_target": 8.6,
-    "total_shots_on_target": 12.5,
+    "away_shots_on_target": 8.1,
+    "total_shots_on_target": 12.0,
     "home_fouls": 14.6,
     "away_fouls": 9.8,
     "total_fouls": 24.4,
     "home_corners": 4.0,
-    "away_corners": 7.7,
-    "total_corners": 11.7,
+    "away_corners": 7.5,
+    "total_corners": 11.5,
     "home_offside": 1.7856129834562935,
-    "away_offside": 2.24156396713615,
-    "total_offside": 4.0,
+    "away_offside": 2.30406396713615,
+    "total_offside": 4.1,
     "home_yellow_cards": 2.8,
-    "away_yellow_cards": 1.5,
-    "total_yellow_cards": 4.3
+    "away_yellow_cards": 1.6,
+    "total_yellow_cards": 4.4
   },
   {
     "home_team": "Borussia Dortmund",
@@ -718,7 +718,7 @@
     "elo_trust": 1.0,
     "is_derby": false,
     "derby_name": null,
-    "home_rest_days": 7,
+    "home_rest_days": 4,
     "away_rest_days": 7,
     "home_is_tired": false,
     "away_is_tired": false,
@@ -758,7 +758,7 @@
         "is_referee_boosted": false
       },
       "fouls": {
-        "home_form": 11.666666666666666,
+        "home_form": 12.666666666666666,
         "away_form": 10.857142857142858,
         "home_form_n": 8,
         "away_form_n": 9,
@@ -775,7 +775,7 @@
         "is_referee_boosted": true
       },
       "corners": {
-        "home_form": 6.666666666666667,
+        "home_form": 6.333333333333333,
         "away_form": 4.285714285714286,
         "home_form_n": 8,
         "away_form_n": 9,
@@ -809,7 +809,7 @@
         "is_referee_boosted": false
       },
       "yellow_cards": {
-        "home_form": 1.6666666666666667,
+        "home_form": 2.0,
         "away_form": 1.2857142857142858,
         "home_form_n": 8,
         "away_form_n": 9,
@@ -832,18 +832,18 @@
     "home_shots_on_target": 7.2,
     "away_shots_on_target": 4.0,
     "total_shots_on_target": 11.2,
-    "home_fouls": 10.8,
+    "home_fouls": 11.3,
     "away_fouls": 13.3,
-    "total_fouls": 24.1,
-    "home_corners": 7.1,
+    "total_fouls": 24.6,
+    "home_corners": 7.0,
     "away_corners": 3.2,
-    "total_corners": 10.3,
+    "total_corners": 10.2,
     "home_offside": 1.9061080467229075,
     "away_offside": 1.721356339420908,
     "total_offside": 3.6,
-    "home_yellow_cards": 1.8,
+    "home_yellow_cards": 2.0,
     "away_yellow_cards": 2.5,
-    "total_yellow_cards": 4.3
+    "total_yellow_cards": 4.5
   },
   {
     "home_team": "1. FC Köln",
