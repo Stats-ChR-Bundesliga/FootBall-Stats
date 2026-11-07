@@ -61,12 +61,12 @@
   },
   {
     "team": "Borussia Mönchengladbach",
-    "corners": 4.2,
-    "fouls": 13.2,
-    "offside": 2.2,
-    "shots": 14.2,
-    "shots_on_target": 5.0,
-    "yellow_cards": 2.5,
+    "corners": 4.4,
+    "fouls": 14.0,
+    "offside": 2.0,
+    "shots": 14.6,
+    "shots_on_target": 5.2,
+    "yellow_cards": 2.4,
     "matches": 10
   },
   {
@@ -131,12 +131,12 @@
   },
   {
     "team": "Hamburger SV",
-    "corners": 3.6,
-    "fouls": 13.5,
-    "offside": 1.5,
-    "shots": 11.6,
-    "shots_on_target": 3.6,
-    "yellow_cards": 1.8,
+    "corners": 4.0,
+    "fouls": 12.9,
+    "offside": 1.4,
+    "shots": 12.1,
+    "shots_on_target": 3.9,
+    "yellow_cards": 1.6,
     "matches": 10
   },
   {
