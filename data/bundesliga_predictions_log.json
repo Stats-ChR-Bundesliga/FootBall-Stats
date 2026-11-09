@@ -1539,7 +1539,23 @@
       "offside": 2.8,
       "yellow_cards": 4.7
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 26.0,
+      "shots_on_target": 14.0,
+      "fouls": 24.0,
+      "corners": 8.0,
+      "offside": 1.0,
+      "yellow_cards": 8.0
+    },
+    "errors": {
+      "shots": 5.5,
+      "shots_on_target": -2.9,
+      "fouls": -0.6,
+      "corners": 3.8,
+      "offside": 1.8,
+      "yellow_cards": -3.3
+    }
   },
   {
     "home_team": "SC Freiburg",
@@ -1553,7 +1569,23 @@
       "offside": 3.4,
       "yellow_cards": 4.5
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 24.0,
+      "shots_on_target": 9.0,
+      "fouls": 27.0,
+      "corners": 6.0,
+      "offside": 3.0,
+      "yellow_cards": 4.0
+    },
+    "errors": {
+      "shots": 2.1,
+      "shots_on_target": -0.8,
+      "fouls": -4.2,
+      "corners": 2.8,
+      "offside": 0.4,
+      "yellow_cards": 0.5
+    }
   },
   {
     "home_team": "1899 Hoffenheim",
@@ -1566,6 +1598,148 @@
       "corners": 10.4,
       "offside": 4.3,
       "yellow_cards": 5.0
+    },
+    "resolved": true,
+    "actual": {
+      "shots": 38.0,
+      "shots_on_target": 13.0,
+      "fouls": 19.0,
+      "corners": 10.0,
+      "offside": 8.0,
+      "yellow_cards": 2.0
+    },
+    "errors": {
+      "shots": -11.3,
+      "shots_on_target": -4.7,
+      "fouls": 7.9,
+      "corners": 0.4,
+      "offside": -3.7,
+      "yellow_cards": 3.0
+    }
+  },
+  {
+    "home_team": "Bayern München",
+    "away_team": "1. FC Köln",
+    "date": "2026-11-20",
+    "predicted": {
+      "shots": 33.2,
+      "shots_on_target": 12.4,
+      "fouls": 22.6,
+      "corners": 11.8,
+      "offside": 3.6,
+      "yellow_cards": 4.5
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Borussia Mönchengladbach",
+    "away_team": "Borussia Dortmund",
+    "date": "2026-11-21",
+    "predicted": {
+      "shots": 27.6,
+      "shots_on_target": 9.9,
+      "fouls": 24.8,
+      "corners": 9.7,
+      "offside": 3.0,
+      "yellow_cards": 5.0
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Bayer Leverkusen",
+    "away_team": "SC Paderborn 07",
+    "date": "2026-11-21",
+    "predicted": {
+      "shots": 28.8,
+      "shots_on_target": 10.3,
+      "fouls": 24.1,
+      "corners": 10.7,
+      "offside": 2.9,
+      "yellow_cards": 4.7
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "1899 Hoffenheim",
+    "date": "2026-11-21",
+    "predicted": {
+      "shots": 28.1,
+      "shots_on_target": 9.8,
+      "fouls": 24.2,
+      "corners": 10.7,
+      "offside": 4.0,
+      "yellow_cards": 4.5
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Union Berlin",
+    "away_team": "RB Leipzig",
+    "date": "2026-11-21",
+    "predicted": {
+      "shots": 25.2,
+      "shots_on_target": 8.5,
+      "fouls": 23.9,
+      "corners": 8.4,
+      "offside": 4.0,
+      "yellow_cards": 4.4
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "SV Elversberg",
+    "away_team": "SC Freiburg",
+    "date": "2026-11-21",
+    "predicted": {
+      "shots": 26.4,
+      "shots_on_target": 8.8,
+      "fouls": 23.4,
+      "corners": 9.5,
+      "offside": 2.8,
+      "yellow_cards": 3.8
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "FC Schalke 04",
+    "away_team": "VfB Stuttgart",
+    "date": "2026-11-21",
+    "predicted": {
+      "shots": 26.6,
+      "shots_on_target": 8.9,
+      "fouls": 25.6,
+      "corners": 10.0,
+      "offside": 3.6,
+      "yellow_cards": 4.5
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "FC Augsburg",
+    "away_team": "FSV Mainz 05",
+    "date": "2026-11-22",
+    "predicted": {
+      "shots": 28.0,
+      "shots_on_target": 10.5,
+      "fouls": 23.4,
+      "corners": 9.1,
+      "offside": 3.7,
+      "yellow_cards": 4.2
+    },
+    "resolved": false
+  },
+  {
+    "home_team": "Werder Bremen",
+    "away_team": "Hamburger SV",
+    "date": "2026-11-22",
+    "predicted": {
+      "shots": 27.2,
+      "shots_on_target": 10.0,
+      "fouls": 23.8,
+      "corners": 8.8,
+      "offside": 3.6,
+      "yellow_cards": 4.0
     },
     "resolved": false
   }

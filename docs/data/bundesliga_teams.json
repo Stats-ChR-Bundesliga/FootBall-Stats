@@ -15,29 +15,29 @@
     "fouls": 10.8,
     "offside": 1.8,
     "shots": 13.1,
-    "shots_on_target": 4.5,
+    "shots_on_target": 4.6,
     "yellow_cards": 2.1,
-    "matches": 110
+    "matches": 111
   },
   {
     "team": "1899 Hoffenheim",
     "corners": 5.0,
-    "fouls": 12.4,
+    "fouls": 12.3,
     "offside": 2.0,
-    "shots": 13.4,
+    "shots": 13.5,
     "shots_on_target": 4.7,
     "yellow_cards": 2.3,
-    "matches": 144
+    "matches": 145
   },
   {
     "team": "Bayer Leverkusen",
     "corners": 5.8,
     "fouls": 9.7,
-    "offside": 1.8,
+    "offside": 1.7,
     "shots": 15.5,
     "shots_on_target": 5.7,
     "yellow_cards": 2.0,
-    "matches": 144
+    "matches": 145
   },
   {
     "team": "Bayern München",
@@ -92,12 +92,12 @@
   {
     "team": "FC Schalke 04",
     "corners": 4.6,
-    "fouls": 12.2,
+    "fouls": 12.1,
     "offside": 2.1,
-    "shots": 12.0,
+    "shots": 12.2,
     "shots_on_target": 3.7,
     "yellow_cards": 1.9,
-    "matches": 42
+    "matches": 43
   },
   {
     "team": "FC St. Pauli",
@@ -174,10 +174,10 @@
     "corners": 4.0,
     "fouls": 10.3,
     "offside": 1.8,
-    "shots": 12.3,
+    "shots": 12.4,
     "shots_on_target": 4.5,
     "yellow_cards": 1.7,
-    "matches": 144
+    "matches": 145
   },
   {
     "team": "SC Paderborn 07",
@@ -211,13 +211,13 @@
   },
   {
     "team": "Union Berlin",
-    "corners": 4.7,
+    "corners": 4.6,
     "fouls": 12.3,
     "offside": 1.9,
     "shots": 11.9,
-    "shots_on_target": 3.8,
+    "shots_on_target": 3.7,
     "yellow_cards": 2.1,
-    "matches": 144
+    "matches": 145
   },
   {
     "team": "VfB Stuttgart",
