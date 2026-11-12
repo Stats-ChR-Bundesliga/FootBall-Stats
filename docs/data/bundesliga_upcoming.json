@@ -154,15 +154,15 @@
     "elo_trust": 1.0,
     "is_derby": false,
     "derby_name": null,
-    "home_rest_days": 15,
+    "home_rest_days": 9,
     "away_rest_days": 14,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
       "shots": {
-        "home_form": 12.833333333333334,
+        "home_form": 14.4,
         "away_form": 15.0,
-        "home_form_n": 8,
+        "home_form_n": 7,
         "away_form_n": 10,
         "home_own": 13.666666666666666,
         "away_own": 13.125,
@@ -177,9 +177,9 @@
         "is_referee_boosted": false
       },
       "shots_on_target": {
-        "home_form": 4.833333333333333,
+        "home_form": 5.2,
         "away_form": 5.25,
-        "home_form_n": 8,
+        "home_form_n": 7,
         "away_form_n": 10,
         "home_own": 4.958333333333333,
         "away_own": 4.847222222222222,
@@ -194,9 +194,9 @@
         "is_referee_boosted": false
       },
       "fouls": {
-        "home_form": 13.5,
+        "home_form": 13.0,
         "away_form": 11.5,
-        "home_form_n": 8,
+        "home_form_n": 7,
         "away_form_n": 10,
         "home_own": 10.069444444444445,
         "away_own": 10.055555555555555,
@@ -211,9 +211,9 @@
         "is_referee_boosted": true
       },
       "corners": {
-        "home_form": 3.8333333333333335,
+        "home_form": 4.2,
         "away_form": 5.75,
-        "home_form_n": 8,
+        "home_form_n": 7,
         "away_form_n": 10,
         "home_own": 4.847222222222222,
         "away_own": 4.791666666666667,
@@ -230,7 +230,7 @@
       "offside": {
         "home_form": 1.0,
         "away_form": 1.75,
-        "home_form_n": 8,
+        "home_form_n": 7,
         "away_form_n": 10,
         "home_own": 1.9710144927536233,
         "away_own": 1.3194444444444444,
@@ -245,9 +245,9 @@
         "is_referee_boosted": false
       },
       "yellow_cards": {
-        "home_form": 2.8333333333333335,
+        "home_form": 2.6,
         "away_form": 2.125,
-        "home_form_n": 8,
+        "home_form_n": 7,
         "away_form_n": 10,
         "home_own": 1.8071428571428572,
         "away_own": 2.217391304347826,
@@ -262,24 +262,24 @@
         "is_referee_boosted": true
       }
     },
-    "home_shots": 11.0,
-    "away_shots": 16.6,
-    "total_shots": 27.6,
-    "home_shots_on_target": 4.0,
-    "away_shots_on_target": 5.9,
-    "total_shots_on_target": 9.9,
-    "home_fouls": 13.7,
+    "home_shots": 11.6,
+    "away_shots": 16.8,
+    "total_shots": 28.4,
+    "home_shots_on_target": 4.1,
+    "away_shots_on_target": 6.0,
+    "total_shots_on_target": 10.1,
+    "home_fouls": 13.4,
     "away_fouls": 11.1,
-    "total_fouls": 24.8,
-    "home_corners": 3.7,
+    "total_fouls": 24.5,
+    "home_corners": 3.8,
     "away_corners": 6.0,
-    "total_corners": 9.7,
+    "total_corners": 9.8,
     "home_offside": 1.3633378623188408,
     "away_offside": 1.6568916062801933,
     "total_offside": 3.0,
-    "home_yellow_cards": 2.9,
+    "home_yellow_cards": 2.8,
     "away_yellow_cards": 2.1,
-    "total_yellow_cards": 5.0
+    "total_yellow_cards": 4.9
   },
   {
     "home_team": "Bayer Leverkusen",
@@ -577,15 +577,15 @@
     "elo_trust": 1.0,
     "is_derby": true,
     "derby_name": "Ανταγωνισμός φιλοσοφίας συλλόγου",
-    "home_rest_days": 13,
+    "home_rest_days": 9,
     "away_rest_days": 14,
     "home_is_tired": false,
     "away_is_tired": false,
     "components": {
       "shots": {
-        "home_form": 9.571428571428571,
+        "home_form": 10.333333333333334,
         "away_form": 14.5,
-        "home_form_n": 9,
+        "home_form_n": 8,
         "away_form_n": 10,
         "home_own": 13.150684931506849,
         "away_own": 13.805555555555555,
@@ -600,9 +600,9 @@
         "is_referee_boosted": false
       },
       "shots_on_target": {
-        "home_form": 2.142857142857143,
+        "home_form": 2.5,
         "away_form": 6.125,
-        "home_form_n": 9,
+        "home_form_n": 8,
         "away_form_n": 10,
         "home_own": 4.1506849315068495,
         "away_own": 4.944444444444445,
@@ -617,9 +617,9 @@
         "is_referee_boosted": false
       },
       "fouls": {
-        "home_form": 12.285714285714286,
+        "home_form": 12.333333333333334,
         "away_form": 11.375,
-        "home_form_n": 9,
+        "home_form_n": 8,
         "away_form_n": 10,
         "home_own": 12.41095890410959,
         "away_own": 10.902777777777779,
@@ -634,9 +634,9 @@
         "is_referee_boosted": true
       },
       "corners": {
-        "home_form": 2.7142857142857144,
+        "home_form": 3.0,
         "away_form": 4.5,
-        "home_form_n": 9,
+        "home_form_n": 8,
         "away_form_n": 10,
         "home_own": 5.0,
         "away_own": 4.597222222222222,
@@ -651,9 +651,9 @@
         "is_referee_boosted": false
       },
       "offside": {
-        "home_form": 2.142857142857143,
+        "home_form": 2.0,
         "away_form": 1.75,
-        "home_form_n": 9,
+        "home_form_n": 8,
         "away_form_n": 10,
         "home_own": 2.057142857142857,
         "away_own": 2.1285714285714286,
@@ -668,9 +668,9 @@
         "is_referee_boosted": false
       },
       "yellow_cards": {
-        "home_form": 2.7142857142857144,
+        "home_form": 2.8333333333333335,
         "away_form": 1.375,
-        "home_form_n": 9,
+        "home_form_n": 8,
         "away_form_n": 10,
         "home_own": 2.1357142857142857,
         "away_own": 2.0347222222222223,
@@ -685,19 +685,19 @@
         "is_referee_boosted": true
       }
     },
-    "home_shots": 10.8,
-    "away_shots": 14.4,
-    "total_shots": 25.2,
-    "home_shots_on_target": 3.2,
-    "away_shots_on_target": 5.3,
-    "total_shots_on_target": 8.5,
+    "home_shots": 11.1,
+    "away_shots": 14.5,
+    "total_shots": 25.6,
+    "home_shots_on_target": 3.3,
+    "away_shots_on_target": 5.4,
+    "total_shots_on_target": 8.7,
     "home_fouls": 12.8,
     "away_fouls": 11.1,
     "total_fouls": 23.9,
-    "home_corners": 3.6,
+    "home_corners": 3.7,
     "away_corners": 4.8,
-    "total_corners": 8.4,
-    "home_offside": 2.1133928571428573,
+    "total_corners": 8.5,
+    "home_offside": 2.0419642857142852,
     "away_offside": 1.925892857142857,
     "total_offside": 4.0,
     "home_yellow_cards": 2.7,
