@@ -1,67 +1,37 @@
 {
   "summary": {
     "shots": {
-      "samples": 54,
-      "mean_absolute_error": 5.84,
-      "bias": -0.56
+      "samples": 55,
+      "mean_absolute_error": 5.9,
+      "bias": -0.38
     },
     "shots_on_target": {
-      "samples": 54,
-      "mean_absolute_error": 3.51,
-      "bias": -0.04
+      "samples": 55,
+      "mean_absolute_error": 3.58,
+      "bias": 0.09
     },
     "fouls": {
-      "samples": 54,
-      "mean_absolute_error": 3.99,
-      "bias": 1.21
+      "samples": 55,
+      "mean_absolute_error": 4.16,
+      "bias": 1.43
     },
     "corners": {
-      "samples": 54,
-      "mean_absolute_error": 2.48,
-      "bias": 0.46
+      "samples": 55,
+      "mean_absolute_error": 2.56,
+      "bias": 0.57
     },
     "offside": {
-      "samples": 53,
-      "mean_absolute_error": 1.76,
-      "bias": 0.03
+      "samples": 54,
+      "mean_absolute_error": 1.79,
+      "bias": -0.03
     },
     "yellow_cards": {
-      "samples": 54,
+      "samples": 55,
       "mean_absolute_error": 1.46,
-      "bias": 0.64
+      "bias": 0.66
     }
   },
   "recent": [
-    {
-      "home_team": "1899 Hoffenheim",
-      "away_team": "Bayer Leverkusen",
-      "date": "2026-10-25",
-      "predicted": {
-        "shots": 32.5,
-        "shots_on_target": 11.2,
-        "fouls": 25.0,
-        "corners": 11.5,
-        "offside": 3.9,
-        "yellow_cards": 4.0
-      },
-      "resolved": true,
-      "actual": {
-        "shots": 29.0,
-        "shots_on_target": 7.0,
-        "fouls": 20.0,
-        "corners": 8.0,
-        "offside": 1.0,
-        "yellow_cards": 7.0
-      },
-      "errors": {
-        "shots": 3.5,
-        "shots_on_target": 4.2,
-        "fouls": 5.0,
-        "corners": 3.5,
-        "offside": 2.9,
-        "yellow_cards": -3.0
-      }
-    },
     {
       "home_team": "SC Freiburg",
       "away_team": "Bayern München",
@@ -630,6 +600,36 @@
         "corners": 0.4,
         "offside": -3.7,
         "yellow_cards": 3.0
+      }
+    },
+    {
+      "home_team": "Bayern München",
+      "away_team": "1. FC Köln",
+      "date": "2026-11-20",
+      "predicted": {
+        "shots": 33.2,
+        "shots_on_target": 12.4,
+        "fouls": 22.6,
+        "corners": 11.8,
+        "offside": 3.6,
+        "yellow_cards": 4.5
+      },
+      "resolved": true,
+      "actual": {
+        "shots": 24.0,
+        "shots_on_target": 5.0,
+        "fouls": 9.0,
+        "corners": 5.0,
+        "offside": 7.0,
+        "yellow_cards": 3.0
+      },
+      "errors": {
+        "shots": 9.2,
+        "shots_on_target": 7.4,
+        "fouls": 13.6,
+        "corners": 6.8,
+        "offside": -3.4,
+        "yellow_cards": 1.5
       }
     }
   ]

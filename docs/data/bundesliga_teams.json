@@ -12,12 +12,12 @@
   {
     "team": "1. FC Köln",
     "corners": 5.4,
-    "fouls": 10.8,
+    "fouls": 10.7,
     "offside": 1.8,
     "shots": 13.1,
     "shots_on_target": 4.6,
     "yellow_cards": 2.1,
-    "matches": 111
+    "matches": 112
   },
   {
     "team": "1899 Hoffenheim",
@@ -44,10 +44,10 @@
     "corners": 6.7,
     "fouls": 8.9,
     "offside": 2.2,
-    "shots": 19.2,
-    "shots_on_target": 7.9,
+    "shots": 19.1,
+    "shots_on_target": 7.8,
     "yellow_cards": 1.6,
-    "matches": 145
+    "matches": 146
   },
   {
     "team": "Borussia Dortmund",
