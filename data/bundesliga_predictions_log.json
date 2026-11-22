@@ -1659,7 +1659,23 @@
       "offside": 3.0,
       "yellow_cards": 5.0
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 24.0,
+      "shots_on_target": 7.0,
+      "fouls": 23.0,
+      "corners": 14.0,
+      "offside": 2.0,
+      "yellow_cards": 3.0
+    },
+    "errors": {
+      "shots": 3.6,
+      "shots_on_target": 2.9,
+      "fouls": 1.8,
+      "corners": -4.3,
+      "offside": 1.0,
+      "yellow_cards": 2.0
+    }
   },
   {
     "home_team": "Bayer Leverkusen",
@@ -1673,7 +1689,23 @@
       "offside": 2.9,
       "yellow_cards": 4.7
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 28.0,
+      "shots_on_target": 11.0,
+      "fouls": 17.0,
+      "corners": 11.0,
+      "offside": 1.0,
+      "yellow_cards": 1.0
+    },
+    "errors": {
+      "shots": 0.8,
+      "shots_on_target": -0.7,
+      "fouls": 7.1,
+      "corners": -0.3,
+      "offside": 1.9,
+      "yellow_cards": 3.7
+    }
   },
   {
     "home_team": "Eintracht Frankfurt",
@@ -1687,7 +1719,23 @@
       "offside": 4.0,
       "yellow_cards": 4.5
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 37.0,
+      "shots_on_target": 10.0,
+      "fouls": 23.0,
+      "corners": 14.0,
+      "offside": 6.0,
+      "yellow_cards": 3.0
+    },
+    "errors": {
+      "shots": -8.9,
+      "shots_on_target": -0.2,
+      "fouls": 1.2,
+      "corners": -3.3,
+      "offside": -2.0,
+      "yellow_cards": 1.5
+    }
   },
   {
     "home_team": "Union Berlin",
@@ -1701,7 +1749,23 @@
       "offside": 4.0,
       "yellow_cards": 4.4
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 46.0,
+      "shots_on_target": 18.0,
+      "fouls": 22.0,
+      "corners": 12.0,
+      "offside": 3.0,
+      "yellow_cards": 4.0
+    },
+    "errors": {
+      "shots": -20.8,
+      "shots_on_target": -9.5,
+      "fouls": 1.9,
+      "corners": -3.6,
+      "offside": 1.0,
+      "yellow_cards": 0.4
+    }
   },
   {
     "home_team": "SV Elversberg",
@@ -1715,7 +1779,23 @@
       "offside": 2.8,
       "yellow_cards": 3.8
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 19.0,
+      "shots_on_target": 3.0,
+      "fouls": 23.0,
+      "corners": 8.0,
+      "offside": 3.0,
+      "yellow_cards": 3.0
+    },
+    "errors": {
+      "shots": 7.4,
+      "shots_on_target": 5.8,
+      "fouls": 0.4,
+      "corners": 1.5,
+      "offside": -0.2,
+      "yellow_cards": 0.8
+    }
   },
   {
     "home_team": "FC Schalke 04",
@@ -1729,7 +1809,23 @@
       "offside": 3.6,
       "yellow_cards": 4.5
     },
-    "resolved": false
+    "resolved": true,
+    "actual": {
+      "shots": 36.0,
+      "shots_on_target": 11.0,
+      "fouls": 20.0,
+      "corners": 9.0,
+      "offside": 4.0,
+      "yellow_cards": 1.0
+    },
+    "errors": {
+      "shots": -9.4,
+      "shots_on_target": -2.1,
+      "fouls": 5.6,
+      "corners": 1.0,
+      "offside": -0.4,
+      "yellow_cards": 3.5
+    }
   },
   {
     "home_team": "FC Augsburg",

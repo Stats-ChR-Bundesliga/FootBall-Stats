@@ -49,9 +49,9 @@
   },
   {
     "referee_name": "Christian Dingert",
-    "fouls": 19.0,
-    "yellow_cards": 2.5,
-    "matches": 2
+    "fouls": 20.0,
+    "yellow_cards": 3.0,
+    "matches": 3
   },
   {
     "referee_name": "Christian Dingert, Germany",
@@ -91,9 +91,9 @@
   },
   {
     "referee_name": "Daniel Siebert",
-    "fouls": 24.5,
-    "yellow_cards": 5.5,
-    "matches": 2
+    "fouls": 23.0,
+    "yellow_cards": 4.0,
+    "matches": 3
   },
   {
     "referee_name": "Daniel Siebert, Germany",
@@ -247,9 +247,9 @@
   },
   {
     "referee_name": "Max Burda",
-    "fouls": 26.5,
+    "fouls": 25.3,
     "yellow_cards": 3.0,
-    "matches": 2
+    "matches": 3
   },
   {
     "referee_name": "Max Burda, Germany",
@@ -295,15 +295,15 @@
   },
   {
     "referee_name": "Richard Hempel",
-    "fouls": 26.5,
-    "yellow_cards": 3.5,
-    "matches": 2
+    "fouls": 25.3,
+    "yellow_cards": 3.3,
+    "matches": 3
   },
   {
     "referee_name": "Robert Hartmann",
-    "fouls": 23.5,
-    "yellow_cards": 5.0,
-    "matches": 2
+    "fouls": 23.3,
+    "yellow_cards": 4.3,
+    "matches": 3
   },
   {
     "referee_name": "Robert Hartmann, Germany",
@@ -427,9 +427,9 @@
   },
   {
     "referee_name": "Tobias Reichel",
-    "fouls": 22.5,
-    "yellow_cards": 2.5,
-    "matches": 2
+    "fouls": 20.7,
+    "yellow_cards": 2.0,
+    "matches": 3
   },
   {
     "referee_name": "Tobias Reichel, Germany",
