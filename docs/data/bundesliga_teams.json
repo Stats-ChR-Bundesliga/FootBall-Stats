@@ -81,13 +81,13 @@
   },
   {
     "team": "FC Augsburg",
-    "corners": 4.7,
+    "corners": 4.8,
     "fouls": 11.7,
-    "offside": 2.0,
+    "offside": 1.9,
     "shots": 12.4,
     "shots_on_target": 4.0,
     "yellow_cards": 2.4,
-    "matches": 145
+    "matches": 146
   },
   {
     "team": "FC Schalke 04",
@@ -117,7 +117,7 @@
     "shots": 12.9,
     "shots_on_target": 4.4,
     "yellow_cards": 2.3,
-    "matches": 145
+    "matches": 146
   },
   {
     "team": "Fortuna Dusseldorf",
@@ -131,13 +131,13 @@
   },
   {
     "team": "Hamburger SV",
-    "corners": 3.8,
-    "fouls": 12.1,
+    "corners": 3.9,
+    "fouls": 12.0,
     "offside": 1.8,
-    "shots": 12.0,
-    "shots_on_target": 4.4,
-    "yellow_cards": 2.2,
-    "matches": 45
+    "shots": 12.1,
+    "shots_on_target": 4.3,
+    "yellow_cards": 2.3,
+    "matches": 46
   },
   {
     "team": "Hertha Berlin",
@@ -257,6 +257,6 @@
     "shots": 12.4,
     "shots_on_target": 4.3,
     "yellow_cards": 2.2,
-    "matches": 145
+    "matches": 146
   }
 ]
