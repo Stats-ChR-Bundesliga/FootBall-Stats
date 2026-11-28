@@ -64,10 +64,10 @@
     "corners": 4.6,
     "fouls": 10.5,
     "offside": 1.9,
-    "shots": 12.5,
+    "shots": 12.6,
     "shots_on_target": 4.7,
     "yellow_cards": 1.8,
-    "matches": 146
+    "matches": 147
   },
   {
     "team": "Eintracht Frankfurt",
@@ -254,9 +254,9 @@
     "corners": 4.0,
     "fouls": 11.0,
     "offside": 2.0,
-    "shots": 12.4,
+    "shots": 12.5,
     "shots_on_target": 4.3,
     "yellow_cards": 2.2,
-    "matches": 146
+    "matches": 147
   }
 ]
